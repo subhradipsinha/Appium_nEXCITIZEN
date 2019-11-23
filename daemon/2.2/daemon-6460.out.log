@@ -1,0 +1,184 @@
+18:42:59.433 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=06a3c041-89e2-4669-9d39-158e7eff5dd7,javaHome=C:\Program Files\Java\jdk1.8.0_231,daemonRegistryDir=E:\Appium_project\com_nEXCITIZEN_demo\daemon,pid=6460,idleTimeout=120000,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+18:42:59.445 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1574428379445
+18:42:59.481 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Software Loopback Interface 1
+18:42:59.485 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+18:42:59.485 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.489 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+18:42:59.489 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1
+18:42:59.489 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Software Loopback Interface 1
+18:42:59.493 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Teredo Tunneling Pseudo-Interface
+18:42:59.493 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.497 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+18:42:59.497 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /2001:0:348b:fb58:3061:34de:8a07:6836
+18:42:59.497 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:3061:34de:8a07:6836%net0
+18:42:59.501 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter
+18:42:59.505 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.509 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+18:42:59.509 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:5efe:c0a8:b69%net1
+18:42:59.509 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Bluetooth Device (RFCOMM Protocol TDI)
+18:42:59.513 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.513 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.513 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Bluetooth Device (RFCOMM Protocol TDI)
+18:42:59.513 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+18:42:59.517 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.517 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.521 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:4420:9070:3650:3c60%eth0
+18:42:59.521 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Bluetooth Device (Personal Area Network)
+18:42:59.521 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter
+18:42:59.521 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.525 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.525 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:156f:702d:256:bb2a%wlan0
+18:42:59.525 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Microsoft Wi-Fi Direct Virtual Adapter
+18:42:59.525 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+18:42:59.529 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.529 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.529 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Kernel Debug Network Adapter
+18:42:59.533 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) 82579LM Gigabit Network Connection
+18:42:59.533 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.533 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.537 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:41c3:120:d8e7:abfb%eth2
+18:42:59.537 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Intel(R) 82579LM Gigabit Network Connection
+18:42:59.537 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Advanced-N 6205
+18:42:59.537 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.541 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.541 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.11.105
+18:42:59.541 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:844b:aab:4618:5643%wlan1
+18:42:59.541 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Intel(R) Centrino(R) Advanced-N 6205
+18:42:59.541 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000
+18:42:59.545 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.545 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.545 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) 82579LM Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000
+18:42:59.549 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000
+18:42:59.549 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.549 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.549 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) 82579LM Gigabit Network Connection-QoS Packet Scheduler-0000
+18:42:59.549 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:42:59.553 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.553 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.553 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) 82579LM Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:42:59.553 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Advanced-N 6205-WFP Native MAC Layer LightWeight Filter-0000
+18:42:59.557 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.557 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.557 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Centrino(R) Advanced-N 6205-WFP Native MAC Layer LightWeight Filter-0000
+18:42:59.561 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Advanced-N 6205-Virtual WiFi Filter Driver-0000
+18:42:59.561 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.573 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.577 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Centrino(R) Advanced-N 6205-Virtual WiFi Filter Driver-0000
+18:42:59.577 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Advanced-N 6205-Native WiFi Filter Driver-0000
+18:42:59.577 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.585 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.585 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Centrino(R) Advanced-N 6205-Native WiFi Filter Driver-0000
+18:42:59.585 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Advanced-N 6205-QoS Packet Scheduler-0000
+18:42:59.589 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.593 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.593 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Centrino(R) Advanced-N 6205-QoS Packet Scheduler-0000
+18:42:59.593 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) Centrino(R) Advanced-N 6205-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:42:59.593 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.597 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.597 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) Centrino(R) Advanced-N 6205-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:42:59.597 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+18:42:59.597 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.601 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.601 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+18:42:59.601 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+18:42:59.605 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.605 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.605 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+18:42:59.605 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+18:42:59.605 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.609 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.609 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+18:42:59.609 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:42:59.609 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:42:59.613 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:42:59.613 [DEBUG] [org.gradle.messaging.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+18:42:59.621 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Listening on [4f2a7a6e-3532-4f0d-8c7d-7bc192601192 port:57957, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+18:42:59.633 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Fri Nov 22 18:42:59 IST 2019, with address: [4f2a7a6e-3532-4f0d-8c7d-7bc192601192 port:57957, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:42:59.637 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [4f2a7a6e-3532-4f0d-8c7d-7bc192601192 port:57957, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:42:59.637 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=06a3c041-89e2-4669-9d39-158e7eff5dd7,javaHome=C:\Program Files\Java\jdk1.8.0_231,daemonRegistryDir=E:\Appium_project\com_nEXCITIZEN_demo\daemon,pid=6460,idleTimeout=120000,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+18:42:59.641 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [4f2a7a6e-3532-4f0d-8c7d-7bc192601192 port:57957, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], context: DefaultDaemonContext[uid=06a3c041-89e2-4669-9d39-158e7eff5dd7,javaHome=C:\Program Files\Java\jdk1.8.0_231,daemonRegistryDir=E:\Appium_project\com_nEXCITIZEN_demo\daemon,pid=6460,idleTimeout=120000,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+18:42:59.661 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:42:59.669 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:42:59.857 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:42:59.869 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+18:42:59.877 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+18:42:59.881 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] requestStopOnIdleTimeout(120000 MILLISECONDS) called on daemon
+18:42:59.881 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: waiting for daemon to stop or be idle for 120000ms
+18:42:59.881 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is idle, sleeping until state change or idle timeout at Fri Nov 22 18:44:59 IST 2019
+18:43:00.117 [DEBUG] [org.gradle.messaging.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:57960 to /127.0.0.1:57957.
+18:43:00.173 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.BuildAndStop
+18:43:00.173 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: BuildAndStop{id=c3f2f06b-5d6b-4cc6-8a07-877994df1b1a.1, currentDir=E:\Appium_project\com_nEXCITIZEN_demo}
+18:43:00.177 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: BuildAndStop{id=c3f2f06b-5d6b-4cc6-8a07-877994df1b1a.1, currentDir=E:\Appium_project\com_nEXCITIZEN_demo}.
+18:43:00.177 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: BuildAndStop{id=c3f2f06b-5d6b-4cc6-8a07-877994df1b1a.1, currentDir=E:\Appium_project\com_nEXCITIZEN_demo} with connection: socket connection from /127.0.0.1:57957 to /127.0.0.1:57960.
+18:43:00.181 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = BuildAndStop{id=c3f2f06b-5d6b-4cc6-8a07-877994df1b1a.1, currentDir=E:\Appium_project\com_nEXCITIZEN_demo}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@681cc787] after 0.0 minutes of idle
+18:43:00.181 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [4f2a7a6e-3532-4f0d-8c7d-7bc192601192 port:57957, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:43:00.185 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [4f2a7a6e-3532-4f0d-8c7d-7bc192601192 port:57957, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:43:00.189 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:43:00.189 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:43:00.201 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:43:00.205 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1574428380205
+18:43:00.205 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon is busy, sleeping until state changes.
+18:43:00.209 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building BuildAndStop{id=c3f2f06b-5d6b-4cc6-8a07-877994df1b1a.1, currentDir=E:\Appium_project\com_nEXCITIZEN_demo}. Dispatching build started information...
+18:43:00.209 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+18:43:00.217 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {PROCESSOR_LEVEL=6, RUN_DISPLAY_URL=http://localhost:8080/job/Report/13/display/redirect, HUDSON_HOME=C:\Program Files (x86)\Jenkins, RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/Report/13/display/redirect?page=changes, JOB_URL=http://localhost:8080/job/Report/, WINSW_SERVICE_ID=Jenkins, HUDSON_COOKIE=50ef5d0e-03a6-4e8e-aceb-aeba2ca8db68, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, ANDROID_HOME=C:\Users\Subhradip Sinha\AppData\Local\Android\Sdk, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX, SystemDrive=C:, =E:=E:\Appium_project\com_nEXCITIZEN_demo, JENKINS_SERVER_COOKIE=e893ea7e260722e9, DIRNAME=C:\Program Files (x86)\Jenkins\tools\hudson.plugins.gradle.GradleInstallation\Gradle_2.2\bin\, SERVICE_ID=Jenkins, USERNAME=DESKTOP-E7S6MJ8$, ProgramFiles(x86)=C:\Program Files (x86), JENKINS_URL=http://localhost:8080/, POM_VERSION=1.0-SNAPSHOT, APP_HOME=C:\Program Files (x86)\Jenkins\tools\hudson.plugins.gradle.GradleInstallation\Gradle_2.2\bin\.., BUILD_TAG=jenkins-Report-13, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, POM_GROUPID=demo_appium_first, JENKINS_HOME=C:\Program Files (x86)\Jenkins, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, NODE_NAME=master, BUILD_DISPLAY_NAME=#13, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel, JOB_DISPLAY_URL=http://localhost:8080/job/Report/display/redirect, M2_HOME=C:\Program Files\apachemaven, WINSW_EXECUTABLE=C:\Program Files (x86)\Jenkins\jenkins.exe, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, _SKIP=2, Java_Home=C:\Program Files\Java\jdk1.8.0_231, LOCALAPPDATA=C:\Windows\system32\config\systemprofile\AppData\Local, POM_PACKAGING=jar, USERDOMAIN=WORKGROUP, PROMPT=$P$G, BUILD_ID=13, BASE=C:\Program Files (x86)\Jenkins, GRADLE_HOME=C:\Program Files (x86)\Jenkins\tools\hudson.plugins.gradle.GradleInstallation\Gradle_2.2, JOB_NAME=Report, ANT_HOME=C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\LocalAnt, POM_ARTIFACTID=First_appium_demo, APPDATA=C:\Windows\system32\config\systemprofile\AppData\Roaming, GRADLE_USER_HOME=E:\Appium_project\com_nEXCITIZEN_demo, NODE_LABELS=master, HUDSON_URL=http://localhost:8080/, JAVA_EXE=C:\Program Files\Java\jdk1.8.0_231/bin/java.exe, WORKSPACE=E:\Appium_project\com_nEXCITIZEN_demo, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files\apachemaven/bin;C:\Program Files\Java\jdk1.8.0_231/bin;C:\Program Files (x86)\Jenkins\tools\chromedriver;C:\Program Files\Java\jdk1.8.0_231/bin;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\LocalAnt/bin;C:\Program Files\Java\jdk1.8.0_231/bin;C:\Program Files\Java\jdk1.8.0_231\bin;, Maven_Home=C:\Program Files\apachemaven, OS=Windows_NT, COMPUTERNAME=DESKTOP-E7S6MJ8, EXECUTOR_NUMBER=0, HUDSON_SERVER_COOKIE=e893ea7e260722e9, JOB_BASE_NAME=Report, PROCESSOR_REVISION=3a09, CLASSPATH=C:\Program Files (x86)\Jenkins\tools\hudson.plugins.gradle.GradleInstallation\Gradle_2.2\bin\..\lib\gradle-launcher-2.2.jar, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, APP_BASE_NAME=gradle, BUILD_NUMBER=13, SystemRoot=C:\Windows, TEMP=C:\Windows\TEMP, BUILD_URL=http://localhost:8080/job/Report/13/, USERPROFILE=C:\Windows\system32\config\systemprofile, TMP=C:\Windows\TEMP, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, POM_DISPLAYNAME=First_appium_demo, NUMBER_OF_PROCESSORS=4}
+18:43:00.229 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.CloseInput
+18:43:00.233 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received IO message from client: CloseInput[id=c3f2f06b-5d6b-4cc6-8a07-877994df1b1a.2]
+18:43:00.237 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+18:43:00.241 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 6460). The daemon log file: E:\Appium_project\com_nEXCITIZEN_demo\daemon\2.2\daemon-6460.out.log
+18:43:00.241 [DEBUG] [org.gradle.launcher.daemon.server.exec.StartStopIfBuildAndStop] Requesting daemon stop after processing BuildAndStop{id=c3f2f06b-5d6b-4cc6-8a07-877994df1b1a.1, currentDir=E:\Appium_project\com_nEXCITIZEN_demo}
+18:43:00.245 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop as soon as idle requested. The daemon is busy: true
+18:43:00.245 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+18:43:00.245 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon stop has been requested. Sleeping until state changes.
+18:43:00.245 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+18:43:00.249 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+18:43:00.249 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=06a3c041-89e2-4669-9d39-158e7eff5dd7,javaHome=C:\Program Files\Java\jdk1.8.0_231,daemonRegistryDir=E:\Appium_project\com_nEXCITIZEN_demo\daemon,pid=6460,idleTimeout=120000,daemonOpts=-Xmx1536m,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+:help
+
+Welcome to Gradle 2.2.
+
+To run a build, run gradle <task> ...
+
+To see a list of available tasks, run gradle tasks
+
+To see a list of command-line options, run gradle --help
+
+BUILD SUCCESSFUL
+
+Total time: 5.134 secs
+18:43:02.468 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on buildscript class cache for settings file 'E:\Appium_project\settings.gradle' (E:\Appium_project\com_nEXCITIZEN_demo\caches\2.2\scripts\settings_45nkkcrha50lwxgt19eka4zvu\SettingsScript\buildscript).
+18:43:02.469 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on no_buildscript class cache for settings file 'E:\Appium_project\settings.gradle' (E:\Appium_project\com_nEXCITIZEN_demo\caches\2.2\scripts\settings_45nkkcrha50lwxgt19eka4zvu\SettingsScript\no_buildscript).
+18:43:02.470 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache task history cache (E:\Appium_project\com_nEXCITIZEN_demo\.gradle\2.2\taskArtifacts) was closed 0 times.
+18:43:02.471 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache artifact cache (E:\Appium_project\com_nEXCITIZEN_demo\caches\modules-2) was closed 0 times.
+18:43:02.472 [DEBUG] [org.gradle.cache.internal.DefaultCacheAccess] Cache Plugin Resolution Cache (E:\Appium_project\com_nEXCITIZEN_demo\caches\2.2\plugin-resolution) was closed 0 times.
+18:43:02.473 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 0 resolution results binary files in 0.0 secs
+18:43:02.474 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedRepositoryFactory] In-memory dependency metadata cache closed. Repos cached: 0, cache instances: 0, modules served from cache: 0, artifacts: 0
+18:43:02.476 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+18:43:02.559 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon stop has been requested. Sleeping until state changes.
+18:43:02.560 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = BuildAndStop{id=c3f2f06b-5d6b-4cc6-8a07-877994df1b1a.1, currentDir=E:\Appium_project\com_nEXCITIZEN_demo}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@681cc787]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@7143181b with state StopRequested
+18:43:02.561 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = BuildAndStop{id=c3f2f06b-5d6b-4cc6-8a07-877994df1b1a.1, currentDir=E:\Appium_project\com_nEXCITIZEN_demo}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@681cc787]
+18:43:02.561 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1574428382561
+18:43:02.561 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to command completed and stop requested. The daemon is running a build: false
+18:43:02.562 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: DaemonCommandResult[type=Success, value=null]
+18:43:02.562 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Idle timeout: daemon has stopped.
+18:43:02.563 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: dispatching class org.gradle.launcher.daemon.protocol.Success
+18:43:02.563 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+18:43:02.564 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+18:43:02.565 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [4f2a7a6e-3532-4f0d-8c7d-7bc192601192 port:57957, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:43:02.565 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [4f2a7a6e-3532-4f0d-8c7d-7bc192601192 port:57957, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:43:02.566 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:43:02.570 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: BuildAndStop{id=c3f2f06b-5d6b-4cc6-8a07-877994df1b1a.1, currentDir=E:\Appium_project\com_nEXCITIZEN_demo}
+18:43:02.572 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Finished
+18:43:02.573 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:43:02.573 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@5c700683
+18:43:02.574 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@5c700683
+18:43:02.575 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+18:43:02.577 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received null
+18:43:02.577 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] Received end-of-input from client.
+18:43:02.579 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 14: stopping connection
+18:43:02.587 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:43:02.594 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Address removed from registry.
+18:43:02.598 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [4f2a7a6e-3532-4f0d-8c7d-7bc192601192 port:57957, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:43:02.599Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+ [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:43:02.600 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:43:02.605 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

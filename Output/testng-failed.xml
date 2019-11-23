@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [nEXCITIZEN]">
+  <test thread-count="5" name="nEXCITIZEN_TestCase5(failed)">
+    <classes>
+      <class name="com.TestCase.Property_Test_Case_Folder.Property_Test_Case">
+        <methods>
+          <include name="Property_TabHit"/>
+        </methods>
+      </class> <!-- com.TestCase.Property_Test_Case_Folder.Property_Test_Case -->
+    </classes>
+  </test> <!-- nEXCITIZEN_TestCase5(failed) -->
+  <test thread-count="5" name="nEXCITIZEN_TestCase8(failed)">
+    <classes>
+      <class name="com.TestCase.Complaint_Management_Test_Case_Folder.SidePanel_Complaint_Management_Test_Case">
+        <methods>
+          <include name="Hit_SidePanel_Complaint_Management"/>
+        </methods>
+      </class> <!-- com.TestCase.Complaint_Management_Test_Case_Folder.SidePanel_Complaint_Management_Test_Case -->
+      <class name="com.TestCase.Complaint_Management_Test_Case_Folder.Complaint_Management_Test_Case">
+        <methods>
+          <include name="Complain_Details_Link"/>
+        </methods>
+      </class> <!-- com.TestCase.Complaint_Management_Test_Case_Folder.Complaint_Management_Test_Case -->
+    </classes>
+  </test> <!-- nEXCITIZEN_TestCase8(failed) -->
+  <test thread-count="5" name="nEXCITIZEN_TestCase10(failed)">
+    <classes>
+      <class name="com.TestCase.Water_Supply_Test_Case_Folder.Water_Supply_Test_Case">
+        <methods>
+          <include name="Application_From"/>
+        </methods>
+      </class> <!-- com.TestCase.Water_Supply_Test_Case_Folder.Water_Supply_Test_Case -->
+      <class name="com.TestCase.Water_Supply_Test_Case_Folder.SidePanel_Side_Panel_Water_Supply_Test_Case">
+        <methods>
+          <include name="Hit_Side_Panel_Water_Supply"/>
+        </methods>
+      </class> <!-- com.TestCase.Water_Supply_Test_Case_Folder.SidePanel_Side_Panel_Water_Supply_Test_Case -->
+    </classes>
+  </test> <!-- nEXCITIZEN_TestCase10(failed) -->
+</suite> <!-- Failed suite [nEXCITIZEN] -->

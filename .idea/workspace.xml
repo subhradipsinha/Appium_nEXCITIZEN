@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="com_nEXCITIZEN_demo" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TElqBSrBjFzYIK6plrWH1gB3yl" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mobile_appium-master" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Appium_project\com_nEXCITIZEN_demo\src\test\java\com\PageObject\Birth_Cirtificate_Folder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\com_nEXCITIZEN_demo\src\test\java\com\PageObject" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml">
+    <configuration name="emailable-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/Output/emailable-report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/Output/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="E:/Appium_project/com_nEXCITIZEN_demo/Output/testng-failed.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com_nEXCITIZEN_demo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Output/testng-failed.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com_nEXCITIZEN_demo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="E:\Appium_project\com_nEXCITIZEN_demo\Output" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="E:\Appium_project\com_nEXCITIZEN_demo\Output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="New_Registration_Test_Case" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com_nEXCITIZEN_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestCase.Registration_and_Login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestCase.Registration_and_Login" />
+      <option name="MAIN_CLASS_NAME" value="com.TestCase.Registration_and_Login.New_Registration_Test_Case" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.emailable-report.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
+      <item itemvalue="TestNG.New_Registration_Test_Case" />
+      <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/Output/testng-failed.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
+        <item itemvalue="JavaScript Debug.emailable-report.html" />
+        <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/Output/testng-failed.xml" />
+        <item itemvalue="TestNG.New_Registration_Test_Case" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="" />
+      <created>1573033323220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573033323220</updated>
+      <workItem from="1573033327729" duration="6575000" />
+      <workItem from="1573041677564" duration="496000" />
+      <workItem from="1573105464215" duration="25636000" />
+      <workItem from="1573188936852" duration="28816000" />
+      <workItem from="1573274557432" duration="11510000" />
+      <workItem from="1573288188088" duration="5604000" />
+      <workItem from="1573540258307" duration="18207000" />
+      <workItem from="1573620238045" duration="24392000" />
+      <workItem from="1573706740105" duration="26982000" />
+      <workItem from="1574059690332" duration="14093000" />
+      <workItem from="1574140277020" duration="18751000" />
+      <workItem from="1574225259060" duration="17137000" />
+      <workItem from="1574311176836" duration="9940000" />
+      <workItem from="1574398935931" duration="15294000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
