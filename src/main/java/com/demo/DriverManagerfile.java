@@ -18,7 +18,7 @@ public class DriverManagerfile {
         desiredCapabilities.setCapability("noReset", true);
         desiredCapabilities.setCapability(MobileCapabilityType.APP, "E:\\Appium_project\\com_nEXCITIZEN_demo\\Driver\\nexcitizen.apk");
         System.out.println("Url hit");
-        desiredCapabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554");
+        desiredCapabilities.setCapability(MobileCapabilityType.UDID, "4200f5bf9a208200");
         //caps.setCapability("platformName","ANDROID");
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
         //desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"ANDROID");
@@ -36,8 +36,6 @@ public class DriverManagerfile {
         System.out.println("Url hit test");
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         // caps.setCapability(MobileCapabilityType.BROWSER_NAME, "chrome");
-
-
     }
 
 }

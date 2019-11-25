@@ -7,66 +7,8 @@
     </test>
     <test name="nEXCITIZEN_TestCase2">
         <classes>
-            <class name="com.TestCase.Birth_Cirtificate_Test_Case_Folder.Birth_Cirtificate_Test_Case"></class>
-            <class name="com.TestCase.Birth_Cirtificate_Test_Case_Folder.SidePanel_Birth_Cirtificate_TestCase"></class>
-        </classes>
-    </test>
-    <test name="nEXCITIZEN_TestCase3">
-        <classes>
-            <class name="com.TestCase.Death_Test_Case_Folder.Death_Test_Case"></class>
-            <class name="com.TestCase.Death_Test_Case_Folder.SidePanel_Death_Cirtificate_TestCase"></class>
+            <class name="com.TestCase.Payment_Test_Case_Folder.Application_Test_Case"></class>
         </classes>
     </test>
 
-    <test name="nEXCITIZEN_TestCase4">
-        <classes>
-            <class name="com.TestCase.Trade_Test_Case_Folder.Trade_Test_Case"></class>
-            <class name="com.TestCase.Trade_Test_Case_Folder.SidePanel_Tread_Licence_TestCase"></class>
-        </classes>
-    </test>
-
-    <test name="nEXCITIZEN_TestCase5">
-        <classes>
-            <class name="com.TestCase.Property_Test_Case_Folder.Property_Test_Case"></class>
-            <class name="com.TestCase.Property_Test_Case_Folder.SidePanel_Property_Tax_TestCase"></class>
-        </classes>
-    </test>
-    <test name="nEXCITIZEN_TestCase6">
-        <classes>
-            <class name="com.TestCase.Building_Test_Case_Folder.Building_Test_Case"></class>
-            <class name="com.TestCase.Building_Test_Case_Folder.SidePanel_Building_plan_TestCase"></class>
-        </classes>
-    </test>
-    <test name="nEXCITIZEN_TestCase7">
-        <classes>
-            <class name="com.TestCase.Building_Complain_Test_Case_Folder.Building_Complain_Test_Case"></class>
-            <class name="com.TestCase.Building_Complain_Test_Case_Folder.SidePanel_Building_Complain_Test_Case"></class>
-        </classes>
-    </test>
-    <test name="nEXCITIZEN_TestCase8">
-        <classes>
-            <class name="com.TestCase.Complaint_Management_Test_Case_Folder.Complaint_Management_Test_Case"></class>
-            <class name="com.TestCase.Complaint_Management_Test_Case_Folder.SidePanel_Complaint_Management_Test_Case"></class>
-        </classes>
-    </test>
-    <test name="nEXCITIZEN_TestCase9">
-        <classes>
-            <class name="com.TestCase.Mutation_Test_Case_Folder.Mutation_Test_Case"></class>
-            <class name="com.TestCase.Mutation_Test_Case_Folder.SidePanel_Mutation_Test_Case"></class>
-        </classes>
-    </test>
-    <test name="nEXCITIZEN_TestCase10">
-        <classes>
-            <class name="com.TestCase.Water_Supply_Test_Case_Folder.Water_Supply_Test_Case"></class>
-            <class name="com.TestCase.Water_Supply_Test_Case_Folder.SidePanel_Side_Panel_Water_Supply_Test_Case"></class>
-        </classes>
-    </test>
-
-
-
-    <test name="nEXCITIZEN_TestCase11">
-        <classes>
-            <class name="com.TestCase.Payment_Test_Case_Folder.SidePanel_Payment_Test_Case"></class>
-        </classes>
-    </test>
-</suite>
+   </suite>
