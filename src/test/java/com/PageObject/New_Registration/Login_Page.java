@@ -57,7 +57,7 @@ public class Login_Page extends DriverManagerfile {
 
         // Put Password
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etpin");
-        el2.sendKeys("123456789");
+        el2.sendKeys("123456");
         System.out.println("Put Password");
 
         // Submit Button Click
