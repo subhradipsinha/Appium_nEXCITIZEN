@@ -33,15 +33,6 @@ public class Login_Page extends DriverManagerfile {
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
 
-        //Declaration of soft assert object
-        SoftAssert sostassert = new SoftAssert();
-        String accual = "without Username";
-        String expected ="Successfully Login";
-        sostassert.assertEquals(accual, expected);
-        sostassert.assertAll();
-
-
-
     }
     @Test(priority = 2)
     public void OnlyUserNametest() throws Exception {
@@ -59,13 +50,7 @@ public class Login_Page extends DriverManagerfile {
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
 
-        //Declaration of soft assert object
-        SoftAssert sostassert1 = new SoftAssert();
-        String accual1 = "Without Password";
-        String expected1 ="Successfully Login";
-        sostassert1.assertEquals(accual1, expected1);
-        sostassert1.assertAll();
-    }
+       }
     @Test(priority = 3)
     public void UserTest() throws Exception {
         // Put UserName
@@ -84,12 +69,6 @@ public class Login_Page extends DriverManagerfile {
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
 
-        //Declaration of soft assert object
-        SoftAssert sostassert2 = new SoftAssert();
-        String accual2 = "Put UserName & Password";
-        String expected2 ="Un-Successfully Login";
-        sostassert2.assertEquals(accual2, expected2);
-        sostassert2.assertAll();
 
     }
 
