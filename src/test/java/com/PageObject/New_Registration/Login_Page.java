@@ -2,6 +2,7 @@ package com.PageObject.New_Registration;
 
 import com.demo.DriverManagerfile;
 import io.appium.java_client.MobileElement;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -20,6 +21,7 @@ public class Login_Page extends DriverManagerfile {
         el1.sendKeys("");
         System.out.println("without Put Email ID");
         Thread.sleep(3000);
+
         //Put Password
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etpin");
         el2.sendKeys("123456");
@@ -28,6 +30,8 @@ public class Login_Page extends DriverManagerfile {
         //Click Submit Button Click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
+        Assert.assertEquals(el1,"Without Email ID Successfully Login");
+        Thread.sleep(2000);
 
     }
     @Test(priority = 2)
@@ -45,6 +49,7 @@ public class Login_Page extends DriverManagerfile {
         // Submit button click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
+        Assert.assertEquals(el1,"Without Password Successfully Login");
         System.out.println("Submit button click");
 
     }
@@ -65,6 +70,9 @@ public class Login_Page extends DriverManagerfile {
         el3.click();
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
+
+        Assert.assertEquals(el1,"With UserName & Password Un-Successfully Login");
+        Thread.sleep(3000);
 
     }
 

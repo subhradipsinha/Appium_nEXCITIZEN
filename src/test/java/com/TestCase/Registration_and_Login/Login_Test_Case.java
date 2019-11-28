@@ -1,6 +1,7 @@
 package com.TestCase.Registration_and_Login;
 
 import com.PageObject.New_Registration.Login_Page;
+import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -14,8 +15,8 @@ public void Url_login() throws Exception {
 }
 @Test(priority = 1)
 public void Without_Username() throws Exception {
-    System.out.println("hit_Without_Username");
     login_page.OnlyPassWordtest();
+    System.out.println("hit_Without_Username");
 }
 @Test(priority = 2)
 public void Without_Password() throws Exception {
