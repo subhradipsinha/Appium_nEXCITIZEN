@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -85,10 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml">
-    <configuration name="emailable-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/Output/emailable-report.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/testNG.xml">
     <configuration name="Application_Status" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com_nEXCITIZEN_demo" />
       <extension name="coverage">
@@ -179,20 +176,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E:/Appium_project/com_nEXCITIZEN_demo/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com_nEXCITIZEN_demo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.emailable-report.html" />
       <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
       <item itemvalue="TestNG.Application_Status" />
       <item itemvalue="TestNG.Application_Status.Application_status_hit" />
       <item itemvalue="TestNG.Application_Test_Case" />
+      <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/testNG.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/testNG.xml" />
         <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
         <item itemvalue="TestNG.Application_Test_Case" />
         <item itemvalue="TestNG.Application_Status.Application_status_hit" />
         <item itemvalue="TestNG.Application_Status" />
-        <item itemvalue="JavaScript Debug.emailable-report.html" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +229,7 @@
       <workItem from="1574398935931" duration="15294000" />
       <workItem from="1574485117963" duration="6868000" />
       <workItem from="1574658939996" duration="13136000" />
-      <workItem from="1574916002606" duration="9221000" />
+      <workItem from="1574916002606" duration="10288000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1574493101834</created>
@@ -273,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574927603205</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="10th commit">
+      <created>1574930225319</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574930225319</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +315,8 @@
     <MESSAGE value="7th commit" />
     <MESSAGE value="8th commit" />
     <MESSAGE value="9th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="9th commit" />
+    <MESSAGE value="10th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="10th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
