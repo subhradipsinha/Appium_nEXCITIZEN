@@ -32,6 +32,7 @@ public class Login_Page extends DriverManagerfile {
         //Click Submit Button Click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
+
         //Declaration of soft assert object
         SoftAssert sostassert = new SoftAssert();
         String accual = "without Username";
@@ -57,8 +58,6 @@ public class Login_Page extends DriverManagerfile {
         // Submit button click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
-        Assert.assertEquals(el1,"Without Password Successfully Login");
-        System.out.println("Submit button click");
 
         //Declaration of soft assert object
         SoftAssert sostassert1 = new SoftAssert();
@@ -84,9 +83,6 @@ public class Login_Page extends DriverManagerfile {
         el3.click();
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
-
-        Assert.assertEquals(el1,"With UserName & Password Un-Successfully Login");
-        Thread.sleep(3000);
 
         //Declaration of soft assert object
         SoftAssert sostassert2 = new SoftAssert();
