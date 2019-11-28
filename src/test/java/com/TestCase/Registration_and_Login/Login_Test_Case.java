@@ -16,7 +16,6 @@ public void Url_login() throws Exception {
 @Test(priority = 1)
 public void Without_Username() throws Exception {
     login_page.OnlyPassWordtest();
-    System.out.println("hit_Without_Username");
 }
 @Test(priority = 2)
 public void Without_Password() throws Exception {
