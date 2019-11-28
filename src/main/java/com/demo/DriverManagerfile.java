@@ -14,7 +14,7 @@ public class DriverManagerfile {
     public static void setup() throws Exception {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("no", true);
-        
+
         //desiredCapabilities.setCapability("newCommandTimeout", 100000);
         desiredCapabilities.setCapability("noReset", true);
         desiredCapabilities.setCapability(MobileCapabilityType.APP, "E:\\Appium_project\\com_nEXCITIZEN_demo\\Driver\\nexcitizen_27_11_2019.apk");
