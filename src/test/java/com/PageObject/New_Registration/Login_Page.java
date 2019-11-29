@@ -84,7 +84,7 @@ public class Login_Page extends DriverManagerfile {
 
         SoftAssert softAssert = new SoftAssert();
         String accual = "With UserName & Password Login";
-        String expect = "Un-Successfully Login";
+        String expect = "Successfully Login";
         softAssert.assertEquals(accual, expect);
         softAssert.assertAll();
 

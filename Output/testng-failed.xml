@@ -13,4 +13,13 @@
       </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
     </classes>
   </test> <!-- nEXCITIZEN_TestCase1(failed) -->
+  <test thread-count="5" name="nEXCITIZEN_TestCase2(failed)">
+    <classes>
+      <class name="com.TestCase.PaymentTestCase_Folder.Application_TestCase">
+        <methods>
+          <include name="Hit_Application"/>
+        </methods>
+      </class> <!-- com.TestCase.PaymentTestCase_Folder.Application_TestCase -->
+    </classes>
+  </test> <!-- nEXCITIZEN_TestCase2(failed) -->
 </suite> <!-- Failed suite [nEXCITIZEN] -->
