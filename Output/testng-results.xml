@@ -6,24 +6,24 @@
     <groups>
     </groups>
     <test name="nEXCITIZEN_TestCase1" duration-ms="52431" started-at="2019-11-28T12:49:47Z" finished-at="2019-11-28T12:50:40Z">
-      <class name="com.TestCase.Registration_and_Login.Login_Test_Case">
-        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.Registration_and_Login.Login_Test_Case@548a9f61]" name="Url_login" is-config="true" duration-ms="30452" started-at="2019-11-28T12:49:47Z" finished-at="2019-11-28T12:50:18Z">
+      <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
+        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@548a9f61]" name="Url_login" is-config="true" duration-ms="30452" started-at="2019-11-28T12:49:47Z" finished-at="2019-11-28T12:50:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Url_login -->
-        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.Registration_and_Login.Login_Test_Case@548a9f61]" name="Without_Username" duration-ms="6997" started-at="2019-11-28T12:50:18Z" finished-at="2019-11-28T12:50:25Z">
+        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@548a9f61]" name="Without_Username" duration-ms="6997" started-at="2019-11-28T12:50:18Z" finished-at="2019-11-28T12:50:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Username -->
-        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.Registration_and_Login.Login_Test_Case@548a9f61]" name="Without_Password" duration-ms="7532" started-at="2019-11-28T12:50:25Z" finished-at="2019-11-28T12:50:32Z">
+        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@548a9f61]" name="Without_Password" duration-ms="7532" started-at="2019-11-28T12:50:25Z" finished-at="2019-11-28T12:50:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Password -->
-        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.Registration_and_Login.Login_Test_Case@548a9f61]" name="Orginal_user_pass" duration-ms="7413" started-at="2019-11-28T12:50:32Z" finished-at="2019-11-28T12:50:40Z">
+        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@548a9f61]" name="Orginal_user_pass" duration-ms="7413" started-at="2019-11-28T12:50:32Z" finished-at="2019-11-28T12:50:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orginal_user_pass -->
-      </class> <!-- com.TestCase.Registration_and_Login.Login_Test_Case -->
+      </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
     </test> <!-- nEXCITIZEN_TestCase1 -->
   </suite> <!-- nEXCITIZEN -->
 </testng-results>

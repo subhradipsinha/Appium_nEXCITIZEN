@@ -3,8 +3,12 @@
 <suite name="nEXCITIZEN">
     <test name="nEXCITIZEN_TestCase1">
         <classes>
-            <class name="com.TestCase.Registration_and_Login.Login_Test_Case"></class>
+            <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase"></class>
         </classes>
     </test>
-
+    <test name="nEXCITIZEN_TestCase2">
+        <classes>
+            <class name="com.TestCase.PaymentTestCase_Folder.Application_TestCase"></class>
+        </classes>
+    </test>
 </suite>
