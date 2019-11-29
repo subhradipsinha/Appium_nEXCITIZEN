@@ -82,11 +82,11 @@ public class Login_Page extends DriverManagerfile {
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
 
-        SoftAssert softAssert = new SoftAssert();
-        String accual = "With UserName & Password Login";
-        String expect = "Successfully Login";
-        softAssert.assertEquals(accual, expect);
-        softAssert.assertAll();
+        SoftAssert softAssert2 = new SoftAssert();
+        String accual2 = "With UserName & Password Login";
+        String expect2 = "Un-Successfully Login";
+        softAssert2.assertEquals(accual2, expect2,"Successfully Login");
+        softAssert2.assertAll();
 
     }
 
