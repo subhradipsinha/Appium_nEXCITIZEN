@@ -7,7 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-import sun.plugin2.message.Message;
+
 
 @Test
 public class Login_Page extends DriverManagerfile {
