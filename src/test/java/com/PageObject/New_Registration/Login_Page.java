@@ -1,6 +1,7 @@
 package com.PageObject.New_Registration;
 
 import com.demo.DriverManagerfile;
+import com.demo.Screenshot_File;
 import io.appium.java_client.MobileElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -33,12 +34,9 @@ public class Login_Page extends DriverManagerfile {
         //Click Submit Button Click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
+        Screenshot_File.nexcitizen(driver,"Without UserName");
 
-        SoftAssert softAssert = new SoftAssert();
-        String accual = "Without UserName not Login";
-        String expect = "Successfully Login";
-        softAssert.assertEquals(expect,accual,"Successfully Login");
-        softAssert.assertAll();
+
 
     }
     @Test(priority = 2)
@@ -56,12 +54,9 @@ public class Login_Page extends DriverManagerfile {
         // Submit button click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
+        Screenshot_File.nexcitizen(driver,"Without Password");
 
-        SoftAssert softAssert2 = new SoftAssert();
-        String accual2 = "Without Password not Login";
-        String expect2 = "Successfully Login";
-        softAssert2.assertEquals(expect2,accual2, "Successfully Login");
-        softAssert2.assertAll();
+
 
        }
     @Test(priority = 3)
@@ -79,14 +74,11 @@ public class Login_Page extends DriverManagerfile {
         // Submit Button Click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
+        Screenshot_File.nexcitizen(driver,"Login Successfully");
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
 
-        SoftAssert softAssert3 = new SoftAssert();
-        String accual3 = "With UserName & Password Login";
-        String expect3 = "Un-Successfully Login";
-        softAssert3.assertEquals(expect3,accual3,"Un-Successfully Login");
-        softAssert3.assertAll();
+
 
     }
 
