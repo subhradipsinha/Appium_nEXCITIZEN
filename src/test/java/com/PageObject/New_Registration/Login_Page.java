@@ -37,7 +37,7 @@ public class Login_Page extends DriverManagerfile {
         SoftAssert softAssert = new SoftAssert();
         String accual = "Without UserName not Login";
         String expect = "Successfully Login";
-        softAssert.assertEquals(accual, expect,"Successfully Login");
+        softAssert.assertEquals(expect,accual,"Successfully Login");
         softAssert.assertAll();
 
     }
@@ -60,7 +60,7 @@ public class Login_Page extends DriverManagerfile {
         SoftAssert softAssert2 = new SoftAssert();
         String accual2 = "Without Password not Login";
         String expect2 = "Successfully Login";
-        softAssert2.assertEquals(accual2, expect2,"Successfully Login");
+        softAssert2.assertEquals(expect2,accual2, "Successfully Login");
         softAssert2.assertAll();
 
        }
@@ -85,7 +85,7 @@ public class Login_Page extends DriverManagerfile {
         SoftAssert softAssert3 = new SoftAssert();
         String accual3 = "With UserName & Password Login";
         String expect3 = "Un-Successfully Login";
-        softAssert3.assertEquals(accual3, expect3,"Un-Successfully Login");
+        softAssert3.assertEquals(expect3,accual3,"Un-Successfully Login");
         softAssert3.assertAll();
 
     }
