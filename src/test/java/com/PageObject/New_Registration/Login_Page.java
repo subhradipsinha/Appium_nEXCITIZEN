@@ -37,7 +37,7 @@ public class Login_Page extends DriverManagerfile {
         SoftAssert softAssert = new SoftAssert();
         String accual = "Without UserName not Login";
         String expect = "Successfully Login";
-        softAssert.assertEquals(accual, expect);
+        softAssert.assertEquals(accual, expect,"Successfully Login");
         softAssert.assertAll();
 
     }
@@ -57,11 +57,11 @@ public class Login_Page extends DriverManagerfile {
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
 
-        SoftAssert softAssert1 = new SoftAssert();
-        String accual1 = "Without Password not Login";
-        String expect1 = "Successfully Login";
-        softAssert1.assertEquals(accual1, expect1);
-        softAssert1.assertAll();
+        SoftAssert softAssert2 = new SoftAssert();
+        String accual2 = "Without Password not Login";
+        String expect2 = "Successfully Login";
+        softAssert2.assertEquals(accual2, expect2,"Successfully Login");
+        softAssert2.assertAll();
 
        }
     @Test(priority = 3)
@@ -82,11 +82,11 @@ public class Login_Page extends DriverManagerfile {
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
 
-        SoftAssert softAssert2 = new SoftAssert();
-        String accual2 = "With UserName & Password Login";
-        String expect2 = "Un-Successfully Login";
-        softAssert2.assertEquals(accual2, expect2,"Successfully Login");
-        softAssert2.assertAll();
+        SoftAssert softAssert3 = new SoftAssert();
+        String accual3 = "With UserName & Password Login";
+        String expect3 = "Un-Successfully Login";
+        softAssert3.assertEquals(accual3, expect3,"Un-Successfully Login");
+        softAssert3.assertAll();
 
     }
 
