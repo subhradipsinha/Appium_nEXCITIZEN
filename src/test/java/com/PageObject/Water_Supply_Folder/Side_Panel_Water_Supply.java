@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
  * Date: 29/10/2019
  */
 
+@Test
 public class Side_Panel_Water_Supply extends DriverManagerfile {
 
     @Test

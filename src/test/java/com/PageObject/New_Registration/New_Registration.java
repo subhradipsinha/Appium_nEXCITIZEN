@@ -5,6 +5,7 @@ import io.appium.java_client.MobileElement;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+@Test
 public class New_Registration extends DriverManagerfile {
     @BeforeTest
     public void Login() throws Exception {

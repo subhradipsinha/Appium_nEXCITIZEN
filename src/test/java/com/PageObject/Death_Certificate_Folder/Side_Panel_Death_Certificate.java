@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
  * Date: 04/10/2019
  */
 
+@Test
 public class Side_Panel_Death_Certificate extends DriverManagerfile {
     @Test
     public void Side_panel_click() throws InterruptedException {

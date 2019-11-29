@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
  * Date: 05/10/2019
  */
 
+@Test
 public class Application_Status extends DriverManagerfile {
     @Test
     public void Application_status_hit() throws InterruptedException {

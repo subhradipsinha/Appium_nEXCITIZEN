@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
  * Date: 30/09/2018
  */
 
+@Test
 // Extend to Appium_ConfigarationManager Class
 public class Birth_Cirtificate extends DriverManagerfile {
     @Test(priority = 4)

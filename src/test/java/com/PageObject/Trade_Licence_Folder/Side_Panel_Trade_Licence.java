@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
  * @author Subhradip Sinha
  * Date: 11/10/2019
  */
+@Test
 public class Side_Panel_Trade_Licence extends DriverManagerfile {
     @Test
     public void Sidepanel_Click()throws Exception{

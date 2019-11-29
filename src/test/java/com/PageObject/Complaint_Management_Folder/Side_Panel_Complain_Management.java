@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
  * @author Subhradip Sinha
  * Date: 23/10/2019
  */
+@Test
 public class Side_Panel_Complain_Management extends DriverManagerfile {
 
     @Test

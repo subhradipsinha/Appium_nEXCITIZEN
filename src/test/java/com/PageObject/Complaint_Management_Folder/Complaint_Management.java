@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
  * Date: 22/10/2019
  */
 
+@Test
 public class Complaint_Management extends DriverManagerfile {
 
     @Test(priority = 16)

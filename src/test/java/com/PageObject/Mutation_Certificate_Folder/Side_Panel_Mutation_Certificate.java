@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
  * @author Subhradip Sinha
  * Date: 25/10/2019
  */
-
+@Test
 public class Side_Panel_Mutation_Certificate extends DriverManagerfile {
     @Test
     public void Hit_Side_Panel() throws Exception {

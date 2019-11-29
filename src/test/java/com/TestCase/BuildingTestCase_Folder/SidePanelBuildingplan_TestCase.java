@@ -1,4 +1,4 @@
-package com.TestCase.Building_Test_Case_Folder;
+package com.TestCase.BuildingTestCase_Folder;
 
 import com.PageObject.Building_Plan_Folder.Building_Plan;
 import com.PageObject.Building_Plan_Folder.Side_Panel_Building_Plan;

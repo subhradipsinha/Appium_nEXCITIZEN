@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
  * Date:
  */
 
+@Test
 public class Building_Completion_Certificate extends DriverManagerfile {
     @Test(priority = 10)
     public void Hit_Building_Commpletion_Tab(){

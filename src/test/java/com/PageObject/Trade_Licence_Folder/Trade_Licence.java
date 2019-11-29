@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
  * @author Subhradip Sinha
  * Date: 09/10/2019
  */
+@Test
 public class Trade_Licence extends DriverManagerfile {
     @Test(priority = 5)
     public void Trade_Licence_Test() throws Exception {

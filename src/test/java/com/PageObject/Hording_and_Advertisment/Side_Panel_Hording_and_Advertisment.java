@@ -4,6 +4,7 @@ import com.demo.DriverManagerfile;
 import io.appium.java_client.MobileElement;
 import org.testng.annotations.Test;
 
+@Test
 public class Side_Panel_Hording_and_Advertisment extends DriverManagerfile {
     @Test
     public void Hit_Side_Panel_Hording_and_Advertisment()throws Exception{

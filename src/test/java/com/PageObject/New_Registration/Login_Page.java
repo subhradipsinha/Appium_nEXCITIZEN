@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import sun.plugin2.message.Message;
 
+@Test
 public class Login_Page extends DriverManagerfile {
 
     @BeforeTest
@@ -33,6 +34,12 @@ public class Login_Page extends DriverManagerfile {
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
 
+        SoftAssert softAssert = new SoftAssert();
+        String accual = "Without UserName not Login";
+        String expect = "Successfully Login";
+        softAssert.assertEquals(accual, expect);
+        softAssert.assertAll();
+
     }
     @Test(priority = 2)
     public void OnlyUserNametest() throws Exception {
@@ -49,6 +56,12 @@ public class Login_Page extends DriverManagerfile {
         // Submit button click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
+
+        SoftAssert softAssert1 = new SoftAssert();
+        String accual1 = "Without Password not Login";
+        String expect1 = "Successfully Login";
+        softAssert1.assertEquals(accual1, expect1);
+        softAssert1.assertAll();
 
        }
     @Test(priority = 3)
@@ -68,6 +81,12 @@ public class Login_Page extends DriverManagerfile {
         el3.click();
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
+
+        SoftAssert softAssert = new SoftAssert();
+        String accual = "With UserName & Password Login";
+        String expect = "Un-Successfully Login";
+        softAssert.assertEquals(accual, expect);
+        softAssert.assertAll();
 
     }
 

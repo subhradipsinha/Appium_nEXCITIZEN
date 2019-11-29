@@ -2,89 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/PaymentTestCase_Folder/Application_TestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.PaymentTestCase_Folder.Application_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Birth_Cirtificate_Test_Case_Folder.Birth_Cirtificate_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Birth_Cirtificate_Test_Case_Folder.Birth_Cirtificate_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Birth_Cirtificate_Test_Case_Folder.SidePanel_Birth_Cirtificate_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Birth_Cirtificate_Test_Case_Folder.SidePanel_Birth_Cirtificate_TestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Building_Complain_Test_Case_Folder.Building_Complain_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Building_Complain_Test_Case_Folder.Building_Complain_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Building_Complain_Test_Case_Folder.SidePanel_Building_Complain_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Building_Complain_Test_Case_Folder.SidePanel_Building_Complain_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Building_Test_Case_Folder.Building_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Building_Test_Case_Folder.Building_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Building_Test_Case_Folder.SidePanel_Building_plan_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Building_Test_Case_Folder.SidePanel_Building_plan_TestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Complaint_Management_Test_Case_Folder.Complaint_Management_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Complaint_Management_Test_Case_Folder.Complaint_Management_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Complaint_Management_Test_Case_Folder.SidePanel_Complaint_Management_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Complaint_Management_Test_Case_Folder.SidePanel_Complaint_Management_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Death_Test_Case_Folder.Death_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Death_Test_Case_Folder.Death_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Death_Test_Case_Folder.SidePanel_Death_Cirtificate_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Death_Test_Case_Folder.SidePanel_Death_Cirtificate_TestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Mutation_Test_Case_Folder.Mutation_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Mutation_Test_Case_Folder.Mutation_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Mutation_Test_Case_Folder.SidePanel_Mutation_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Mutation_Test_Case_Folder.SidePanel_Mutation_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Payment_Test_Case_Folder.Application_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Payment_Test_Case_Folder.Application_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Payment_Test_Case_Folder.SidePanel_Payment_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Payment_Test_Case_Folder.SidePanel_Payment_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Property_Test_Case_Folder.Property_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Property_Test_Case_Folder.Property_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Property_Test_Case_Folder.SidePanel_Property_Tax_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Property_Test_Case_Folder.SidePanel_Property_Tax_TestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Registration_and_Login.Login_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Registration_and_Login.Login_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Trade_Test_Case_Folder.SidePanel_Tread_Licence_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Trade_Test_Case_Folder.SidePanel_Tread_Licence_TestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Trade_Test_Case_Folder.Trade_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Trade_Test_Case_Folder.Trade_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Water_Supply_Test_Case_Folder.SidePanel_Side_Panel_Water_Supply_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Water_Supply_Test_Case_Folder.SidePanel_Side_Panel_Water_Supply_Test_Case.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Water_Supply_Test_Case_Folder.Water_Supply_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Water_Supply_Test_Case_Folder.Water_Supply_Test_Case.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase11.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN1/nEXCITIZEN_TestCase1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN1/nEXCITIZEN_TestCase1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN1/nEXCITIZEN_TestCase1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN1/nEXCITIZEN_TestCase1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/Side_Panel_Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/SidePanel_Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Property_Tax/Folder/Property_Tax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Property_Tax_Folder/Property_Tax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Property_Tax/Folder/Side_Panel_Property_Tax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Property_Tax_Folder/Side_Panel_Property_Tax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Birth_Cirtificate_Test_Case_Folder/Birth_Cirtificate_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/BirthCirtificateTestCase_Folder/BirthCirtificate_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Birth_Cirtificate_Test_Case_Folder/SidePanel_Birth_Cirtificate_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/BirthCirtificateTestCase_Folder/SidePanelBirthCirtificate_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Building_Complain_Test_Case_Folder/Building_Complain_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/BuildingComplainTestCase_Folder/BuildingComplain_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Building_Complain_Test_Case_Folder/SidePanel_Building_Complain_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/BuildingComplainTestCase_Folder/SidePanelBuildingComplain_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Building_Test_Case_Folder/Building_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/Building_Test_Case_Folder/Building_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Building_Test_Case_Folder/SidePanel_Building_plan_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/Building_Test_Case_Folder/SidePanelBuildingplan_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Complaint_Management_Test_Case_Folder/Complaint_Management_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/ComplaintManagementTestCase_Folder/ComplaintManagement_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Complaint_Management_Test_Case_Folder/SidePanel_Complaint_Management_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/ComplaintManagementTestCase_Folder/SidePanelComplaintManagement_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Death_Test_Case_Folder/Death_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/DeathTestCase_Folder/Death_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Death_Test_Case_Folder/SidePanel_Death_Cirtificate_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/DeathTestCase_Folder/SidePanelDeathCirtificate_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Hording_Test_Case_Folder/Hording_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/HordingTestCase_Folder/Hording_Test_Case.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Hording_Test_Case_Folder/SidePanel_Hording_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/HordingTestCase_Folder/SidePanel_Hording_Test_Case.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Mutation_Test_Case_Folder/Mutation_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/MutationTestCase_Folder/Mutation_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Mutation_Test_Case_Folder/SidePanel_Mutation_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/MutationTestCase_Folder/SidePanelMutation_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Payment_Test_Case_Folder/SidePanel_Payment_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/PaymentTestCase_Folder/SidePanelPayment_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Property_Test_Case_Folder/Property_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/PropertyTestCase_Folder/Property_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Property_Test_Case_Folder/SidePanel_Property_Tax_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/PropertyTestCase_Folder/SidePanelPropertyTax_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Registration_and_Login/Login_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/RegistrationandLoginTestCase_Folder/Login_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Registration_and_Login/New_Registration_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/RegistrationandLoginTestCase_Folder/NewRegistration_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Trade_Test_Case_Folder/SidePanel_Tread_Licence_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/TradeTestCase_Folder/SidePanelTreadLicence_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Trade_Test_Case_Folder/Trade_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/TradeTestCase_Folder/Trade_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Water_Supply_Test_Case_Folder/SidePanel_Side_Panel_Water_Supply_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/WaterSupplyTestCase_Folder/SidePanel_SidePanelWaterSupply_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/Water_Supply_Test_Case_Folder/Water_Supply_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/WaterSupplyTestCase_Folder/WaterSupply_TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Birth_Cirtificate_Folder/Birth_Cirtificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Birth_Cirtificate_Folder/Birth_Cirtificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Birth_Cirtificate_Folder/Side_Panel_Birth_Cirtificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Birth_Cirtificate_Folder/Side_Panel_Birth_Cirtificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Completion_Certificate_Folder/Building_Completion_Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Completion_Certificate_Folder/Building_Completion_Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Completion_Certificate_Folder/Side_Panel_Building_Completion_Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Completion_Certificate_Folder/Side_Panel_Building_Completion_Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Plan_Folder/Building_Plan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Plan_Folder/Building_Plan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Plan_Folder/Side_Panel_Building_Plan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Plan_Folder/Side_Panel_Building_Plan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Complaint_Management_Folder/Complaint_Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Complaint_Management_Folder/Complaint_Management.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Complaint_Management_Folder/Side_Panel_Complain_Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Complaint_Management_Folder/Side_Panel_Complain_Management.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Death_Certificate_Folder/Death_Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Death_Certificate_Folder/Death_Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Death_Certificate_Folder/Side_Panel_Death_Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Death_Certificate_Folder/Side_Panel_Death_Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Hording_and_Advertisment/Hording_and_Advertisment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Hording_and_Advertisment/Hording_and_Advertisment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Hording_and_Advertisment/Side_Panel_Hording_and_Advertisment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Hording_and_Advertisment/Side_Panel_Hording_and_Advertisment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Mutation_Certificate_Folder/Mutation_Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Mutation_Certificate_Folder/Mutation_Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Mutation_Certificate_Folder/Side_Panel_Mutation_Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Mutation_Certificate_Folder/Side_Panel_Mutation_Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/New_Registration/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/New_Registration/Login_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/New_Registration/New_Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/New_Registration/New_Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/Application_Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/Application_Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Trade_Licence_Folder/Side_Panel_Trade_Licence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Trade_Licence_Folder/Side_Panel_Trade_Licence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Trade_Licence_Folder/Trade_Licence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Trade_Licence_Folder/Trade_Licence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Water_Supply_Folder/Side_Panel_Water_Supply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Water_Supply_Folder/Side_Panel_Water_Supply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Water_Supply_Folder/Water_Supply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Water_Supply_Folder/Water_Supply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/BuildingTestCase_Folder/Building_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/BuildingTestCase_Folder/Building_TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/BuildingTestCase_Folder/SidePanelBuildingplan_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/BuildingTestCase_Folder/SidePanelBuildingplan_TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/PaymentTestCase_Folder/Application_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/PaymentTestCase_Folder/Application_TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/RegistrationandLoginTestCase_Folder/NewRegistration_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/RegistrationandLoginTestCase_Folder/NewRegistration_TestCase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,23 +129,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml">
-    <configuration name="Application_TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com_nEXCITIZEN_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.TestCase.PaymentTestCase_Folder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.TestCase.Payment_Test_Case_Folder" />
-      <option name="MAIN_CLASS_NAME" value="com.TestCase.PaymentTestCase_Folder.Application_TestCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/Output/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com_nEXCITIZEN_demo" />
@@ -269,18 +218,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
-      <item itemvalue="TestNG.Application_TestCase" />
       <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/testNG.xml" />
       <item itemvalue="TestNG.Login_TestCase.Without_Username" />
       <item itemvalue="TestNG.Login_TestCase" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
         <item itemvalue="TestNG.Login_TestCase" />
         <item itemvalue="TestNG.Login_TestCase.Without_Username" />
         <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/testNG.xml" />
-        <item itemvalue="TestNG.Application_TestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +261,7 @@
       <workItem from="1574658939996" duration="13136000" />
       <workItem from="1574916002606" duration="20357000" />
       <workItem from="1574944927661" duration="1562000" />
-      <workItem from="1575003901128" duration="4628000" />
+      <workItem from="1575003901128" duration="8336000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1574493101834</created>
@@ -440,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574945491082</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="20th commit">
+      <created>1575010386605</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1575010386605</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +434,8 @@
     <MESSAGE value="17th commit" />
     <MESSAGE value="18th commit" />
     <MESSAGE value="19th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="19th commit" />
+    <MESSAGE value="20th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="20th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

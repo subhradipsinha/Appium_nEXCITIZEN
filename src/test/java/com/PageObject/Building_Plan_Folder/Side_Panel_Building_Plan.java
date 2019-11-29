@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
  * Date: 17/10/2019
  */
 
+@Test
 public class Side_Panel_Building_Plan extends DriverManagerfile {
     @Test
     public void Hit_Side_Panel_Building_Plan()throws  Exception{

@@ -4,6 +4,7 @@ import com.demo.DriverManagerfile;
 import io.appium.java_client.MobileElement;
 import org.testng.annotations.Test;
 
+@Test
 public class Side_Panel_Building_Completion_Certificate extends DriverManagerfile {
     @Test
     public void Hit_Side_Panel_Building_Completion_Certificate()throws Exception{

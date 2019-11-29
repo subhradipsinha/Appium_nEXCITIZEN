@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
  * Date: 24/10/2019
  */
 
+@Test
 // Extend to Appium_ConfigarationManager Class
 public class Mutation_Certificate extends DriverManagerfile
 {

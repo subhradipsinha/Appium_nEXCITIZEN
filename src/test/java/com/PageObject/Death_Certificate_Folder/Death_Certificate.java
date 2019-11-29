@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 
 // Extend filled used Appium_ConfigarationManager file
 
+@Test
 public class Death_Certificate extends DriverManagerfile {
 
     @Test(priority = 5)

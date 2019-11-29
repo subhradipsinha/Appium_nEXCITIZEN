@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
  * @author Subhradip Sinha
  * Date: 16/10/2019
  */
-
+@Test
 public class Building_Plan extends DriverManagerfile {
     @Test(priority = 7)
     public void Building_Tab() throws Exception {

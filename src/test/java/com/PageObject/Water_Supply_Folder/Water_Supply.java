@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
  * @author Subhradip Sinha
  * Date: 30/10/2019
  */
-
+@Test
 public class Water_Supply extends DriverManagerfile {
     @Test(priority = 24)
     public void Hit_Water_Supply_Tab() throws InterruptedException {

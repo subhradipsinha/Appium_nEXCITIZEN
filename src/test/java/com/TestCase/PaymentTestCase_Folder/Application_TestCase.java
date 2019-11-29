@@ -8,6 +8,9 @@ public class Application_TestCase {
     Application_Status application_status = new Application_Status();
     @Test(priority = 4)
     public void Hit_Application()throws Exception{
+        Thread.sleep(2000);
+        application_status.Application_status_hit();
+        Thread.sleep(2000);
         application_status.Birth_Certificate_Tab_Click();
         Thread.sleep(2000);
         application_status.Death_Certificate_Tab_Click();

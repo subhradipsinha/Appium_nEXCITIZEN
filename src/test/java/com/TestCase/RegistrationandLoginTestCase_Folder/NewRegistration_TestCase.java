@@ -4,6 +4,7 @@ import com.PageObject.New_Registration.New_Registration;
 import com.demo.DriverManagerfile;
 import org.testng.annotations.Test;
 
+@Test
 public class NewRegistration_TestCase extends DriverManagerfile {
 
    New_Registration new_registration = new New_Registration();
