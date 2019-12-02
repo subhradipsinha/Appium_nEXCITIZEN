@@ -35,6 +35,11 @@ public class Login_Page extends DriverManagerfile {
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
         Screenshot_File.nexcitizen(driver,"Without UserName");
+        SoftAssert softAssert = new SoftAssert();
+        String actual = "Without UserName";
+        String expected =" Successful Login";
+        softAssert.assertEquals(actual,expected);
+        softAssert.assertAll();
 
 
 
@@ -57,6 +62,14 @@ public class Login_Page extends DriverManagerfile {
         Screenshot_File.nexcitizen(driver,"Without Password");
 
 
+        Screenshot_File.nexcitizen(driver,"Without UserName");
+        SoftAssert softAssert = new SoftAssert();
+        String actual = "Without Password";
+        String expected =" Successful Login";
+        softAssert.assertEquals(actual,expected);
+        softAssert.assertAll();
+
+
 
        }
     @Test(priority = 3)
@@ -77,6 +90,14 @@ public class Login_Page extends DriverManagerfile {
         Screenshot_File.nexcitizen(driver,"Login Successfully");
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
+
+
+
+        SoftAssert softAssert = new SoftAssert();
+        String actual = "With UserName and Password";
+        String expected =" Successful Login";
+        softAssert.assertEquals(actual,expected);
+        softAssert.assertAll();
 
 
 
