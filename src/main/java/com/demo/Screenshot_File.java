@@ -13,7 +13,7 @@ public class Screenshot_File {
         try {
             TakesScreenshot scrShot =((TakesScreenshot)driver);
             File source = scrShot.getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(source, new File("./Screenshot/"+screenshotName+".png"));
+            FileUtils.copyFile(source, new File("./Screenshots/"+screenshotName+".png"));
             System.out.println("Screenshot Done");
         } catch (Exception e)
         {
