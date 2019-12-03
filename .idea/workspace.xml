@@ -2,11 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.DeathTestCase_Folder.Death_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.PropertyTestCase_Folder.Property_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.PropertyTestCase_Folder.SidePanelPropertyTax_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.TradeTestCase_Folder.Trade_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/Login Successfully.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/Without Password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshot/Without UserName.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/Login Successfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Login Successfully.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/Without Password.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Without Password.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/Without UserName.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Without UserName.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.PaymentTestCase_Folder.Application_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.PaymentTestCase_Folder.Application_TestCase.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Payment_Test_Case_Folder.Application_Test_Case.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.Payment_Test_Case_Folder.Application_Test_Case.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Birth_Cirtificate_Folder/Birth_Cirtificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Birth_Cirtificate_Folder/Birth_Cirtificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/PaymentTestCase_Folder/Application_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/RegistrationandLoginTestCase_Folder/Application_TestCase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.emailable-report.html">
     <configuration name="emailable-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/Output/emailable-report.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -177,9 +206,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.emailable-report.html" />
         <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="TestNG.Login_TestCase" />
         <item itemvalue="TestNG.Login_TestCase.Without_Username" />
       </list>
@@ -214,7 +243,8 @@
       <workItem from="1574916002606" duration="20357000" />
       <workItem from="1574944927661" duration="1562000" />
       <workItem from="1575003901128" duration="21758000" />
-      <workItem from="1575271741170" duration="7715000" />
+      <workItem from="1575271741170" duration="8244000" />
+      <workItem from="1575355306332" duration="3941000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1574493101834</created>
@@ -433,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575282342896</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="33th commit">
+      <created>1575294234054</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1575294234054</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +491,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="8th commit" />
     <MESSAGE value="9th commit" />
     <MESSAGE value="10th commit" />
     <MESSAGE value="11th commit" />
@@ -479,7 +515,8 @@
     <MESSAGE value="30th commit" />
     <MESSAGE value="31th commit" />
     <MESSAGE value="32th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="32th commit" />
+    <MESSAGE value="33th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="33th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

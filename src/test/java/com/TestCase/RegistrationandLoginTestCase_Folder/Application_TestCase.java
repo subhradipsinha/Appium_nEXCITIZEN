@@ -1,4 +1,4 @@
-package com.TestCase.PaymentTestCase_Folder;
+package com.TestCase.RegistrationandLoginTestCase_Folder;
 
 import com.PageObject.Payment.Application_Status;
 

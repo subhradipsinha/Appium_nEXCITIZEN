@@ -1,17 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+<testng-results skipped="0" failed="15" ignored="0" total="18" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="nEXCITIZEN" duration-ms="53177" started-at="2019-12-02T10:23:30Z" finished-at="2019-12-02T10:24:23Z">
+  <suite name="nEXCITIZEN" duration-ms="1133507" started-at="2019-12-03T09:07:57Z" finished-at="2019-12-03T09:26:51Z">
     <groups>
     </groups>
-    <test name="nEXCITIZEN_TestCase1" duration-ms="53177" started-at="2019-12-02T10:23:30Z" finished-at="2019-12-02T10:24:23Z">
+    <test name="nEXCITIZEN_TestCase1" duration-ms="1133507" started-at="2019-12-03T09:07:57Z" finished-at="2019-12-03T09:26:51Z">
+      <class name="com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase">
+        <test-method status="FAIL" signature="BithCirtificate_Tabhit()[pri:5, instance:com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase@ae45eb6]" name="BithCirtificate_Tabhit" duration-ms="63269" started-at="2019-12-03T09:11:10Z" finished-at="2019-12-03T09:12:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/downarrow}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/downarrow}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at com.PageObject.Birth_Cirtificate_Folder.Birth_Cirtificate.Birth_Cirtificate_Text(Birth_Cirtificate.java:24)
+at com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase.BithCirtificate_Tabhit(BirthCirtificate_TestCase.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BithCirtificate_Tabhit -->
+      </class> <!-- com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase -->
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
-        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@14acaea5]" name="Url_login" is-config="true" duration-ms="29033" started-at="2019-12-02T10:23:30Z" finished-at="2019-12-02T10:23:59Z">
+        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@3532ec19]" name="Url_login" is-config="true" duration-ms="26154" started-at="2019-12-03T09:07:57Z" finished-at="2019-12-03T09:08:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Url_login -->
-        <test-method status="FAIL" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@14acaea5]" name="Without_Username" duration-ms="8456" started-at="2019-12-02T10:23:59Z" finished-at="2019-12-02T10:24:08Z">
+        <test-method status="FAIL" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@3532ec19]" name="Without_Username" duration-ms="7245" started-at="2019-12-03T09:08:24Z" finished-at="2019-12-03T09:08:31Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -55,7 +131,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Username -->
-        <test-method status="FAIL" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@14acaea5]" name="Without_Password" duration-ms="8205" started-at="2019-12-02T10:24:08Z" finished-at="2019-12-02T10:24:16Z">
+        <test-method status="FAIL" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@3532ec19]" name="Without_Password" duration-ms="7785" started-at="2019-12-03T09:08:31Z" finished-at="2019-12-03T09:08:39Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -99,11 +175,923 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Password -->
-        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@14acaea5]" name="Orginal_user_pass" duration-ms="7445" started-at="2019-12-02T10:24:16Z" finished-at="2019-12-02T10:24:23Z">
+        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@3532ec19]" name="Orginal_user_pass" duration-ms="7096" started-at="2019-12-03T09:08:39Z" finished-at="2019-12-03T09:08:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orginal_user_pass -->
       </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
+      <class name="com.TestCase.TradeTestCase_Folder.Trade_TestCase">
+        <test-method status="PASS" signature="Tread_Licence_TabHit()[pri:11, instance:com.TestCase.TradeTestCase_Folder.Trade_TestCase@47c62251]" name="Tread_Licence_TabHit" duration-ms="204610" started-at="2019-12-03T09:17:16Z" finished-at="2019-12-03T09:20:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tread_Licence_TabHit -->
+      </class> <!-- com.TestCase.TradeTestCase_Folder.Trade_TestCase -->
+      <class name="com.TestCase.PropertyTestCase_Folder.SidePanelPropertyTax_TestCase">
+        <test-method status="FAIL" signature="Hit_Property_Tax()[pri:17, instance:com.TestCase.PropertyTestCase_Folder.SidePanelPropertyTax_TestCase@77caeb3e]" name="Hit_Property_Tax" duration-ms="60499" started-at="2019-12-03T09:24:50Z" finished-at="2019-12-03T09:25:50Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/menu}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/menu}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at com.PageObject.Property_Tax_Folder.Side_Panel_Property_Tax.Hit_Side_Panel(Side_Panel_Property_Tax.java:17)
+at com.TestCase.PropertyTestCase_Folder.SidePanelPropertyTax_TestCase.Hit_Property_Tax(SidePanelPropertyTax_TestCase.java:10)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hit_Property_Tax -->
+        <test-method status="FAIL" signature="Edit_Button()[pri:18, instance:com.TestCase.PropertyTestCase_Folder.SidePanelPropertyTax_TestCase@77caeb3e]" name="Edit_Button" duration-ms="60461" started-at="2019-12-03T09:25:50Z" finished-at="2019-12-03T09:26:51Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView[8]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView[8]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at com.PageObject.Property_Tax_Folder.Side_Panel_Property_Tax.Edit_Update(Side_Panel_Property_Tax.java:39)
+at com.TestCase.PropertyTestCase_Folder.SidePanelPropertyTax_TestCase.Edit_Button(SidePanelPropertyTax_TestCase.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit_Button -->
+      </class> <!-- com.TestCase.PropertyTestCase_Folder.SidePanelPropertyTax_TestCase -->
+      <class name="com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase">
+        <test-method status="FAIL" signature="Hit_Side_Panel()[pri:6, instance:com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase@59f99ea]" name="Hit_Side_Panel" duration-ms="60438" started-at="2019-12-03T09:12:14Z" finished-at="2019-12-03T09:13:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/menu}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/menu}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at com.PageObject.Birth_Cirtificate_Folder.Side_Panel_Birth_Cirtificate.Side_panel_click(Side_Panel_Birth_Cirtificate.java:18)
+at com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase.Hit_Side_Panel(SidePanelBirthCirtificate_TestCase.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hit_Side_Panel -->
+        <test-method status="FAIL" signature="Edit()[pri:7, instance:com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase@59f99ea]" name="Edit" duration-ms="60764" started-at="2019-12-03T09:13:14Z" finished-at="2019-12-03T09:14:15Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView[8]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView[8]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at com.PageObject.Birth_Cirtificate_Folder.Side_Panel_Birth_Cirtificate.Edit_Update(Side_Panel_Birth_Cirtificate.java:40)
+at com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase.Edit(SidePanelBirthCirtificate_TestCase.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Edit -->
+      </class> <!-- com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase -->
+      <class name="com.TestCase.DeathTestCase_Folder.Death_TestCase">
+        <test-method status="FAIL" signature="Death_TabHit()[pri:8, instance:com.TestCase.DeathTestCase_Folder.Death_TestCase@27efef64]" name="Death_TabHit" duration-ms="60088" started-at="2019-12-03T09:14:15Z" finished-at="2019-12-03T09:15:15Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/deathlays}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/deathlays}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at com.PageObject.Death_Certificate_Folder.Death_Certificate.Registrasion(Death_Certificate.java:23)
+at com.TestCase.DeathTestCase_Folder.Death_TestCase.Death_TabHit(Death_TestCase.java:10)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Death_TabHit -->
+      </class> <!-- com.TestCase.DeathTestCase_Folder.Death_TestCase -->
+      <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase">
+        <test-method status="FAIL" signature="Hit_Application()[pri:4, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@68c4039c]" name="Hit_Application" duration-ms="144496" started-at="2019-12-03T09:08:46Z" finished-at="2019-12-03T09:11:10Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at com.PageObject.Payment.Application_Status.Hording_and_Advertisement_Tab_Click(Application_Status.java:208)
+at com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase.Hit_Application(Application_TestCase.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hit_Application -->
+      </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase -->
+      <class name="com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase">
+        <test-method status="PASS" signature="Hit_Side_Panel()[pri:12, instance:com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase@3e6fa38a]" name="Hit_Side_Panel" duration-ms="8163" started-at="2019-12-03T09:20:40Z" finished-at="2019-12-03T09:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hit_Side_Panel -->
+        <test-method status="FAIL" signature="Hit_Edit_Button()[pri:13, instance:com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase@3e6fa38a]" name="Hit_Edit_Button" duration-ms="60488" started-at="2019-12-03T09:20:49Z" finished-at="2019-12-03T09:21:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/pr}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/pr}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at com.PageObject.Trade_Licence_Folder.Side_Panel_Trade_Licence.Edit_Update(Side_Panel_Trade_Licence.java:43)
+at com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase.Hit_Edit_Button(SidePanelTreadLicence_TestCase.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hit_Edit_Button -->
+        <test-method status="FAIL" signature="Hit_Property()[pri:14, instance:com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase@3e6fa38a]" name="Hit_Property" duration-ms="60126" started-at="2019-12-03T09:21:49Z" finished-at="2019-12-03T09:22:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/downarrow1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/downarrow1}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at com.PageObject.Trade_Licence_Folder.Side_Panel_Trade_Licence.Hit_Trade_Details(Side_Panel_Trade_Licence.java:68)
+at com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase.Hit_Property(SidePanelTreadLicence_TestCase.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hit_Property -->
+        <test-method status="FAIL" signature="Hit_Owner_Details()[pri:15, instance:com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase@3e6fa38a]" name="Hit_Owner_Details" duration-ms="60164" started-at="2019-12-03T09:22:49Z" finished-at="2019-12-03T09:23:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/etlon}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/etlon}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at com.PageObject.Trade_Licence_Folder.Side_Panel_Trade_Licence.Licence_Owner_Details(Side_Panel_Trade_Licence.java:93)
+at com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase.Hit_Owner_Details(SidePanelTreadLicence_TestCase.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hit_Owner_Details -->
+      </class> <!-- com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase -->
+      <class name="com.TestCase.PropertyTestCase_Folder.Property_TestCase">
+        <test-method status="FAIL" signature="Property_TabHit()[pri:16, instance:com.TestCase.PropertyTestCase_Folder.Property_TestCase@66a3ffec]" name="Property_TabHit" duration-ms="60534" started-at="2019-12-03T09:23:49Z" finished-at="2019-12-03T09:24:50Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/ptpic}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/ptpic}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at com.PageObject.Property_Tax_Folder.Property_Tax.property_Tax_Test(Property_Tax.java:17)
+at com.TestCase.PropertyTestCase_Folder.Property_TestCase.Property_TabHit(Property_TestCase.java:10)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Property_TabHit -->
+      </class> <!-- com.TestCase.PropertyTestCase_Folder.Property_TestCase -->
+      <class name="com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase">
+        <test-method status="FAIL" signature="Hit_Side_Panel()[pri:9, instance:com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase@6f7fd0e6]" name="Hit_Side_Panel" duration-ms="60457" started-at="2019-12-03T09:15:15Z" finished-at="2019-12-03T09:16:15Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/menu}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/menu}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at com.PageObject.Death_Certificate_Folder.Side_Panel_Death_Certificate.Side_panel_click(Side_Panel_Death_Certificate.java:18)
+at com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase.Hit_Side_Panel(SidePanelDeathCirtificate_TestCase.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hit_Side_Panel -->
+        <test-method status="FAIL" signature="Hit_Edit_Button()[pri:10, instance:com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase@6f7fd0e6]" name="Hit_Edit_Button" duration-ms="60455" started-at="2019-12-03T09:16:15Z" finished-at="2019-12-03T09:17:16Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView[8]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: 4200f5bf9a208200}, deviceApiLevel: 22, deviceManufacturer: samsung, deviceModel: SM-G531F, deviceName: 4200f5bf9a208200, deviceScreenDensity: 240, deviceScreenSize: 540x960, deviceUDID: 4200f5bf9a208200, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1.5, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 36, takesScreenshot: true, udid: 4200f5bf9a208200, viewportRect: {height: 924, left: 0, top: 36, width: 540}, warnings: {}, webStorageEnabled: false}
+Session ID: 206aa948-f07d-4e87-9f5d-8bd25d0c8534
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView[8]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at com.PageObject.Death_Certificate_Folder.Side_Panel_Death_Certificate.Edit_Update(Side_Panel_Death_Certificate.java:40)
+at com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase.Hit_Edit_Button(SidePanelDeathCirtificate_TestCase.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hit_Edit_Button -->
+      </class> <!-- com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase -->
     </test> <!-- nEXCITIZEN_TestCase1 -->
   </suite> <!-- nEXCITIZEN -->
 </testng-results>
