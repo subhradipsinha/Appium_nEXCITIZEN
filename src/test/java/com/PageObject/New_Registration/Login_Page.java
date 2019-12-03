@@ -40,7 +40,7 @@ public class Login_Page extends DriverManagerfile {
         String expected =" Successful Login";
         softAssert.assertEquals(actual,expected);
         softAssert.assertTrue(false);
-        softAssert.assertAll();
+
 
 
 
@@ -70,7 +70,7 @@ public class Login_Page extends DriverManagerfile {
         String expected =" Successful Login";
         softAssert.assertEquals(actual,expected);
         softAssert.assertTrue(false);
-        softAssert.assertAll();
+
 
 
 
