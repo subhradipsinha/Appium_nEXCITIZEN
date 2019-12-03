@@ -212,7 +212,7 @@
       <workItem from="1574944927661" duration="1562000" />
       <workItem from="1575003901128" duration="21758000" />
       <workItem from="1575271741170" duration="8244000" />
-      <workItem from="1575355306332" duration="8702000" />
+      <workItem from="1575355306332" duration="9517000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1574493101834</created>
@@ -473,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575374085101</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="38th commit">
+      <created>1575375152028</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1575375152028</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="13th commit" />
     <MESSAGE value="14th commit" />
     <MESSAGE value="15th commit" />
     <MESSAGE value="16th commit" />
@@ -519,7 +525,8 @@
     <MESSAGE value="35th commit" />
     <MESSAGE value="36th commit" />
     <MESSAGE value="37th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="37th commit" />
+    <MESSAGE value="38th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="38th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
