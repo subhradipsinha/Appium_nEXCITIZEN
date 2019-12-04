@@ -7,6 +7,19 @@
             <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase"></class>
         </classes>
     </test>
-    
+
+    <test name="nEXCITIZEN_TestCase2">
+        <classes>
+            <class name="com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase"></class>
+            <class name="com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase"></class>
+        </classes>
+    </test>
+
+    <test name="nEXCITIZEN_TestCase3">
+        <classes>
+            <class name="com.TestCase.DeathTestCase_Folder.Death_TestCase"></class>
+            <class name="com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase"></class>
+        </classes>
+    </test>
 
 </suite>
