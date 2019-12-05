@@ -2,50 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.DeathTestCase_Folder.Death_TestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase3.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output/testng.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Screenshots/Without UserName.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Without UserName.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -127,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.emailable-report.html">
+  <component name="RunManager" selected="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml">
     <configuration name="emailable-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/Output/emailable-report.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -207,17 +173,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 8.5.49" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.49" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/bin/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="C:/Program Files/Git/bin">
+          <settings>
+            <option name="CONTEXT_PATH" value="/bin" />
+          </settings>
+        </file>
+        <file path="$PROJECT_DIR$">
+          <settings>
+            <option name="CONTEXT_PATH" value="/com_nEXCITIZEN_demo" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_com_nEXCITIZEN_demo_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50961" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.emailable-report.html" />
       <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
       <item itemvalue="TestNG.Login_TestCase.Without_Username" />
       <item itemvalue="TestNG.Login_TestCase" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.49" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.emailable-report.html" />
         <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
+        <item itemvalue="JavaScript Debug.emailable-report.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="TestNG.Login_TestCase" />
         <item itemvalue="TestNG.Login_TestCase.Without_Username" />
@@ -255,7 +297,8 @@
       <workItem from="1575003901128" duration="21758000" />
       <workItem from="1575271741170" duration="8244000" />
       <workItem from="1575355306332" duration="12069000" />
-      <workItem from="1575445293149" duration="3310000" />
+      <workItem from="1575445293149" duration="4422000" />
+      <workItem from="1575522032641" duration="3451000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1574493101834</created>
@@ -565,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575446989265</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="45th commit">
+      <created>1575458055957</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1575458055957</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +636,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="20th commit" />
     <MESSAGE value="21th commit" />
     <MESSAGE value="22th commit" />
     <MESSAGE value="23th commit" />
@@ -611,7 +660,8 @@
     <MESSAGE value="42th commit" />
     <MESSAGE value="43th commit" />
     <MESSAGE value="44th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="44th commit" />
+    <MESSAGE value="45th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="45th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
