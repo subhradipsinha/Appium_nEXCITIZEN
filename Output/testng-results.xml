@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="nEXCITIZEN" duration-ms="46777" started-at="2019-12-05T09:28:39Z" finished-at="2019-12-05T09:29:26Z">
+  <suite name="nEXCITIZEN" duration-ms="45575" started-at="2019-12-05T10:34:10Z" finished-at="2019-12-05T10:34:56Z">
     <groups>
     </groups>
-    <test name="nEXCITIZEN_TestCase1" duration-ms="46777" started-at="2019-12-05T09:28:39Z" finished-at="2019-12-05T09:29:26Z">
+    <test name="nEXCITIZEN_TestCase1" duration-ms="45575" started-at="2019-12-05T10:34:10Z" finished-at="2019-12-05T10:34:56Z">
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
-        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@5700d6b1]" name="Url_login" is-config="true" duration-ms="24070" started-at="2019-12-05T09:28:39Z" finished-at="2019-12-05T09:29:03Z">
+        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@5700d6b1]" name="Url_login" is-config="true" duration-ms="23228" started-at="2019-12-05T10:34:10Z" finished-at="2019-12-05T10:34:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Url_login -->
-        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@5700d6b1]" name="Without_Username" duration-ms="7490" started-at="2019-12-05T09:29:03Z" finished-at="2019-12-05T09:29:11Z">
+        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@5700d6b1]" name="Without_Username" duration-ms="7266" started-at="2019-12-05T10:34:34Z" finished-at="2019-12-05T10:34:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Username -->
-        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@5700d6b1]" name="Without_Password" duration-ms="7919" started-at="2019-12-05T09:29:11Z" finished-at="2019-12-05T09:29:19Z">
+        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@5700d6b1]" name="Without_Password" duration-ms="7858" started-at="2019-12-05T10:34:41Z" finished-at="2019-12-05T10:34:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Password -->
-        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@5700d6b1]" name="Orginal_user_pass" duration-ms="7186" started-at="2019-12-05T09:29:19Z" finished-at="2019-12-05T09:29:26Z">
+        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@5700d6b1]" name="Orginal_user_pass" duration-ms="7190" started-at="2019-12-05T10:34:49Z" finished-at="2019-12-05T10:34:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orginal_user_pass -->
