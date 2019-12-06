@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nexcitizen.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/folder.war" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +214,7 @@
       <workItem from="1575355306332" duration="12069000" />
       <workItem from="1575445293149" duration="4422000" />
       <workItem from="1575522032641" duration="12083000" />
-      <workItem from="1575608327584" duration="3132000" />
+      <workItem from="1575608327584" duration="3588000" />
     </task>
     <task id="LOCAL-00001" summary="2nd commit">
       <created>1574493101834</created>
@@ -553,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575612986227</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="49th commit">
+      <created>1575625138485</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1575625138485</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +580,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="24th commit" />
     <MESSAGE value="25th commit" />
     <MESSAGE value="26th commit" />
     <MESSAGE value="27th commit" />
@@ -599,7 +604,8 @@
     <MESSAGE value="46th commit" />
     <MESSAGE value="47th commit" />
     <MESSAGE value="48th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="48th commit" />
+    <MESSAGE value="49th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="49th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
