@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="55th commit" />
+    <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="56th commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.repository/aopalliance/aopalliance/1.0/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +172,7 @@
       <workItem from="1575608327584" duration="8385000" />
       <workItem from="1575637439658" duration="1797000" />
       <workItem from="1575875504168" duration="8667000" />
+      <workItem from="1575891801250" duration="2319000" />
     </task>
     <task id="LOCAL-00010" summary="12th commit">
       <created>1574935209739</created>
@@ -533,7 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="31th commit" />
     <MESSAGE value="32th commit" />
     <MESSAGE value="33th commit" />
     <MESSAGE value="34th commit" />
@@ -558,7 +562,8 @@
     <MESSAGE value="53th commit" />
     <MESSAGE value="54th commit" />
     <MESSAGE value="55th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="55th commit" />
+    <MESSAGE value="56th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="56th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
