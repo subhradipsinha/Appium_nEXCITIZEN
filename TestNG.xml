@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="nEXCITIZEN">
+    <test name="nEXCITIZEN_TestCase1">
+        <classes>
+            <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase"></class>
+        </classes>
+    </test>
+    </suite>

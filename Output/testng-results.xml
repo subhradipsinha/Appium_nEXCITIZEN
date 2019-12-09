@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="nEXCITIZEN" duration-ms="44954" started-at="2019-12-09T09:50:39Z" finished-at="2019-12-09T09:51:24Z">
+    <groups>
+    </groups>
+    <test name="nEXCITIZEN_TestCase1" duration-ms="44954" started-at="2019-12-09T09:50:39Z" finished-at="2019-12-09T09:51:24Z">
+      <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
+        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@73ad2d6]" name="Url_login" is-config="true" duration-ms="22700" started-at="2019-12-09T09:50:39Z" finished-at="2019-12-09T09:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url_login -->
+        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@73ad2d6]" name="Without_Username" duration-ms="7259" started-at="2019-12-09T09:51:02Z" finished-at="2019-12-09T09:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Without_Username -->
+        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@73ad2d6]" name="Without_Password" duration-ms="7743" started-at="2019-12-09T09:51:09Z" finished-at="2019-12-09T09:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Without_Password -->
+        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@73ad2d6]" name="Orginal_user_pass" duration-ms="7236" started-at="2019-12-09T09:51:17Z" finished-at="2019-12-09T09:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Orginal_user_pass -->
+      </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
+    </test> <!-- nEXCITIZEN_TestCase1 -->
+  </suite> <!-- nEXCITIZEN -->
+</testng-results>
