@@ -93,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml">
+  <component name="RunManager" selected="JavaScript Debug.emailable-report.html">
     <configuration name="SendEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.PageObject.EmailDemo.SendEmail" />
       <module name="com_nEXCITIZEN_demo" />
@@ -107,18 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.PageObject.EmailDemo.SendEmail" />
-      <module name="com_nEXCITIZEN_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.PageObject.EmailDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="emailable-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/target/surefire-reports/emailable-report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com_nEXCITIZEN_demo" />
@@ -195,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.emailable-report.html" />
         <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
         <item itemvalue="TestNG.SendEmail_TestCase.EmailSend_Message" />
         <item itemvalue="TestNG.SendEmail_TestCase" />
         <item itemvalue="Application.SendEmail" />
-        <item itemvalue="Application.SendEmail (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,14 +235,7 @@
       <workItem from="1575955817112" duration="1000" />
       <workItem from="1575955870612" duration="9587000" />
       <workItem from="1576222720570" duration="4978000" />
-      <workItem from="1576231807742" duration="7306000" />
-    </task>
-    <task id="LOCAL-00014" summary="15th commit">
-      <created>1574942126710</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1574942126711</updated>
+      <workItem from="1576231807742" duration="8305000" />
     </task>
     <task id="LOCAL-00015" summary="16th commit">
       <created>1574942744875</created>
@@ -590,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576236955177</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="60th commit">
+      <created>1576239603891</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1576239603891</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +601,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="35th commit" />
     <MESSAGE value="36th commit" />
     <MESSAGE value="37th commit" />
     <MESSAGE value="38th commit" />
@@ -636,7 +625,8 @@
     <MESSAGE value="57th commit" />
     <MESSAGE value="58th commit" />
     <MESSAGE value="59th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="59th commit" />
+    <MESSAGE value="60th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="60th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
