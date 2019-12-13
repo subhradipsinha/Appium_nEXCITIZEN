@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class SendEmail {
     public  void MailText() {
-        String to = "spradhan@newamps.co.in";
+        String to = "subhradip.sinha@gmail.com";
         String from = "ssinha@newamps.co.in";
         Properties properties = new Properties();
         properties.put("mail.smtp.auth", "true");
@@ -33,7 +33,7 @@ public class SendEmail {
             Multipart multipart = new MimeMultipart();
             multipart.addBodyPart(messageBodyPart);
             messageBodyPart = new MimeBodyPart();
-            String filename = "target/surefire-reports/index.html";
+            String filename = "target\\surefire-reports\\emailable-report.html";
             FileDataSource source =  new FileDataSource(filename);
             messageBodyPart.setDataHandler(new DataHandler((source)));
             messageBodyPart.setFileName(filename);
