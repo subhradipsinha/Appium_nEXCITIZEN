@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/EmailDemo/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/EmailDemo/SendEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -235,14 +235,7 @@
       <workItem from="1575955817112" duration="1000" />
       <workItem from="1575955870612" duration="9587000" />
       <workItem from="1576222720570" duration="4978000" />
-      <workItem from="1576231807742" duration="8305000" />
-    </task>
-    <task id="LOCAL-00015" summary="16th commit">
-      <created>1574942744875</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1574942744875</updated>
+      <workItem from="1576231807742" duration="10538000" />
     </task>
     <task id="LOCAL-00016" summary="17th commit">
       <created>1574943029782</created>
@@ -580,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576239603891</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="61th commit">
+      <created>1576240687676</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1576240687676</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +601,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="36th commit" />
     <MESSAGE value="37th commit" />
     <MESSAGE value="38th commit" />
     <MESSAGE value="39th commit" />
@@ -626,7 +625,8 @@
     <MESSAGE value="58th commit" />
     <MESSAGE value="59th commit" />
     <MESSAGE value="60th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="60th commit" />
+    <MESSAGE value="61th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="61th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
