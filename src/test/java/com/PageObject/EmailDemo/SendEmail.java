@@ -1,8 +1,6 @@
 package com.PageObject.EmailDemo;
 
 
-import org.testng.annotations.Test;
-
 import javax.activation.DataHandler;
 import javax.activation.FileDataSource;
 import javax.mail.*;
@@ -35,7 +33,7 @@ public class SendEmail {
             Multipart multipart = new MimeMultipart();
             multipart.addBodyPart(messageBodyPart);
             messageBodyPart = new MimeBodyPart();
-            String filename = "target/surefire-reports/emailable-report.html";
+            String filename = "target/surefire-reports/index.html";
             FileDataSource source =  new FileDataSource(filename);
             messageBodyPart.setDataHandler(new DataHandler((source)));
             messageBodyPart.setFileName(filename);
