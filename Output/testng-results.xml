@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="nEXCITIZEN" duration-ms="44954" started-at="2019-12-09T09:50:39Z" finished-at="2019-12-09T09:51:24Z">
+  <suite name="nEXCITIZEN" duration-ms="48098" started-at="2019-12-13T11:32:46Z" finished-at="2019-12-13T11:33:34Z">
     <groups>
     </groups>
-    <test name="nEXCITIZEN_TestCase1" duration-ms="44954" started-at="2019-12-09T09:50:39Z" finished-at="2019-12-09T09:51:24Z">
+    <test name="nEXCITIZEN_TestCase1" duration-ms="40914" started-at="2019-12-13T11:32:46Z" finished-at="2019-12-13T11:33:27Z">
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
-        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@73ad2d6]" name="Url_login" is-config="true" duration-ms="22700" started-at="2019-12-09T09:50:39Z" finished-at="2019-12-09T09:51:02Z">
+        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Url_login" is-config="true" duration-ms="19619" started-at="2019-12-13T11:32:46Z" finished-at="2019-12-13T11:33:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Url_login -->
-        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@73ad2d6]" name="Without_Username" duration-ms="7259" started-at="2019-12-09T09:51:02Z" finished-at="2019-12-09T09:51:09Z">
+        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Username" duration-ms="6893" started-at="2019-12-13T11:33:06Z" finished-at="2019-12-13T11:33:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Username -->
-        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@73ad2d6]" name="Without_Password" duration-ms="7743" started-at="2019-12-09T09:51:09Z" finished-at="2019-12-09T09:51:17Z">
+        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Password" duration-ms="7377" started-at="2019-12-13T11:33:13Z" finished-at="2019-12-13T11:33:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Password -->
-        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@73ad2d6]" name="Orginal_user_pass" duration-ms="7236" started-at="2019-12-09T09:51:17Z" finished-at="2019-12-09T09:51:24Z">
+        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Orginal_user_pass" duration-ms="6988" started-at="2019-12-13T11:33:20Z" finished-at="2019-12-13T11:33:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orginal_user_pass -->
       </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
     </test> <!-- nEXCITIZEN_TestCase1 -->
+    <test name="nEXCITIZEN_TestCase2" duration-ms="7114" started-at="2019-12-13T11:33:27Z" finished-at="2019-12-13T11:33:34Z">
+      <class name="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase">
+        <test-method status="PASS" signature="EmailSend_Message()[pri:4, instance:com.TestCase.EmailTestCase_Folder.SendEmail_TestCase@6b09bb57]" name="EmailSend_Message" duration-ms="7113" started-at="2019-12-13T11:33:27Z" finished-at="2019-12-13T11:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailSend_Message -->
+      </class> <!-- com.TestCase.EmailTestCase_Folder.SendEmail_TestCase -->
+    </test> <!-- nEXCITIZEN_TestCase2 -->
   </suite> <!-- nEXCITIZEN -->
 </testng-results>

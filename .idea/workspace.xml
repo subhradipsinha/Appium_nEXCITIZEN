@@ -7,8 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/EmailDemo/SendEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/EmailTestCase_Folder/SendEmail_TestCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Login Successfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Login Successfully.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Without Password.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Without Password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Without UserName.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Without UserName.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/DriverManagerfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/DriverManagerfile.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,11 +92,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\com_nEXCITIZEN_demo\src\test\java\com\PageObject" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Appium_project\com_nEXCITIZEN_demo\src\test\java\com\PageObject\Birth_Cirtificate_Folder" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\com_nEXCITIZEN_demo\src\test\java\com\PageObject" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,7 +114,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml">
+    <configuration name="SendEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.PageObject.EmailDemo.SendEmail" />
+      <module name="com_nEXCITIZEN_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.PageObject.EmailDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.PageObject.EmailDemo.SendEmail" />
+      <module name="com_nEXCITIZEN_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.PageObject.EmailDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com_nEXCITIZEN_demo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -129,9 +179,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SendEmail_TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com_nEXCITIZEN_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestCase.EmailTestCase_Folder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestCase.EmailTestCase_Folder" />
+      <option name="MAIN_CLASS_NAME" value="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendEmail_TestCase.EmailSend_Message" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com_nEXCITIZEN_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.TestCase.EmailTestCase_Folder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.TestCase.EmailTestCase_Folder" />
+      <option name="MAIN_CLASS_NAME" value="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase" />
+      <option name="METHOD_NAME" value="EmailSend_Message" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
+        <item itemvalue="TestNG.SendEmail_TestCase.EmailSend_Message" />
+        <item itemvalue="TestNG.SendEmail_TestCase" />
+        <item itemvalue="Application.SendEmail" />
+        <item itemvalue="Application.SendEmail (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -175,14 +264,9 @@
       <workItem from="1575954033566" duration="20000" />
       <workItem from="1575954118505" duration="2000" />
       <workItem from="1575955817112" duration="1000" />
-      <workItem from="1575955870612" duration="3520000" />
-    </task>
-    <task id="LOCAL-00012" summary="13th commit">
-      <created>1574941209548</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1574941209548</updated>
+      <workItem from="1575955870612" duration="9587000" />
+      <workItem from="1576222720570" duration="4978000" />
+      <workItem from="1576231807742" duration="4900000" />
     </task>
     <task id="LOCAL-00013" summary="14th commit">
       <created>1574941841194</created>
@@ -520,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575970353779</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="58th commit">
+      <created>1575976453968</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1575976453968</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +632,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="33th commit" />
     <MESSAGE value="34th commit" />
     <MESSAGE value="35th commit" />
     <MESSAGE value="36th commit" />
@@ -566,7 +656,8 @@
     <MESSAGE value="55th commit" />
     <MESSAGE value="56th commit" />
     <MESSAGE value="57th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="57th commit" />
+    <MESSAGE value="58th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="58th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
