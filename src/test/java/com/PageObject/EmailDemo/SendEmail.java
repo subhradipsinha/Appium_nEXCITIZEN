@@ -35,7 +35,7 @@ public class SendEmail {
             Multipart multipart = new MimeMultipart();
             multipart.addBodyPart(messageBodyPart);
             messageBodyPart = new MimeBodyPart();
-            String filename = "E:\\Appium_project\\com_nEXCITIZEN_demo\\Output\\emailable-report.html";
+            String filename = "Output/emailable-report.html";
             FileDataSource source =  new FileDataSource(filename);
             messageBodyPart.setDataHandler(new DataHandler((source)));
             messageBodyPart.setFileName(filename);
