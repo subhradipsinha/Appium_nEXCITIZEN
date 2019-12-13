@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="nEXCITIZEN" duration-ms="48098" started-at="2019-12-13T11:32:46Z" finished-at="2019-12-13T11:33:34Z">
+  <suite name="nEXCITIZEN" duration-ms="51085" started-at="2019-12-13T14:04:41Z" finished-at="2019-12-13T14:05:32Z">
     <groups>
     </groups>
-    <test name="nEXCITIZEN_TestCase1" duration-ms="40914" started-at="2019-12-13T11:32:46Z" finished-at="2019-12-13T11:33:27Z">
+    <test name="nEXCITIZEN_TestCase1" duration-ms="45712" started-at="2019-12-13T14:04:41Z" finished-at="2019-12-13T14:05:27Z">
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
-        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Url_login" is-config="true" duration-ms="19619" started-at="2019-12-13T11:32:46Z" finished-at="2019-12-13T11:33:06Z">
+        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Url_login" is-config="true" duration-ms="23942" started-at="2019-12-13T14:04:41Z" finished-at="2019-12-13T14:05:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Url_login -->
-        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Username" duration-ms="6893" started-at="2019-12-13T11:33:06Z" finished-at="2019-12-13T11:33:13Z">
+        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Username" duration-ms="7052" started-at="2019-12-13T14:05:05Z" finished-at="2019-12-13T14:05:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Username -->
-        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Password" duration-ms="7377" started-at="2019-12-13T11:33:13Z" finished-at="2019-12-13T11:33:20Z">
+        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Password" duration-ms="7271" started-at="2019-12-13T14:05:12Z" finished-at="2019-12-13T14:05:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Password -->
-        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Orginal_user_pass" duration-ms="6988" started-at="2019-12-13T11:33:20Z" finished-at="2019-12-13T11:33:27Z">
+        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Orginal_user_pass" duration-ms="7347" started-at="2019-12-13T14:05:19Z" finished-at="2019-12-13T14:05:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orginal_user_pass -->
       </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
     </test> <!-- nEXCITIZEN_TestCase1 -->
-    <test name="nEXCITIZEN_TestCase2" duration-ms="7114" started-at="2019-12-13T11:33:27Z" finished-at="2019-12-13T11:33:34Z">
+    <test name="nEXCITIZEN_TestCase2" duration-ms="5245" started-at="2019-12-13T14:05:27Z" finished-at="2019-12-13T14:05:32Z">
       <class name="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase">
-        <test-method status="PASS" signature="EmailSend_Message()[pri:4, instance:com.TestCase.EmailTestCase_Folder.SendEmail_TestCase@6b09bb57]" name="EmailSend_Message" duration-ms="7113" started-at="2019-12-13T11:33:27Z" finished-at="2019-12-13T11:33:34Z">
+        <test-method status="PASS" signature="EmailSend_Message()[pri:4, instance:com.TestCase.EmailTestCase_Folder.SendEmail_TestCase@6b09bb57]" name="EmailSend_Message" duration-ms="5244" started-at="2019-12-13T14:05:27Z" finished-at="2019-12-13T14:05:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmailSend_Message -->
