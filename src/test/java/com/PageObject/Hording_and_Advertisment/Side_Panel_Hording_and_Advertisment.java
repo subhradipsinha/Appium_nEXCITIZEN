@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 public class Side_Panel_Hording_and_Advertisment extends DriverManagerfile {
     @Test
     public void Hit_Side_Panel_Hording_and_Advertisment() throws Exception {
+        Thread.sleep(3000);
         //Side_Panel click
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/menu");
         el1.click();

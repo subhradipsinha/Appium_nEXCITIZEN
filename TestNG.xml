@@ -16,12 +16,5 @@
         </classes>
     </test>
 
-    <test name="nEXCITIZEN_TestCase3">
-        <classes>
-            <class name="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase"></class>
-
-        </classes>
-    </test>
-
     
     </suite>
