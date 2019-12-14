@@ -7,6 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.HordingTestCase_Folder.Hording_Test_Case.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/index.html" afterDir="false" />
@@ -16,11 +18,34 @@
       <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/nEXCITIZEN_TestCase2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Login Successfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Login Successfully.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Without Password.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Without Password.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Screenshots/Without UserName.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Without UserName.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Death_Certificate_Folder/Death_Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Death_Certificate_Folder/Death_Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/EmailDemo/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/EmailDemo/SendEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Hording_and_Advertisment/Hording_and_Advertisment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Hording_and_Advertisment/Hording_and_Advertisment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Hording_and_Advertisment/Side_Panel_Hording_and_Advertisment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Hording_and_Advertisment/Side_Panel_Hording_and_Advertisment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/HordingTestCase_Folder/Hording_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/HordingTestCase_Folder/Hording_Test_Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/HordingTestCase_Folder/SidePanel_Hording_Test_Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/HordingTestCase_Folder/SidePanel_Hording_Test_Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageObject/Death_Certificate_Folder/Death_Certificate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/PageObject/Death_Certificate_Folder/Death_Certificate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageObject/Hording_and_Advertisment/Hording_and_Advertisment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/PageObject/Hording_and_Advertisment/Hording_and_Advertisment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageObject/Hording_and_Advertisment/Side_Panel_Hording_and_Advertisment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/PageObject/Hording_and_Advertisment/Side_Panel_Hording_and_Advertisment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/TestCase/HordingTestCase_Folder/Hording_Test_Case.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/TestCase/HordingTestCase_Folder/Hording_Test_Case.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/TestCase/HordingTestCase_Folder/SidePanel_Hording_Test_Case.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/TestCase/HordingTestCase_Folder/SidePanel_Hording_Test_Case.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,18 +131,8 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml">
-    <configuration name="SendEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.PageObject.EmailDemo.SendEmail" />
-      <module name="com_nEXCITIZEN_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.PageObject.EmailDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="emailable-report.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/Output/emailable-report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="emailable-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/target/surefire-reports/emailable-report.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -198,10 +213,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
+        <item itemvalue="JavaScript Debug.emailable-report.html (1)" />
         <item itemvalue="JavaScript Debug.emailable-report.html" />
         <item itemvalue="TestNG.SendEmail_TestCase.EmailSend_Message" />
         <item itemvalue="TestNG.SendEmail_TestCase" />
-        <item itemvalue="Application.SendEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -248,14 +263,7 @@
       <workItem from="1575955870612" duration="9587000" />
       <workItem from="1576222720570" duration="4978000" />
       <workItem from="1576231807742" duration="13471000" />
-      <workItem from="1576299991889" duration="1592000" />
-    </task>
-    <task id="LOCAL-00020" summary="21th commit">
-      <created>1575014167802</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1575014167802</updated>
+      <workItem from="1576299991889" duration="9699000" />
     </task>
     <task id="LOCAL-00021" summary="22th commit">
       <created>1575014737245</created>
@@ -593,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576246819183</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="65th commit">
+      <created>1576301625558</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1576301625561</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +629,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="40th commit" />
     <MESSAGE value="41th commit" />
     <MESSAGE value="42th commit" />
     <MESSAGE value="43th commit" />
@@ -639,7 +653,8 @@
     <MESSAGE value="62th commit" />
     <MESSAGE value="63th commit" />
     <MESSAGE value="64th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="64th commit" />
+    <MESSAGE value="65th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="65th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

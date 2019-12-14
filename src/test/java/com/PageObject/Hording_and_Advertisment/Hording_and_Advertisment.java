@@ -17,8 +17,9 @@ public class Hording_and_Advertisment extends DriverManagerfile {
         el1.click();
         System.out.println("Hording_and_Advertisment_Tab");
     }
+
     @Test(priority = 14)
-    public void Applicant_Details_Link(){
+    public void Applicant_Details_Link() throws InterruptedException {
         //Hit_Applicant_Details_Link
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow");
         el2.click();
@@ -49,8 +50,8 @@ public class Hording_and_Advertisment extends DriverManagerfile {
         System.out.println("Permanent Address");
 
         // Scroll Down
-        MobileElement elementscrol = (MobileElement) driver.findElementByAndroidUIAutomator("new UiScrollable(" + "new UiSelector().scrollable(true)).scrollIntoView(" + "new UiSelector().textContains(\"Office Landline No.\"));");
-        elementscrol.click();
+        MobileElement elementscrol = (MobileElement) driver.findElementByAndroidUIAutomator("new UiScrollable(" + "new UiSelector().scrollable(true)).scrollIntoView(" + "new UiSelector().textContains(\"submit\"));");
+
 
         // Phone number
         MobileElement el9 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etmob");
@@ -71,62 +72,54 @@ public class Hording_and_Advertisment extends DriverManagerfile {
         MobileElement el12 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etoflan");
         el12.sendKeys("033-2662-7786");
         System.out.println("Office Landline number");
+
         //Description of site on which the advertisement is intended to be displayed and size
         MobileElement el13 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etdes");
         el13.sendKeys("620*806");
         System.out.println("Description of site on which the advertisement.....");
 
-        // Scroll Down
-        MobileElement elementscrol1 = (MobileElement) driver.findElementByAndroidUIAutomator("new UiScrollable(" + "new UiSelector().scrollable(true)).scrollIntoView(" + "new UiSelector().textContains(\"Name of Applicant\"));");
-        elementscrol1.click();
-
-        //Close_Applicant_Details_Link
-        MobileElement el14 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/uparrow");
-        el14.click();
-        System.out.println("Close_Applicant_Details_Link");
-
-    }
-    @Test(priority = 15)
-    public void Hit_Hording_Details_Link(){
-        //Hit_Hording_Details_Link
-        MobileElement el15 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow1");
-        el15.click();
-        System.out.println("Hit_Hording_Details_Link");
         //Number of Hording
-        MobileElement el6 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.Spinner/android.widget.TextView");
-        el6.click();
-        MobileElement el7 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[6]");
-        el7.click();
+        MobileElement el14 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.RelativeLayout[10]/android.widget.Spinner/android.widget.TextView");
+        el14.click();
+        MobileElement el15 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[4]");
+        el15.click();
         System.out.println("Number of Hording");
-        // Scroll Down
-        MobileElement elementscrol = (MobileElement) driver.findElementByAndroidUIAutomator("new UiScrollable(" + "new UiSelector().scrollable(true)).scrollIntoView(" + "new UiSelector().textContains(\"Whether Lit/Non-Lit\"));");
-        elementscrol.click();
+
         //Next Button Click
         MobileElement next = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         next.click();
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////***************************************************/////////////////////////////////////////////////////////////////////////////////
-        // Scroll Down
-        MobileElement elementscrol1 = (MobileElement) driver.findElementByAndroidUIAutomator("new UiScrollable(" + "new UiSelector().scrollable(true)).scrollIntoView(" + "new UiSelector().textContains(\"Number of Hording\"));");
-        elementscrol1.click();
-        //Location of each hoarding with relation to the address and land mark
-        MobileElement el8 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etloc");
-        el8.sendKeys("Hazra Bus-stand");
-        System.out.println("Location of each hoarding with relation to the address and land mark");
-        //Size of each hoarding
-        MobileElement el9 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etsize");
-        el9.sendKeys("600*400");
-        System.out.println("Size of each hoarding");
+        Thread.sleep(4000);
 
-        // Name of the owner and the Municipal Holding No.
-        MobileElement el10 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ListView/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[3]/android.widget.EditText");
-        el10.sendKeys("No Idea");
-        System.out.println("Name of the owner and the Municipal Holding No.");
+        // Droupdown Document Type
+        MobileElement el16 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/t1");
+        el16.click();
+        MobileElement el17 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
+        el17.click();
 
-        // Scroll Down
-        MobileElement elementscrol2 = (MobileElement) driver.findElementByAndroidUIAutomator("new UiScrollable(" + "new UiSelector().scrollable(true)).scrollIntoView(" + "new UiSelector().textContains(\"Size of each hoarding\"));");
-        elementscrol2.click();
+        // Hit Upload Photo
+        MobileElement el18 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
+        el18.click();
+        Thread.sleep(3000);
 
+        MobileElement el19 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
+        el19.click();
+        Thread.sleep(3000);
+        MobileElement el20 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
+        el20.click();
+        Thread.sleep(3000);
+        MobileElement el21 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
+        el21.click();
+        Thread.sleep(3000);
 
+        //Next Button Click
+        MobileElement submit = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        submit.click();
+        Thread.sleep(3000);
+
+        //Back to Dashboard
+        MobileElement el22 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el22.click();
+        Thread.sleep(3000);
 
 
 

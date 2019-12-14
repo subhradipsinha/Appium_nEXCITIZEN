@@ -395,5 +395,18 @@ public class Death_Certificate extends DriverManagerfile {
         MobileElement el42 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
         el42.click();
 
+        //Hit Submit button click
+        MobileElement el43 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el43.click();
+        System.out.println("Submit button click");
+        Thread.sleep(5000);
+
+        //Back to Dashboard
+        MobileElement el44 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el44.click();
+
+        
+
+
     }
 }

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-nEXCITIZEN">
-              <span class="suite-name border-passed">nEXCITIZEN</span>
+              <span class="suite-name border-failed">nEXCITIZEN</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-nEXCITIZEN">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-nEXCITIZEN" class="hide-methods failed suite-nEXCITIZEN"> (hide)</a> <!-- hide-methods failed suite-nEXCITIZEN -->
+                      <a href="#" panel-name="suite-nEXCITIZEN" class="show-methods failed suite-nEXCITIZEN"> (show)</a> <!-- show-methods failed suite-nEXCITIZEN -->
+                    </span>
+                    <div class="method-list-content failed suite-nEXCITIZEN">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nEXCITIZEN" title="com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case" hash-for-method="Hit_Side_Panel">Hit_Side_Panel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-nEXCITIZEN -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +117,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-nEXCITIZEN" title="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase" hash-for-method="EmailSend_Message">EmailSend_Message</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nEXCITIZEN" title="com.TestCase.HordingTestCase_Folder.Hording_Test_Case" hash-for-method="Hit_Hording_and_Advertisment_Tab">Hit_Hording_and_Advertisment_Tab</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,6 +151,65 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-nEXCITIZEN" class="panel nEXCITIZEN">
+          <div class="suite-nEXCITIZEN-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Hit_Side_Panel">
+                  </a> <!-- Hit_Side_Panel -->
+                  <span class="method-name">Hit_Side_Panel</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-E7S6MJ8&apos;, ip: &apos;192.168.11.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: emulator-5554}, deviceApiLevel: 22, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 160, deviceScreenSize: 480x800, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 25, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 775, left: 0, top: 25, width: 480}, warnings: {}, webStorageEnabled: false}
+Session ID: 05a2d711-d209-431c-bc57-8238e7cae85a
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/downarrow}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at com.PageObject.Hording_and_Advertisment.Side_Panel_Hording_and_Advertisment.Hit_Side_Panel_Hording_and_Advertisment(Side_Panel_Hording_and_Advertisment.java:42)
+	at com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case.Hit_Side_Panel(SidePanel_Hording_Test_Case.java:10)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nEXCITIZEN-class-failed -->
+          <div class="suite-nEXCITIZEN-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestCase.HordingTestCase_Folder.Hording_Test_Case</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Hit_Hording_and_Advertisment_Tab">
+                  </a> <!-- Hit_Hording_and_Advertisment_Tab -->
+                  <span class="method-name">Hit_Hording_and_Advertisment_Tab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nEXCITIZEN-class-passed -->
           <div class="suite-nEXCITIZEN-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -193,9 +271,15 @@
   &lt;/test&gt; &lt;!-- nEXCITIZEN_TestCase1 --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;nEXCITIZEN_TestCase2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.TestCase.EmailTestCase_Folder.SendEmail_TestCase&quot;/&gt;
+      &lt;class name=&quot;com.TestCase.HordingTestCase_Folder.Hording_Test_Case&quot;/&gt;
+      &lt;class name=&quot;com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- nEXCITIZEN_TestCase2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;nEXCITIZEN_TestCase3&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TestCase.EmailTestCase_Folder.SendEmail_TestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- nEXCITIZEN_TestCase3 --&gt;
 &lt;/suite&gt; &lt;!-- nEXCITIZEN --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,7 +294,10 @@
                 <span class="test-name">nEXCITIZEN_TestCase1 (1 class)</span>
               </li>
               <li>
-                <span class="test-name">nEXCITIZEN_TestCase2 (1 class)</span>
+                <span class="test-name">nEXCITIZEN_TestCase2 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">nEXCITIZEN_TestCase3 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -236,28 +323,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Without_Password')
-data.setCell(0, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase')
-data.setCell(0, 3, 7360);
+data.setCell(0, 1, 'Hit_Side_Panel')
+data.setCell(0, 2, 'com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case')
+data.setCell(0, 3, 74361);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Without_Username')
-data.setCell(1, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase')
-data.setCell(1, 3, 7076);
+data.setCell(1, 1, 'Hit_Hording_and_Advertisment_Tab')
+data.setCell(1, 2, 'com.TestCase.HordingTestCase_Folder.Hording_Test_Case')
+data.setCell(1, 3, 47460);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Orginal_user_pass')
+data.setCell(2, 1, 'Without_Password')
 data.setCell(2, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase')
-data.setCell(2, 3, 7031);
+data.setCell(2, 3, 7327);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'EmailSend_Message')
-data.setCell(3, 2, 'com.TestCase.EmailTestCase_Folder.SendEmail_TestCase')
-data.setCell(3, 3, 5767);
+data.setCell(3, 1, 'Orginal_user_pass')
+data.setCell(3, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase')
+data.setCell(3, 3, 7066);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Without_Username')
+data.setCell(4, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase')
+data.setCell(4, 3, 6886);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'EmailSend_Message')
+data.setCell(5, 2, 'com.TestCase.EmailTestCase_Folder.SendEmail_TestCase')
+data.setCell(5, 3, 4788);
 window.suiteTableData['nEXCITIZEN']= { tableData: data, tableDiv: 'times-div-nEXCITIZEN'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-nEXCITIZEN">
               </div> <!-- times-div-nEXCITIZEN -->
             </div> <!-- times-div -->
@@ -290,22 +385,38 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Without_Username</span>
-                <span class="method-start">24896 ms</span>
+                <span class="method-start">21389 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Without_Password</span>
-                <span class="method-start">31975 ms</span>
+                <span class="method-start">28277 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Orginal_user_pass</span>
-                <span class="method-start">39336 ms</span>
+                <span class="method-start">35608 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestCase.HordingTestCase_Folder.Hording_Test_Case</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Hit_Hording_and_Advertisment_Tab</span>
+                <span class="method-start">42729 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Hit_Side_Panel</span>
+                <span class="method-start">90189 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.TestCase.EmailTestCase_Folder.SendEmail_TestCase</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">EmailSend_Message</span>
-                <span class="method-start">46556 ms</span>
+                <span class="method-start">164643 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

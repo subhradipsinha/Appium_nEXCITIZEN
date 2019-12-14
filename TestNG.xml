@@ -8,7 +8,20 @@
         </classes>
     </test>
 
-    
+    <test name="nEXCITIZEN_TestCase2">
+        <classes>
+            <class name="com.TestCase.HordingTestCase_Folder.Hording_Test_Case"></class>
+            <class name="com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case"></class>
+
+        </classes>
+    </test>
+
+    <test name="nEXCITIZEN_TestCase3">
+        <classes>
+            <class name="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase"></class>
+
+        </classes>
+    </test>
 
     
     </suite>
