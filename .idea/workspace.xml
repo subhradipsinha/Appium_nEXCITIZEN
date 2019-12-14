@@ -20,7 +20,7 @@
       <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Screenshots/Without UserName.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Without UserName.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/EmailDemo/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/EmailDemo/SendEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -247,14 +247,8 @@
       <workItem from="1575955817112" duration="1000" />
       <workItem from="1575955870612" duration="9587000" />
       <workItem from="1576222720570" duration="4978000" />
-      <workItem from="1576231807742" duration="12883000" />
-    </task>
-    <task id="LOCAL-00019" summary="20th commit">
-      <created>1575010386605</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1575010386605</updated>
+      <workItem from="1576231807742" duration="13471000" />
+      <workItem from="1576299991889" duration="1592000" />
     </task>
     <task id="LOCAL-00020" summary="21th commit">
       <created>1575014167802</created>
@@ -592,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576245977365</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="64th commit">
+      <created>1576246819183</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1576246819183</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +614,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="39th commit" />
     <MESSAGE value="40th commit" />
     <MESSAGE value="41th commit" />
     <MESSAGE value="42th commit" />
@@ -638,7 +638,8 @@
     <MESSAGE value="61th commit" />
     <MESSAGE value="62th commit" />
     <MESSAGE value="63th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="63th commit" />
+    <MESSAGE value="64th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="64th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

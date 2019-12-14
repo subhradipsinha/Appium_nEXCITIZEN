@@ -7,11 +7,7 @@
 
         </classes>
     </test>
-    <test name="nEXCITIZEN_TestCase2">
-    <classes>
-    <class name="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase"></class>
-    </classes>
-    </test>
+
     
 
     
