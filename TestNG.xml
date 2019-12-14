@@ -12,6 +12,7 @@
         <classes>
             <class name="com.TestCase.HordingTestCase_Folder.Hording_Test_Case"></class>
             <class name="com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case"></class>
+            <class name="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase"></class>
 
         </classes>
     </test>

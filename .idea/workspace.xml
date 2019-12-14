@@ -93,11 +93,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="emailable-report.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/Output/emailable-report.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="emailable-report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/target/surefire-reports/emailable-report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/com_nEXCITIZEN_demo/Output/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -138,23 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendEmail_TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com_nEXCITIZEN_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.TestCase.EmailTestCase_Folder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.TestCase.EmailTestCase_Folder" />
-      <option name="MAIN_CLASS_NAME" value="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SendEmail_TestCase.EmailSend_Message" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com_nEXCITIZEN_demo" />
       <extension name="coverage">
@@ -175,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="TestNG.E:/Appium_project/com_nEXCITIZEN_demo/TestNG.xml" />
         <item itemvalue="JavaScript Debug.emailable-report.html (1)" />
         <item itemvalue="JavaScript Debug.emailable-report.html" />
         <item itemvalue="TestNG.SendEmail_TestCase.EmailSend_Message" />
-        <item itemvalue="TestNG.SendEmail_TestCase" />
       </list>
     </recent_temporary>
   </component>
