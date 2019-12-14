@@ -2,32 +2,44 @@
 <testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="nEXCITIZEN" duration-ms="169432" started-at="2019-12-14T08:15:52Z" finished-at="2019-12-14T08:18:42Z">
+  <suite name="nEXCITIZEN" duration-ms="228249" started-at="2019-12-14T08:46:21Z" finished-at="2019-12-14T08:50:09Z">
     <groups>
     </groups>
-    <test name="nEXCITIZEN_TestCase1" duration-ms="42675" started-at="2019-12-14T08:15:52Z" finished-at="2019-12-14T08:16:35Z">
+    <test name="nEXCITIZEN_TestCase1" duration-ms="41190" started-at="2019-12-14T08:46:21Z" finished-at="2019-12-14T08:47:02Z">
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
-        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Url_login" is-config="true" duration-ms="21373" started-at="2019-12-14T08:15:52Z" finished-at="2019-12-14T08:16:14Z">
+        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Url_login" is-config="true" duration-ms="19859" started-at="2019-12-14T08:46:21Z" finished-at="2019-12-14T08:46:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Url_login -->
-        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Username" duration-ms="6886" started-at="2019-12-14T08:16:14Z" finished-at="2019-12-14T08:16:20Z">
+        <test-method status="PASS" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Username" duration-ms="6936" started-at="2019-12-14T08:46:40Z" finished-at="2019-12-14T08:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Username -->
-        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Password" duration-ms="7327" started-at="2019-12-14T08:16:20Z" finished-at="2019-12-14T08:16:28Z">
+        <test-method status="PASS" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Password" duration-ms="7310" started-at="2019-12-14T08:46:47Z" finished-at="2019-12-14T08:46:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Password -->
-        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Orginal_user_pass" duration-ms="7066" started-at="2019-12-14T08:16:28Z" finished-at="2019-12-14T08:16:35Z">
+        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Orginal_user_pass" duration-ms="7060" started-at="2019-12-14T08:46:55Z" finished-at="2019-12-14T08:47:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orginal_user_pass -->
       </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
     </test> <!-- nEXCITIZEN_TestCase1 -->
-    <test name="nEXCITIZEN_TestCase2" duration-ms="121835" started-at="2019-12-14T08:16:35Z" finished-at="2019-12-14T08:18:37Z">
+    <test name="nEXCITIZEN_TestCase2" duration-ms="187006" started-at="2019-12-14T08:47:02Z" finished-at="2019-12-14T08:50:09Z">
+      <class name="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase">
+        <test-method status="PASS" signature="EmailSend_Message()[pri:4, instance:com.TestCase.EmailTestCase_Folder.SendEmail_TestCase@3e9b1010]" name="EmailSend_Message" duration-ms="11408" started-at="2019-12-14T08:47:02Z" finished-at="2019-12-14T08:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailSend_Message -->
+      </class> <!-- com.TestCase.EmailTestCase_Folder.SendEmail_TestCase -->
+      <class name="com.TestCase.HordingTestCase_Folder.Hording_Test_Case">
+        <test-method status="PASS" signature="Hit_Hording_and_Advertisment_Tab()[pri:15, instance:com.TestCase.HordingTestCase_Folder.Hording_Test_Case@520a3426]" name="Hit_Hording_and_Advertisment_Tab" duration-ms="76420" started-at="2019-12-14T08:47:13Z" finished-at="2019-12-14T08:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hit_Hording_and_Advertisment_Tab -->
+      </class> <!-- com.TestCase.HordingTestCase_Folder.Hording_Test_Case -->
       <class name="com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case">
-        <test-method status="FAIL" signature="Hit_Side_Panel()[pri:16, instance:com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case@3327bd23]" name="Hit_Side_Panel" duration-ms="74361" started-at="2019-12-14T08:17:22Z" finished-at="2019-12-14T08:18:37Z">
+        <test-method status="FAIL" signature="Hit_Side_Panel()[pri:16, instance:com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case@18eed359]" name="Hit_Side_Panel" duration-ms="99152" started-at="2019-12-14T08:48:30Z" finished-at="2019-12-14T08:50:09Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
@@ -36,7 +48,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: emulator-5554}, deviceApiLevel: 22, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 160, deviceScreenSize: 480x800, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 25, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 775, left: 0, top: 25, width: 480}, warnings: {}, webStorageEnabled: false}
-Session ID: 05a2d711-d209-431c-bc57-8238e7cae85a
+Session ID: 6d76be6a-9a40-493c-9168-6836f7ee965b
 *** Element info: {Using=id, value=com.nex.nexcitizen:id/downarrow}]]>
             </message>
             <full-stacktrace>
@@ -46,7 +58,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: emulator-5554}, deviceApiLevel: 22, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 160, deviceScreenSize: 480x800, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 25, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 775, left: 0, top: 25, width: 480}, warnings: {}, webStorageEnabled: false}
-Session ID: 05a2d711-d209-431c-bc57-8238e7cae85a
+Session ID: 6d76be6a-9a40-493c-9168-6836f7ee965b
 *** Element info: {Using=id, value=com.nex.nexcitizen:id/downarrow}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -69,7 +81,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.ja
 at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
 at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
 at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
-at com.PageObject.Hording_and_Advertisment.Side_Panel_Hording_and_Advertisment.Hit_Side_Panel_Hording_and_Advertisment(Side_Panel_Hording_and_Advertisment.java:42)
+at com.PageObject.Hording_and_Advertisment.Side_Panel_Hording_and_Advertisment.Hit_Side_Panel_Hording_and_Advertisment(Side_Panel_Hording_and_Advertisment.java:43)
 at com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case.Hit_Side_Panel(SidePanel_Hording_Test_Case.java:10)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -102,20 +114,6 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           </reporter-output>
         </test-method> <!-- Hit_Side_Panel -->
       </class> <!-- com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case -->
-      <class name="com.TestCase.HordingTestCase_Folder.Hording_Test_Case">
-        <test-method status="PASS" signature="Hit_Hording_and_Advertisment_Tab()[pri:15, instance:com.TestCase.HordingTestCase_Folder.Hording_Test_Case@a67c67e]" name="Hit_Hording_and_Advertisment_Tab" duration-ms="47460" started-at="2019-12-14T08:16:35Z" finished-at="2019-12-14T08:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Hit_Hording_and_Advertisment_Tab -->
-      </class> <!-- com.TestCase.HordingTestCase_Folder.Hording_Test_Case -->
     </test> <!-- nEXCITIZEN_TestCase2 -->
-    <test name="nEXCITIZEN_TestCase3" duration-ms="4789" started-at="2019-12-14T08:18:37Z" finished-at="2019-12-14T08:18:42Z">
-      <class name="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase">
-        <test-method status="PASS" signature="EmailSend_Message()[pri:4, instance:com.TestCase.EmailTestCase_Folder.SendEmail_TestCase@335eadca]" name="EmailSend_Message" duration-ms="4788" started-at="2019-12-14T08:18:37Z" finished-at="2019-12-14T08:18:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EmailSend_Message -->
-      </class> <!-- com.TestCase.EmailTestCase_Folder.SendEmail_TestCase -->
-    </test> <!-- nEXCITIZEN_TestCase3 -->
   </suite> <!-- nEXCITIZEN -->
 </testng-results>

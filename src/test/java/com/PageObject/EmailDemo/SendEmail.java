@@ -33,7 +33,7 @@ public class SendEmail {
             Multipart multipart = new MimeMultipart();
             multipart.addBodyPart(messageBodyPart);
             messageBodyPart = new MimeBodyPart();
-            String filename = "Output/index.html";
+            String filename = "Output/emailable-report.html";
             FileDataSource source =  new FileDataSource(filename);
             messageBodyPart.setDataHandler(new DataHandler((source)));
             messageBodyPart.setFileName(filename);

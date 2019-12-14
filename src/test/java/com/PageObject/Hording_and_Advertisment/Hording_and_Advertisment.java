@@ -89,12 +89,14 @@ public class Hording_and_Advertisment extends DriverManagerfile {
         MobileElement next = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         next.click();
         Thread.sleep(4000);
+        System.out.println("Next Button Click");
 
         // Droupdown Document Type
         MobileElement el16 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/t1");
         el16.click();
         MobileElement el17 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
         el17.click();
+        System.out.println("Droupdown Document Type");
 
         // Hit Upload Photo
         MobileElement el18 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
@@ -110,15 +112,18 @@ public class Hording_and_Advertisment extends DriverManagerfile {
         MobileElement el21 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
         el21.click();
         Thread.sleep(3000);
+        System.out.println("Hit Upload Photo");
 
-        //Next Button Click
+        //submit Button Click
         MobileElement submit = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         submit.click();
         Thread.sleep(3000);
+        System.out.println("submit Button Click");
 
         //Back to Dashboard
         MobileElement el22 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
         el22.click();
+        System.out.println("Back to Dashboard");
         Thread.sleep(3000);
 
 
