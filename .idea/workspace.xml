@@ -8,12 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/nexcitizen_27_11_2019.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/nexcitizen (2).apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Login Successfully.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Login Successfully.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Without UserName.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/Without UserName.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/DriverManagerfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/DriverManagerfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/DriverManagerfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/DriverManagerfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Driver" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -220,14 +215,7 @@
       <workItem from="1576231807742" duration="13471000" />
       <workItem from="1576299991889" duration="15173000" />
       <workItem from="1576475890190" duration="4246000" />
-      <workItem from="1576488386232" duration="1151000" />
-    </task>
-    <task id="LOCAL-00026" summary="27th commit">
-      <created>1575026545639</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1575026545639</updated>
+      <workItem from="1576488386232" duration="2169000" />
     </task>
     <task id="LOCAL-00027" summary="28th commit">
       <created>1575028110288</created>
@@ -565,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576318695691</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="72th commit">
+      <created>1576489986643</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1576489986644</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="46th commit" />
     <MESSAGE value="47th commit" />
     <MESSAGE value="48th commit" />
     <MESSAGE value="49th commit" />
@@ -611,7 +605,8 @@
     <MESSAGE value="69th commit" />
     <MESSAGE value="70th commit" />
     <MESSAGE value="71th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="71th commit" />
+    <MESSAGE value="72th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="72th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
