@@ -17,7 +17,7 @@ public class DriverManagerfile {
 
         //desiredCapabilities.setCapability("newCommandTimeout", 100000);
         desiredCapabilities.setCapability("noReset", true);
-        desiredCapabilities.setCapability(MobileCapabilityType.APP, "E:\\Appium_project\\com_nEXCITIZEN_demo\\Driver\\nexcitizen_27_11_2019.apk");
+        desiredCapabilities.setCapability(MobileCapabilityType.APP, "E:\\Appium_project\\com_nEXCITIZEN_demo\\Driver\\nexcitizen (2).apk");
         System.out.println("Url hit");
         desiredCapabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554");
         //caps.setCapability("platformName","ANDROID");
