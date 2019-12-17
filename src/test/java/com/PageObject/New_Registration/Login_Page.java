@@ -3,11 +3,14 @@ package com.PageObject.New_Registration;
 import com.demo.DriverManagerfile;
 import com.demo.Screenshot_File;
 import io.appium.java_client.MobileElement;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import javax.xml.bind.SchemaOutputResolver;
 
 
 @Test
@@ -24,27 +27,34 @@ public class Login_Page extends DriverManagerfile {
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etusername");
         el1.sendKeys("");
         System.out.println("without Put Email ID");
-        Thread.sleep(3000);
+
 
         //Put Password
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etpin");
         el2.sendKeys("123456");
         System.out.println("Put Password");
-        Thread.sleep(3000);
+
         //Click Submit Button Click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
-        el3.click();
+        if (el3.isDisplayed()){
+            el3.click();
+            System.out.println("Submit button Click Successful");
+        }
+        else {
+            System.out.println("Submit button not Showing");
+        }
         Screenshot_File.nexcitizen(driver,"Without UserName");
-        SoftAssert softAssert = new SoftAssert();
-        String actual = "Without UserName";
-        String expected =" Successful Login";
-        softAssert.assertEquals(actual,expected);
-        softAssert.assertTrue(false);
 
+        System.out.println("dashboard:--  pre ");
 
+        try {
+            MobileElement dashboard = (MobileElement) driver.findElementsById("com.nex.nexcitizen:id/bannerlay");
+            Assert.assertTrue(dashboard.isDisplayed());
+        } catch (Exception e ){
 
-
-
+            Assert.assertEquals("Login not successful without username","Login Successful without username");
+            System.out.println(" Element exception: "+e);
+        }
     }
     @Test(priority = 2)
     public void OnlyUserNametest() throws Exception {
@@ -52,30 +62,31 @@ public class Login_Page extends DriverManagerfile {
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etusername");
         el1.sendKeys("ssinha@newamps.co.in");
         System.out.println("Put Email ID");
-        Thread.sleep(3000);
+
         // Without Password
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etpin");
         el2.sendKeys("");
         System.out.println("Without Password");
-        Thread.sleep(3000);
-        // Submit button click
+
+        //Click Submit Button Click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
-        el3.click();
-        Screenshot_File.nexcitizen(driver,"Without Password");
+        if (el3.isDisplayed()){
+            el3.click();
+            System.out.println("Submit button Click Successful");
+        }
+        else {
+            System.out.println("Submit button not Showing");
+        }
 
+        try {
+            MobileElement dashboard = (MobileElement) driver.findElementsById("com.nex.nexcitizen:id/bannerlay");
+            Assert.assertTrue(dashboard.isDisplayed());
+        } catch (Exception e ){
 
-        Screenshot_File.nexcitizen(driver,"Without UserName");
-        SoftAssert softAssert = new SoftAssert();
-        String actual = "Without Password";
-        String expected =" Successful Login";
-        softAssert.assertEquals(actual,expected);
-        softAssert.assertTrue(false);
-
-
-
-
-
-       }
+            Assert.assertEquals("Login not successful without Password","Login Successful without Password");
+            System.out.println(" Element exception: "+e);
+        }
+    }
     @Test(priority = 3)
     public void UserTest() throws Exception {
         // Put UserName
@@ -88,30 +99,23 @@ public class Login_Page extends DriverManagerfile {
         el2.sendKeys("123456");
         System.out.println("Put Password");
 
-        // Submit Button Click
+        //Click Submit Button Click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
-        el3.click();
-        Screenshot_File.nexcitizen(driver,"Login Successfully");
-        System.out.println("Submit Button Click");
-        Thread.sleep(5000);
-
-
-
+        if (el3.isDisplayed()){
+            el3.click();
+            System.out.println("Submit button Click Successful");
+        }
+        else {
+            System.out.println("Submit button not Showing");
+        }
         SoftAssert softAssert = new SoftAssert();
-        String actual = "With UserName and Password";
-        String expected =" Successful Login";
-        softAssert.assertEquals(actual,expected);
-        softAssert.assertTrue(false);
-
-
-
+        String accual = "Login successful with username & Password";
+        String expect = "Login not Successful with username & Password";
+        softAssert.assertEquals(accual,expect);
 
 
     }
-
-
-
-    public void quite(){
-        System.out.println("Testing complete");
+        public void quite() {
+            System.out.println("Testing complete");
+        }
     }
-}

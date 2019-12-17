@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class SendEmail {
     public  void MailText() {
-        String to = "ssinha@newamps.co.in";
+        String to = "spradhan@newamps.co.in";
         String from = "ssinha@newamps.co.in";
         Properties properties = new Properties();
         properties.put("mail.smtp.auth", "true");
