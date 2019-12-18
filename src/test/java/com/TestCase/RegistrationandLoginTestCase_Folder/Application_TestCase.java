@@ -11,7 +11,7 @@ public class Application_TestCase {
     public void Hit_Application()throws Exception{
         Thread.sleep(2000);
         application_status.Application_status_hit();
-//        Thread.sleep(2000);
+        Thread.sleep(2000);
 //        application_status.Birth_Certificate_Tab_Click();
 //        Thread.sleep(2000);
 ////        application_status.Death_Certificate_Tab_Click();

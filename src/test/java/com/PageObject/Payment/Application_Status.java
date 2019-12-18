@@ -1,10 +1,16 @@
 package com.PageObject.Payment;
 
 import com.demo.DriverManagerfile;
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import javax.xml.bind.SchemaOutputResolver;
+import java.util.List;
 
 
 /**
@@ -18,65 +24,23 @@ public class Application_Status extends DriverManagerfile {
         //Application_status_hit
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/bannerlay");
         el1.click();
-
-        MobileElement dashboard =(MobileElement)driver.findElementsById("com.nex.nexcitizen:id/relayoutimage");
-        boolean isDisplayed = dashboard.isDisplayed();
-        if(isDisplayed) {
-            SoftAssert softAssert = new SoftAssert();
-            softAssert.assertTrue(isDisplayed, "Successfully login");
-        }else {
-            SoftAssert softAssert = new SoftAssert();
-            softAssert.assertTrue(isDisplayed,"Un-successful");
-        }
-        System.out.println("Application_status_hit");
     }
     @Test
         public void Birth_Certificate_Tab_Click () throws InterruptedException {
         //Birth_Certificate_Tab
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/blays");
-        if(el3.isDisplayed()) {
             el3.click();
             System.out.println("Birth_Certificate_Tab");
-        }
-        else {
-            System.out.println("Birth_Certificate_Tab not Hit");
-        }
-        try {
-            MobileElement dashboard = (MobileElement) driver.findElementsById("com.nex.nexcitizen:id/relayoutimage");
-            Assert.assertTrue(dashboard.isDisplayed());
-        } catch (Exception e ){
-
-            Assert.assertEquals("Birth_Certificate_Tab","Birth_Certificate_Tab not Hit","Exact Error:............");
-            System.out.println(" Element exception: "+e);
-        }
-
-
-
-
             // View Documents
             MobileElement el4 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
-           if(el4.isDisplayed()) {
-               el4.click();
-               System.out.println("View Documents");
-           }
-           else {
-               System.out.println("View Documents button not working");
-               SoftAssert softAssert = new SoftAssert();
-               String accual = "View Documents";
-               String expect = "View Documents button not working";
-               softAssert.assertEquals(accual,expect,"Not Working Reassion :............");
-               softAssert.assertAll();
-           }
+            el4.click();
+            System.out.println("View Documents");
 
             // Upload pic show
             MobileElement pic = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/view");
-           if(pic.isDisplayed()){
             pic.click();
-            System.out.println("Upload pic show");}else {
-               System.out.println("Upload pic not show");
-           }
-            Thread.sleep(2000);
 
+            Thread.sleep(2000);
             driver.navigate().back();
             Thread.sleep(2000);
             driver.navigate().back();
@@ -266,20 +230,7 @@ public class Application_Status extends DriverManagerfile {
             //Hording_and_Advertisement_Tab
             MobileElement el21 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/haa");
             el21.click();
-            MobileElement dashboard =(MobileElement)driver.findElementsById("com.nex.nexcitizen:id/list");
 
-            if(dashboard.isDisplayed()){
-                SoftAssert softAssert = new SoftAssert();
-                String accual = "Hording_and_Advertisement_Tab Click";
-                String expect ="Hording_and_Advertisement_Tab not_Click";
-                softAssert.assertEquals(accual,expect,"Exact Error: ..........");
-                softAssert.assertAll(); }else {
-                SoftAssert softAssert = new SoftAssert();
-                String accual = "Hording_and_Advertisement_Tab not Click";
-                String expect ="Hording_and_Advertisement_Tab_Click";
-                softAssert.assertEquals(accual,expect,"Exact Error: ..........");
-                softAssert.assertAll();
-            }
 
 
 
