@@ -104,14 +104,15 @@ public class Login_Page extends DriverManagerfile {
         if (el3.isDisplayed()){
             el3.click();
             System.out.println("Submit button Click Successful");
+            SoftAssert softAssert = new SoftAssert();
+            String accual = "Login successful with username & Password";
+            String expect = "Login not Successful with username & Password";
+            softAssert.assertEquals(accual,expect);
         }
         else {
             System.out.println("Submit button not Showing");
         }
-        SoftAssert softAssert = new SoftAssert();
-        String accual = "Login successful with username & Password";
-        String expect = "Login not Successful with username & Password";
-        softAssert.assertEquals(accual,expect);
+
 
 
     }
