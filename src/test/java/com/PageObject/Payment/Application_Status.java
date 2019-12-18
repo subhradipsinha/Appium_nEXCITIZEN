@@ -24,7 +24,15 @@ public class Application_Status extends DriverManagerfile {
         //Application_status_hit
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/bannerlay");
         el1.click();
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/scrollView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully show Application List");
+        } else{
+            System.out.println("Not show Application List");
+        }
     }
+
     @Test
         public void Birth_Certificate_Tab_Click () throws InterruptedException {
         //Birth_Certificate_Tab
@@ -231,9 +239,13 @@ public class Application_Status extends DriverManagerfile {
             MobileElement el21 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/haa");
             el21.click();
 
+            Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
 
-
-
+            if (isPresent == true) {
+                System.out.println("Sucessfully show Hording_and_Advertisement");
+            } else{
+                System.out.println("Not show Hording_and_Advertisement");
+            }
 
             // View Documents
             MobileElement el22 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");

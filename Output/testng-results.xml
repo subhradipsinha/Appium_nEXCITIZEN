@@ -2,42 +2,40 @@
 <testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="nEXCITIZEN" duration-ms="91842" started-at="2019-12-18T13:12:41Z" finished-at="2019-12-18T13:14:13Z">
+  <suite name="nEXCITIZEN" duration-ms="78255" started-at="2019-12-18T13:48:36Z" finished-at="2019-12-18T13:49:54Z">
     <groups>
     </groups>
-    <test name="nEXCITIZEN_TestCase1" duration-ms="91842" started-at="2019-12-18T13:12:41Z" finished-at="2019-12-18T13:14:13Z">
+    <test name="nEXCITIZEN_TestCase1" duration-ms="78255" started-at="2019-12-18T13:48:36Z" finished-at="2019-12-18T13:49:54Z">
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
-        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@52a86356]" name="Url_login" is-config="true" duration-ms="23088" started-at="2019-12-18T13:12:41Z" finished-at="2019-12-18T13:13:05Z">
+        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@52a86356]" name="Url_login" is-config="true" duration-ms="19911" started-at="2019-12-18T13:48:36Z" finished-at="2019-12-18T13:48:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Url_login -->
-        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@52a86356]" name="Orginal_user_pass" duration-ms="1738" started-at="2019-12-18T13:13:05Z" finished-at="2019-12-18T13:13:06Z">
+        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@52a86356]" name="Orginal_user_pass" duration-ms="1737" started-at="2019-12-18T13:48:56Z" finished-at="2019-12-18T13:48:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orginal_user_pass -->
       </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase">
-        <test-method status="FAIL" signature="Hit_Application()[pri:4, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5ce81285]" name="Hit_Application" duration-ms="66877" started-at="2019-12-18T13:13:06Z" finished-at="2019-12-18T13:14:13Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="Hit_Application()[pri:4, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5ce81285]" name="Hit_Application" duration-ms="56512" started-at="2019-12-18T13:48:58Z" finished-at="2019-12-18T13:49:54Z">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[The element 'By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: emulator-5554}, deviceApiLevel: 22, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 160, deviceScreenSize: 480x800, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 25, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 775, left: 0, top: 25, width: 480}, warnings: {}, webStorageEnabled: false}
-Session ID: 8fdd5c1a-bd26-4d1a-9728-3bb82d3ab405
-*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button}]]>
+Session ID: 2594d0b0-5371-426e-a09a-51b55f4ce8ce]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: emulator-5554}, deviceApiLevel: 22, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 160, deviceScreenSize: 480x800, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 25, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 775, left: 0, top: 25, width: 480}, warnings: {}, webStorageEnabled: false}
-Session ID: 8fdd5c1a-bd26-4d1a-9728-3bb82d3ab405
-*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button}
+Session ID: 2594d0b0-5371-426e-a09a-51b55f4ce8ce
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -51,15 +49,12 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-at com.PageObject.Payment.Application_Status.Hording_and_Advertisement_Tab_Click(Application_Status.java:282)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.PageObject.Payment.Application_Status.Hording_and_Advertisement_Tab_Click(Application_Status.java:269)
 at com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase.Hit_Application(Application_TestCase.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -87,7 +82,7 @@ at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
 at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Hit_Application -->
