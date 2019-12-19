@@ -8,19 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/nEXCITIZEN/nEXCITIZEN_TestCase1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/old/nEXCITIZEN/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/New_Registration/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/New_Registration/Login_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/Application_Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/Application_Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/RegistrationandLoginTestCase_Folder/Application_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/RegistrationandLoginTestCase_Folder/Application_TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageObject/Payment/Application_Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/PageObject/Payment/Application_Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/TestCase/RegistrationandLoginTestCase_Folder/Application_TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/TestCase/RegistrationandLoginTestCase_Folder/Application_TestCase.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -262,14 +251,8 @@
       <workItem from="1576645091764" duration="8878000" />
       <workItem from="1576655548238" duration="3452000" />
       <workItem from="1576661795358" duration="7142000" />
-      <workItem from="1576671003482" duration="6023000" />
-    </task>
-    <task id="LOCAL-00031" summary="32th commit">
-      <created>1575282342896</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1575282342896</updated>
+      <workItem from="1576671003482" duration="6587000" />
+      <workItem from="1576733920114" duration="760000" />
     </task>
     <task id="LOCAL-00032" summary="33th commit">
       <created>1575294234054</created>
@@ -607,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576675171995</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="77th commit">
+      <created>1576677231056</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1576677231056</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +618,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="51th commit" />
     <MESSAGE value="52th commit" />
     <MESSAGE value="53th commit" />
     <MESSAGE value="54th commit" />
@@ -653,7 +642,8 @@
     <MESSAGE value="74th commit" />
     <MESSAGE value="75th commit" />
     <MESSAGE value="76th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="76th commit" />
+    <MESSAGE value="77th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="77th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

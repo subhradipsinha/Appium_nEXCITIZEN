@@ -38,6 +38,16 @@ public class Application_Status extends DriverManagerfile {
         //Birth_Certificate_Tab
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/blays");
             el3.click();
+
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully show Application List");
+        } else{
+            System.out.println("Not show Application List");
+        }
+
             System.out.println("Birth_Certificate_Tab");
             // View Documents
             MobileElement el4 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
@@ -63,12 +73,16 @@ public class Application_Status extends DriverManagerfile {
         public void Death_Certificate_Tab_Click () throws InterruptedException {
             //Death_Certificate_Tab
             MobileElement el6 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/deathlays");
-            if(el6.isDisplayed()){
             el6.click();
-            System.out.println("Death_Certificate_Tab");}
-            else {System.out.println("Death_Certificate_Tab not Hit");}
-            Thread.sleep(2000);
 
+            // Apply for condition
+            Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
+
+            if (isPresent == true) {
+                System.out.println("Sucessfully show Death_Certificate_Tab List");
+            } else{
+                System.out.println("Not show Death_Certificate_Tab List");
+            }
             // View Documents
             MobileElement el7 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
            if(el7.isDisplayed()){ el7.click();
@@ -98,11 +112,17 @@ public class Application_Status extends DriverManagerfile {
         public void Trade_Licence_Tab_Click () throws InterruptedException {
             //Trade_Licence_Tab
             MobileElement el9 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/tlays");
-            if(el9.isDisplayed()){
-            el9.click();
-            System.out.println("Trade_Licence_Tab");
-            Thread.sleep(2000);}
-            else {System.out.println("Trade_Licence_Tab not hit");}
+           el9.click();
+
+            // Apply for condition
+            Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
+
+            if (isPresent == true) {
+                System.out.println("Sucessfully show Trade_Licence_Tab List");
+            } else{
+                System.out.println("Not show Trade_Licence_Tab List");
+            }
+
 
             // View Documents
             MobileElement el10 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
@@ -134,10 +154,16 @@ public class Application_Status extends DriverManagerfile {
         public void Property_Tax_Tab_Click () throws InterruptedException {
             //Property_Tax_Tab
             MobileElement el12 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/pt");
-            if(el12.isDisplayed()){
             el12.click();
-            System.out.println("Property_Tax_Tab");
-            Thread.sleep(2000);}else {System.out.println("Property_Tax_Tab not click");}
+
+            // Apply for condition
+            Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
+
+            if (isPresent == true) {
+                System.out.println("Sucessfully show Property_Tax_Tab List");
+            } else{
+                System.out.println("Not show Property_Tax_Tab List");
+            }
 
             // View Documents
             MobileElement el13 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
@@ -167,10 +193,16 @@ public class Application_Status extends DriverManagerfile {
 
             //Building_Plan_Tab
             MobileElement el15 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/bplan");
-            if(el15.isDisplayed()){
             el15.click();
-            System.out.println("Building_Plan_Tab");
-            Thread.sleep(2000);}else {System.out.println("Building_Plan_Tab not click");}
+
+            // Apply for condition
+            Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
+
+            if (isPresent == true) {
+                System.out.println("Sucessfully show Building_Plan_Tab List");
+            } else{
+                System.out.println("Not show Building_Plan_Tab List");
+            }
 
             // View Documents
             MobileElement el16 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
@@ -200,10 +232,15 @@ public class Application_Status extends DriverManagerfile {
 
             //Building_Completion_Certificate_Tab
             MobileElement el18 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/bcc");
-            if (el18.isDisplayed()){
             el18.click();
-            System.out.println("Building_Completion_Certificate_Tab");
-            Thread.sleep(2000);}else {System.out.println("Building_Completion_Certificate_Tab not click");}
+            // Apply for condition
+            Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
+
+            if (isPresent == true) {
+                System.out.println("Sucessfully show Building_Completion_Certificate_Tab List");
+            } else{
+                System.out.println("Not show Building_Completion_Certificate_Tab List");
+            }
 
             // View Documents
             MobileElement el19 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
@@ -242,9 +279,9 @@ public class Application_Status extends DriverManagerfile {
             Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
 
             if (isPresent == true) {
-                System.out.println("Sucessfully show Hording_and_Advertisement");
+                System.out.println("Sucessfully show Hording_and_Advertisement List");
             } else{
-                System.out.println("Not show Hording_and_Advertisement");
+                System.out.println("Not show Hording_and_Advertisement List");
             }
 
             // View Documents
@@ -273,10 +310,16 @@ public class Application_Status extends DriverManagerfile {
         public void Complaint_Management_Tab_Click () throws InterruptedException {
             //Complaint_Management_Tab
             MobileElement el24 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/cm");
-            if (el24.isDisplayed()){
             el24.click();
-            System.out.println("Complaint_Management_Tab");
-            Thread.sleep(2000);}else { System.out.println("Complaint_Management_Tab not Hit");}
+
+            // Apply for condition
+            Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
+
+            if (isPresent == true) {
+                System.out.println("Sucessfully show Complaint_Management_Tab List");
+            } else{
+                System.out.println("Not show Complaint_Management_Tab List");
+            }
 
             // View Documents
             MobileElement el25 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
@@ -306,10 +349,16 @@ public class Application_Status extends DriverManagerfile {
         public void Mutation_Certificate_Tab_Click () throws InterruptedException {
             //Mutation_Certificate_Tab
             MobileElement el27 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/mc");
-            if (el27.isDisplayed()){
             el27.click();
-            System.out.println("Mutation_Certificate_Tab");
-            Thread.sleep(2000);}else {System.out.println("Mutation_Certificate_Tab not Hit");}
+
+            // Apply for condition
+            Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
+
+            if (isPresent == true) {
+                System.out.println("Sucessfully show Mutation_Certificate_Tab List");
+            } else{
+                System.out.println("Not show Mutation_Certificate_Tab List");
+            }
 
             // View Documents
             MobileElement el28 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
@@ -338,11 +387,16 @@ public class Application_Status extends DriverManagerfile {
         public void Water_Supply_Tab_Click () throws InterruptedException {
             //Water_Supply_Tab
             MobileElement el30 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/water");
-            if (el30.isDisplayed()){
             el30.click();
-            System.out.println("Water_Supply_Tab");
-            Thread.sleep(2000);}else {System.out.println("Water_Supply_Tab not Hit");}
 
+            // Apply for condition
+            Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/list").size() > 0;
+
+            if (isPresent == true) {
+                System.out.println("Sucessfully show Water_Supply_Tab List");
+            } else{
+                System.out.println("Not show Water_Supply_Tab List");
+            }
             // View Documents
             MobileElement el31 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
             if (el31.isDisplayed()){

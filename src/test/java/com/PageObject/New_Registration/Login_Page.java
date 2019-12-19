@@ -36,24 +36,15 @@ public class Login_Page extends DriverManagerfile {
 
         //Click Submit Button Click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
-        if (el3.isDisplayed()){
-            el3.click();
-            System.out.println("Submit button Click Successful");
-        }
-        else {
-            System.out.println("Submit button not Showing");
-        }
-        Screenshot_File.nexcitizen(driver,"Without UserName");
+        el3.click();
 
-        System.out.println("dashboard:--  pre ");
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/linlayval").size() > 0;
 
-        try {
-            MobileElement dashboard = (MobileElement) driver.findElementsById("com.nex.nexcitizen:id/bannerlay");
-            Assert.assertTrue(dashboard.isDisplayed());
-        } catch (Exception e ){
-
-            Assert.assertEquals("Login not successful without username","Login Successful without username");
-            System.out.println(" Element exception: "+e);
+        if (isPresent == true) {
+            System.out.println("Sucessfully Dashboard show List");
+        } else{
+            System.out.println("Not show Dashboard show List");
         }
     }
     @Test(priority = 2)
@@ -70,23 +61,18 @@ public class Login_Page extends DriverManagerfile {
 
         //Click Submit Button Click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
-        if (el3.isDisplayed()){
-            el3.click();
-            System.out.println("Submit button Click Successful");
-        }
-        else {
-            System.out.println("Submit button not Showing");
-        }
+        el3.click();
 
-        try {
-            MobileElement dashboard = (MobileElement) driver.findElementsById("com.nex.nexcitizen:id/bannerlay");
-            Assert.assertTrue(dashboard.isDisplayed());
-        } catch (Exception e ){
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/linlayval").size() > 0;
 
-            Assert.assertEquals("Login not successful without Password","Login Successful without Password");
-            System.out.println(" Element exception: "+e);
+        if (isPresent == true) {
+            System.out.println("Sucessfully Dashboard show List");
+        } else{
+            System.out.println("Not show Dashboard show List");
         }
     }
+
     @Test(priority = 3)
     public void UserTest() throws Exception {
         // Put UserName
@@ -101,20 +87,15 @@ public class Login_Page extends DriverManagerfile {
 
         //Click Submit Button Click
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
-        if (el3.isDisplayed()){
-            el3.click();
-            System.out.println("Submit button Click Successful");
-            SoftAssert softAssert = new SoftAssert();
-            String accual = "Login successful with username & Password";
-            String expect = "Login not Successful with username & Password";
-            softAssert.assertEquals(accual,expect);
+        el3.click();
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/linlayval").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Dashboard show List");
+        } else{
+            System.out.println("Not show Dashboard show List");
         }
-        else {
-            System.out.println("Submit button not Showing");
-        }
-
-
-
     }
         public void quite() {
             System.out.println("Testing complete");
