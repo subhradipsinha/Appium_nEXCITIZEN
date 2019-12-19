@@ -36,6 +36,7 @@ public class Death_Certificate extends DriverManagerfile {
 
         // Hit Link Applicant Details
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow");
+        Thread.sleep(1000);
         el2.click();
         System.out.println("Hit Link Applicant Details");
         Thread.sleep(3000);
@@ -410,6 +411,7 @@ public class Death_Certificate extends DriverManagerfile {
         //Back to Dashboard
         MobileElement el49 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
         el49.click();
+        Thread.sleep(5000);
 
         
 
