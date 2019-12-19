@@ -9,34 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">nEXCITIZEN</th></tr>
-<tr><td><a href="#t0">nEXCITIZEN_TestCase1</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">78,255</td><td></td><td></td></tr>
+<tr><td><a href="#t0">nEXCITIZEN_TestCase1</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">148,557</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">nEXCITIZEN</th></tr></tbody><tbody id="t0"><tr><th colspan="4">nEXCITIZEN_TestCase1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase</td><td><a href="#m0">Hit_Application</a></td><td rowspan="1">1576676938065</td><td rowspan="1">56512</td></tr><tr><th colspan="4">nEXCITIZEN_TestCase1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase</td><td><a href="#m1">Orginal_user_pass</a></td><td rowspan="1">1576676936325</td><td rowspan="1">1737</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">nEXCITIZEN</th></tr></tbody><tbody id="t0"><tr><th colspan="4">nEXCITIZEN_TestCase1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase</td><td><a href="#m0">Without_Password</a></td><td rowspan="1">1576738279850</td><td rowspan="1">62037</td></tr><tr class="failedeven"><td><a href="#m1">Without_Username</a></td><td rowspan="1">1576738217686</td><td rowspan="1">62077</td></tr><tr><th colspan="4">nEXCITIZEN_TestCase1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase</td><td><a href="#m2">Orginal_user_pass</a></td><td rowspan="1">1576738341890</td><td rowspan="1">4136</td></tr></tbody>
 </table>
-<h2>nEXCITIZEN_TestCase1</h2><h3 id="m0">com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase#Hit_Application</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: The element &apos;By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button&apos; does not exist in DOM anymore
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-E7S6MJ8&apos;, ip: &apos;192.168.11.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: emulator-5554}, deviceApiLevel: 22, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 160, deviceScreenSize: 480x800, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 25, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 775, left: 0, top: 25, width: 480}, warnings: {}, webStorageEnabled: false}
-Session ID: 2594d0b0-5371-426e-a09a-51b55f4ce8ce
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.PageObject.Payment.Application_Status.Hording_and_Advertisement_Tab_Click(Application_Status.java:269)
-	at com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase.Hit_Application(Application_TestCase.java:27)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase#Orginal_user_pass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>nEXCITIZEN_TestCase1</h2><h3 id="m0">com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase#Without_Password</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: WithOut password Not Successfully login expected [true] but found [false]
+	at com.PageObject.New_Registration.Login_Page.OnlyUserNametest(Login_Page.java:74)
+	at com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.Without_Password(Login_TestCase.java:21)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase#Without_Username</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: WithOut UserName Not Successfully login expected [true] but found [false]
+	at com.PageObject.New_Registration.Login_Page.OnlyPassWordtest(Login_Page.java:48)
+	at com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase.Without_Username(Login_TestCase.java:17)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase#Orginal_user_pass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

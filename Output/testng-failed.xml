@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [nEXCITIZEN]">
   <test thread-count="5" name="nEXCITIZEN_TestCase1(failed)">
     <classes>
-      <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase">
+      <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
         <methods>
-          <include name="Hit_Application"/>
+          <include name="Without_Username"/>
+          <include name="Without_Password"/>
+          <include name="Url_login"/>
         </methods>
-      </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase -->
+      </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
     </classes>
   </test> <!-- nEXCITIZEN_TestCase1(failed) -->
 </suite> <!-- Failed suite [nEXCITIZEN] -->

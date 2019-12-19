@@ -45,6 +45,7 @@ public class Login_Page extends DriverManagerfile {
             System.out.println("Sucessfully Dashboard show List");
         } else{
             System.out.println("Not show Dashboard show List");
+            Assert.assertTrue(isPresent,"WithOut UserName Not Successfully login");
         }
     }
     @Test(priority = 2)
@@ -70,6 +71,7 @@ public class Login_Page extends DriverManagerfile {
             System.out.println("Sucessfully Dashboard show List");
         } else{
             System.out.println("Not show Dashboard show List");
+            Assert.assertTrue(isPresent,"WithOut password Not Successfully login");
         }
     }
 
@@ -95,6 +97,7 @@ public class Login_Page extends DriverManagerfile {
             System.out.println("Sucessfully Dashboard show List");
         } else{
             System.out.println("Not show Dashboard show List");
+            Assert.assertTrue(isPresent,"With username and password Not Successfully login");
         }
     }
         public void quite() {
