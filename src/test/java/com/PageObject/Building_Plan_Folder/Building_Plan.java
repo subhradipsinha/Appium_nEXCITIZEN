@@ -143,25 +143,23 @@ public class Building_Plan extends DriverManagerfile {
         System.out.println("Upload Button Click");
         Thread.sleep(5000);
 
-        //Photo Upload
-        MobileElement el20 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
-        el20.click();
-        MobileElement el21 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
-        el21.click();
-        MobileElement el22 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject[1]");
-        el22.click();
-        MobileElement el23 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
-        el23.click();
-        System.out.println("Photo Upload");
-        // Upload Button Click
-        MobileElement el26 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        //Hit to the Upload File
+        MobileElement el26 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el26.click();
-        System.out.println("Upload Button Click");
-        Thread.sleep(5000);
-
-        //Back to Dashboard
-        MobileElement el27 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        MobileElement el27 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el27.click();
+        Thread.sleep(5000);
+        MobileElement el28 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
+        el28.click();
+        MobileElement el29 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
+        el29.click();
+        // Click Submit Button
+        MobileElement el30 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el30.click();
+        Thread.sleep(5000);
+        //Back to Dashboard
+        MobileElement el31 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el31.click();
         System.out.println("Back to the Mane menu");
         Thread.sleep(3000);
 

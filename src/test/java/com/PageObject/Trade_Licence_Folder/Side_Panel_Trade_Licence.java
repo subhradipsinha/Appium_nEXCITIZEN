@@ -3,6 +3,7 @@ package com.PageObject.Trade_Licence_Folder;
 import com.demo.DriverManagerfile;
 import io.appium.java_client.MobileElement;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 /**
  * @author Subhradip Sinha
@@ -46,6 +47,17 @@ public class Side_Panel_Trade_Licence extends DriverManagerfile {
         MobileElement el5 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView[8]");
         el5.click();
         System.out.println("Edit button Click");
+
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+        if (isPresent == true) {
+            System.out.println("Sucessfully Edit button Click");
+        } else {
+            System.out.println("Not Edit button Click");
+            SoftAssert softAssert = new SoftAssert();
+            softAssert.assertTrue(isPresent,"Not Edit button Click...........");
+            softAssert.assertAll();
+        }
 
         // Property Details Droupdown box Click
         MobileElement el6 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/pr");
@@ -130,27 +142,29 @@ public class Side_Panel_Trade_Licence extends DriverManagerfile {
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
 
-        // File Upload Click
-        MobileElement el22 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
+        //Hit to the Upload File
+        MobileElement el22= (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el22.click();
-        MobileElement el23 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
+        MobileElement el23 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el23.click();
-        MobileElement el24 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject[1]");
+        Thread.sleep(5000);
+        MobileElement el24 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
         el24.click();
-        MobileElement el25 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
+        MobileElement el25 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
         el25.click();
-        System.out.println("File Upload Click");
-        Thread.sleep(2000);
-
-        // Submit Button Click
+        // Click Submit Button
         MobileElement el26 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         el26.click();
+
+        // Submit Button Click
+        MobileElement el27 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el27.click();
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
 
         //Back to Dashboard
-        MobileElement el27 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
-        el27.click();
+        MobileElement el28 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el28.click();
         Thread.sleep(3000);
 
     }

@@ -6,11 +6,11 @@ import org.testng.annotations.Test;
 public class SidePanelBirthCirtificate_TestCase {
     Side_Panel_Birth_Cirtificate side_panel_birth_cirtificate = new Side_Panel_Birth_Cirtificate();
 
-    @Test (priority = 6)
+    @Test (priority = 16)
         public void Hit_Side_Panel()throws Exception{
             side_panel_birth_cirtificate.Side_panel_click();
     }
-    @Test(priority = 7)
+    @Test(priority = 17)
     public void Edit()throws Exception{
         side_panel_birth_cirtificate.Edit_Update();
     }

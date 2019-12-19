@@ -3,6 +3,7 @@ package com.PageObject.Water_Supply_Folder;
 import com.demo.DriverManagerfile;
 import io.appium.java_client.MobileElement;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 /**
  * @author Subhradip Sinha
@@ -55,6 +56,17 @@ public class Side_Panel_Water_Supply extends DriverManagerfile {
         el5.click();
         System.out.println("Edit button Click");
 
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+        if (isPresent == true) {
+            System.out.println("Sucessfully Edit button Click");
+        } else {
+            System.out.println("Not Edit button Click");
+            SoftAssert softAssert = new SoftAssert();
+            softAssert.assertTrue(isPresent,"Not Edit button Click...........");
+            softAssert.assertAll();
+        }
+
         //Application_Details_Link
         MobileElement el6 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow");
         el6.click();
@@ -91,31 +103,26 @@ public class Side_Panel_Water_Supply extends DriverManagerfile {
         el12.click();
         System.out.println("Document Type");
 
-        //Upload button Click
-        MobileElement el13 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        //Hit to the Upload File
+        MobileElement el13 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el13.click();
-        System.out.println("Upload button Click");
-
-        //Upload Photo
-        MobileElement el14 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
+        MobileElement el14 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el14.click();
-        MobileElement el15 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
+        Thread.sleep(5000);
+        MobileElement el15 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
         el15.click();
-        MobileElement el16 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject[1]");
+        MobileElement el16 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
         el16.click();
-        MobileElement el17 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
+        // Click Submit Button
+        MobileElement el17 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         el17.click();
-        System.out.println("Upload Photo");
 
-        //Upload button Click
-        MobileElement el18 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
-        el18.click();
         System.out.println("Upload button Click");
         Thread.sleep(5000);
 
         // Back to Dashboard
-        MobileElement el19 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/homelay");
-        el19.click();
+        MobileElement el18 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/homelay");
+        el18.click();
         System.out.println("Back to Dashboard");
         Thread.sleep(3000);
 

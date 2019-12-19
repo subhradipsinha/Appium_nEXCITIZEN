@@ -241,18 +241,17 @@ public class Mutation_Certificate extends DriverManagerfile
         Upload1.click();
 
 
-        //Upload Photo
+        //Hit to the Upload File
         MobileElement el38 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el38.click();
-        MobileElement el39 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
+        MobileElement el39 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el39.click();
-        MobileElement el40 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject[1]");
+        Thread.sleep(5000);
+        MobileElement el40 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
         el40.click();
-        MobileElement el41 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
+        MobileElement el41 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
         el41.click();
-        System.out.println("Upload Photo");
-
-        // Upload Button Click
+        // Click Submit Button
         MobileElement el42 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         el42.click();
         System.out.println("Upload Button Click");

@@ -102,19 +102,17 @@ public class Complaint_Management extends DriverManagerfile {
         MobileElement submit7 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         submit7.click();
         /////////////////////////////////////////////////////////////////////////////////////////////**********************************************///////////////////////////////////////////////////////
-        // Complain Image upload
+        //Hit to the Upload File
         MobileElement el10 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el10.click();
-        MobileElement el11 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
+        MobileElement el11 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el11.click();
-        MobileElement el12 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject[1]");
+        Thread.sleep(5000);
+        MobileElement el12 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
         el12.click();
-        MobileElement el13 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
+        MobileElement el13 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
         el13.click();
-        System.out.println("Complain Image upload");
-        Thread.sleep(3000);
-
-        //Submit button Click
+        // Click Submit Button
         MobileElement el14 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         el14.click();
         System.out.println("Submit button Click");

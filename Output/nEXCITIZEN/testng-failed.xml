@@ -3,6 +3,27 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [nEXCITIZEN]">
   <test thread-count="5" name="nEXCITIZEN_TestCase1(failed)">
     <classes>
+      <class name="com.TestCase.TradeTestCase_Folder.Trade_TestCase">
+        <methods>
+          <include name="Tread_Licence_TabHit"/>
+        </methods>
+      </class> <!-- com.TestCase.TradeTestCase_Folder.Trade_TestCase -->
+      <class name="com.TestCase.PropertyTestCase_Folder.Property_TestCase">
+        <methods>
+          <include name="Property_TabHit"/>
+        </methods>
+      </class> <!-- com.TestCase.PropertyTestCase_Folder.Property_TestCase -->
+      <class name="com.TestCase.DeathTestCase_Folder.Death_TestCase">
+        <methods>
+          <include name="Death_TabHit"/>
+        </methods>
+      </class> <!-- com.TestCase.DeathTestCase_Folder.Death_TestCase -->
+      <class name="com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase">
+        <methods>
+          <include name="Hit_Edit_Button"/>
+          <include name="Hit_Side_Panel"/>
+        </methods>
+      </class> <!-- com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase -->
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase">
         <methods>
           <include name="Hording_and_Advertisement"/>

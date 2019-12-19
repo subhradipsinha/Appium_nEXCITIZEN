@@ -280,27 +280,26 @@ public class Trade_Licence extends DriverManagerfile {
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
 
-        // File Upload Click
-        MobileElement el42 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
-        el42.click();
-        MobileElement el43 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
-        el43.click();
-        MobileElement el44 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject[1]");
-        el44.click();
-        MobileElement el45 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
-        el45.click();
-        System.out.println("File Upload Click");
-        Thread.sleep(2000);
-
-        // Submit Button Click
-        MobileElement el48 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        //Hit to the Upload File
+        MobileElement el48 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el48.click();
+        MobileElement el49 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
+        el49.click();
+        Thread.sleep(5000);
+        MobileElement el50 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
+        el50.click();
+        MobileElement el51 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
+        el51.click();
+        // Click Submit Button
+        MobileElement el52 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el52.click();
+        Thread.sleep(2000);
         System.out.println("Submit Button Click");
         Thread.sleep(5000);
 
         //Back to Dashboard
-        MobileElement el49 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
-        el49.click();
+        MobileElement el53 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el53.click();
         Thread.sleep(3000);
 
 

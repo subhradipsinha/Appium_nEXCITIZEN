@@ -105,31 +105,23 @@ public class Hording_and_Advertisment extends DriverManagerfile {
         el17.click();
         System.out.println("Droupdown Document Type");
 
-        // Hit Upload Photo
+        //Hit to the Upload File
         MobileElement el18 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el18.click();
-        Thread.sleep(3000);
-
         MobileElement el19 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el19.click();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         MobileElement el20 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
         el20.click();
-        Thread.sleep(3000);
         MobileElement el21 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
         el21.click();
-        Thread.sleep(3000);
-        System.out.println("Hit Upload Photo");
-
-        //submit Button Click
-        MobileElement submit = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
-        submit.click();
-        Thread.sleep(3000);
-        System.out.println("submit Button Click");
+        // Click Submit Button
+        MobileElement el22 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el22.click();
 
         //Back to Dashboard
-        MobileElement el22 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
-        el22.click();
+        MobileElement el23 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el23.click();
         System.out.println("Back to Dashboard");
         Thread.sleep(3000);
 

@@ -3,6 +3,7 @@ package com.PageObject.Complaint_Management_Folder;
 import com.demo.DriverManagerfile;
 import io.appium.java_client.MobileElement;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 
 /**
@@ -56,6 +57,17 @@ public class Side_Panel_Complain_Management extends DriverManagerfile {
         el5.click();
         System.out.println("Edit button Click");
 
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+        if (isPresent == true) {
+            System.out.println("Sucessfully Edit button Click");
+        } else {
+            System.out.println("Not Edit button Click");
+            SoftAssert softAssert = new SoftAssert();
+            softAssert.assertTrue(isPresent,"Not Edit button Click...........");
+            softAssert.assertAll();
+        }
+
         //Complain_Details_Link
         MobileElement el6 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow");
         el6.click();
@@ -81,31 +93,33 @@ public class Side_Panel_Complain_Management extends DriverManagerfile {
         MobileElement submit = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         submit.click();
 
-        // Complain Image upload
+        //Hit to the Upload File
         MobileElement el10 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el10.click();
-        MobileElement el11 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
+        MobileElement el11 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el11.click();
-        MobileElement el12 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject[1]");
+        Thread.sleep(5000);
+        MobileElement el12 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
         el12.click();
-        MobileElement el13 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
+        MobileElement el13 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
         el13.click();
-        System.out.println("Complain Image upload");
-        Thread.sleep(3000);
+        // Click Submit Button
+        MobileElement el14 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el14.click();
 
         // Scroll Down
         MobileElement elementscrol1 = (MobileElement) driver.findElementByAndroidUIAutomator("new UiScrollable(" + "new UiSelector().scrollable(true)).scrollIntoView(" + "new UiSelector().textContains(\"SUBMIT\"));");
         System.out.println("Scroll Down");
 
         //Submit button Click
-        MobileElement el14 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
-        el14.click();
+        MobileElement el15 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el15.click();
         System.out.println("Submit button Click");
         Thread.sleep(5000);
 
         //Back to Dashboard
-        MobileElement el15 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
-        el15.click();
+        MobileElement el16 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el16.click();
         System.out.println("Back to Dashboard");
         Thread.sleep(3000);
 

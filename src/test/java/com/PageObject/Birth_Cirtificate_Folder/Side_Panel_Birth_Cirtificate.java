@@ -4,6 +4,7 @@ import com.demo.DriverManagerfile;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 /**
  * @author Subhradip Sinha
@@ -28,9 +29,12 @@ public class Side_Panel_Birth_Cirtificate extends DriverManagerfile {
         Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/namelay").size() > 0;
 
         if (isPresent == true) {
-            System.out.println("Sucessfully Hit Water_Supply Tab");
+            System.out.println("Sucessfully Birth_Registration_Details Tab Hit");
         } else {
-            System.out.println("Not show Hit Water_Supply Tab");
+            System.out.println("Not Birth_Registration_Details Tab Hit");
+            SoftAssert softAssert = new SoftAssert();
+            softAssert.assertTrue(isPresent,"Not Birth_Registration_Details Tab Hit...........");
+            softAssert.assertAll();
         }
         // Registration ID
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etreg");
@@ -47,6 +51,17 @@ public class Side_Panel_Birth_Cirtificate extends DriverManagerfile {
         MobileElement el6 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView[8]");
         el6.click();
         System.out.println("Edit button Click");
+
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+        if (isPresent == true) {
+            System.out.println("Sucessfully Edit button Click");
+        } else {
+            System.out.println("Not Edit button Click");
+            SoftAssert softAssert = new SoftAssert();
+            softAssert.assertTrue(isPresent,"Not Edit button Click...........");
+            softAssert.assertAll();
+        }
 
         // Application Droupdown Link click
         MobileElement el7 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow");
@@ -101,17 +116,13 @@ public class Side_Panel_Birth_Cirtificate extends DriverManagerfile {
         //Hit to the Upload File
         MobileElement el16 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el16.click();
-        Thread.sleep(3000);
-        MobileElement el17 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
+        MobileElement el17 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el17.click();
-        Thread.sleep(3000);
-        MobileElement el18 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
+        Thread.sleep(5000);
+        MobileElement el18 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
         el18.click();
-        Thread.sleep(3000);
-        MobileElement el19 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
+        MobileElement el19 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
         el19.click();
-        System.out.println("Hit to the Upload File");
-        Thread.sleep(3000);
         // Click Submit Button
         MobileElement el20 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         el20.click();

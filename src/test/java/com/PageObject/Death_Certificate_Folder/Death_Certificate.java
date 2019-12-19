@@ -378,41 +378,38 @@ public class Death_Certificate extends DriverManagerfile {
         System.out.println("Submit button click");
         Thread.sleep(3000);
 
-        // Hit Upload Photo
-        MobileElement el35 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
-        el35.click();
-        Thread.sleep(3000);
-
-        MobileElement el36 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
-        el36.click();
-        Thread.sleep(3000);
-        MobileElement el37 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
-        el37.click();
-        Thread.sleep(3000);
-        MobileElement el38 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
-        el38.click();
-        System.out.println("Hit Upload Photo");
-        Thread.sleep(3000);
-
-        //Hit Submit button click
-        MobileElement el41 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        //Hit to the Upload File
+        MobileElement el41 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el41.click();
+        MobileElement el42 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
+        el42.click();
+        Thread.sleep(5000);
+        MobileElement el43 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
+        el43.click();
+        MobileElement el44 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
+        el44.click();
+        // Click Submit Button
+        MobileElement el45 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el45.click();
+        //Hit Submit button click
+        MobileElement el46 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el46.click();
         System.out.println("Submit button click");
         Thread.sleep(5000);
 
         //Back to Dashboard
-        MobileElement el42 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
-        el42.click();
+        MobileElement el47 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el47.click();
 
         //Hit Submit button click
-        MobileElement el43 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
-        el43.click();
+        MobileElement el48 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el48.click();
         System.out.println("Submit button click");
         Thread.sleep(5000);
 
         //Back to Dashboard
-        MobileElement el44 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
-        el44.click();
+        MobileElement el49 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el49.click();
 
         
 

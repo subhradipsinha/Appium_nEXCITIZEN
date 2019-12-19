@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class Trade_TestCase {
     Trade_Licence trade_licence = new Trade_Licence();
-    @Test(priority = 11)
+    @Test(priority = 21)
     public void Tread_Licence_TabHit() throws Exception {
         trade_licence.Trade_Licence_Test();
     }

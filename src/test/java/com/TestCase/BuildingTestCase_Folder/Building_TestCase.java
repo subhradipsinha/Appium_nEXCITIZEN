@@ -7,16 +7,16 @@ import org.testng.annotations.Test;
 public class Building_TestCase {
     Building_Plan building_plan = new Building_Plan();
 
-    @Test(priority = 18)
+    @Test(priority = 24)
     public void Building_Tab() throws Exception {
         building_plan.Building_Tab();
     }
 
-    @Test(priority = 19)
+    @Test(priority = 25)
     public void Building_Droupdown(){
         building_plan.Building_Plan_Details();
     }
-    @Test(priority = 20)
+    @Test(priority = 26)
     public void Building_From() throws Exception {
         building_plan.building_From_Fill_up();
     }

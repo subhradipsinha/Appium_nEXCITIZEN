@@ -3,6 +3,7 @@ package com.PageObject.Hording_and_Advertisment;
 import com.demo.DriverManagerfile;
 import io.appium.java_client.MobileElement;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 @Test
 public class Side_Panel_Hording_and_Advertisment extends DriverManagerfile {
@@ -48,6 +49,17 @@ public class Side_Panel_Hording_and_Advertisment extends DriverManagerfile {
         el5.click();
         System.out.println("Edit button Click");
         Thread.sleep(3000);
+
+        // Apply for condition
+        Boolean isPresent1 = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+        if (isPresent1 == true) {
+            System.out.println("Sucessfully Edit button Click");
+        } else {
+            System.out.println("Not Edit button Click");
+            SoftAssert softAssert = new SoftAssert();
+            softAssert.assertTrue(isPresent1,"Not Edit button Click...........");
+            softAssert.assertAll();
+        }
         //Hit_Applicant_Details_Link
         MobileElement el6 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow");
         el6.click();
@@ -68,22 +80,17 @@ public class Side_Panel_Hording_and_Advertisment extends DriverManagerfile {
         MobileElement el9 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
         el9.click();
 
-        // Hit Upload Photo
+        //Hit to the Upload File
         MobileElement el10 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el10.click();
-        Thread.sleep(3000);
-
         MobileElement el11 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el11.click();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         MobileElement el12 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
         el12.click();
-        Thread.sleep(3000);
         MobileElement el13 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
         el13.click();
-        Thread.sleep(3000);
-
-        // Next Button Click
+        // Click Submit Button
         MobileElement el14 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         el14.click();
         System.out.println("Next Button Click");

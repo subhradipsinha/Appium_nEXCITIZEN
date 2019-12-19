@@ -130,18 +130,17 @@ public class Water_Supply extends DriverManagerfile {
         el19.click();
         System.out.println("Upload button Click");
 
-        //Upload Photo
+        //Hit to the Upload File
         MobileElement el20 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
         el20.click();
-        MobileElement el21 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
+        MobileElement el21 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
         el21.click();
-        MobileElement el22 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject[1]");
+        Thread.sleep(5000);
+        MobileElement el22 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
         el22.click();
-        MobileElement el23 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
+        MobileElement el23 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
         el23.click();
-        System.out.println("Upload Photo");
-
-        //Upload button Click
+        // Click Submit Button
         MobileElement el24 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         el24.click();
         System.out.println("Upload button Click");

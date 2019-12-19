@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class Property_TestCase {
     Property_Tax property_tax = new Property_Tax();
-    @Test(priority = 16)
+    @Test(priority = 21)
     public void Property_TabHit() throws Exception {
         property_tax.property_Tax_Test();
     }
