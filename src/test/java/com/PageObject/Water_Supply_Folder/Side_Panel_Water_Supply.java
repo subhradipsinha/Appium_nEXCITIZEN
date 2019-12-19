@@ -26,7 +26,15 @@ public class Side_Panel_Water_Supply extends DriverManagerfile {
         //Hit_Water_Supply_Tap
         MobileElement el2 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[11]/android.widget.CheckedTextView");
         el2.click();
-        System.out.println("Hit_Water_Supply_Tap");
+
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/namelay").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hit_Water_Supply_Tap");
+        } else {
+            System.out.println("Not show Hit_Water_Supply_Tap");
+        }
 
         // Registration ID
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etreg");

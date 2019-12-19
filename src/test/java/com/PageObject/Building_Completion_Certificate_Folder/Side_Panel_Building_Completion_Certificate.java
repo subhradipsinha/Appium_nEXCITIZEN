@@ -22,7 +22,15 @@ public class Side_Panel_Building_Completion_Certificate extends DriverManagerfil
         // Hit Side_Panel_Building_Completion_Certificate
         MobileElement el2 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[8]/android.widget.CheckedTextView");
         el2.click();
-        System.out.println("Hit Side_Panel_Building_Completion_Certificate");
+
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/namelay").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hit Side_Panel_Building_Completion_Certificate Tab");
+        } else {
+            System.out.println("Not show Hit Side_Panel_Building_Completion_Certificate Tab");
+        }
 
         // Registration ID
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etreg");

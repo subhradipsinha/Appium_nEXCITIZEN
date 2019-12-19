@@ -28,7 +28,14 @@ public class Side_Panel_Complain_Management extends DriverManagerfile {
         MobileElement el2 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[12]");
         el2.click();
 
-        System.out.println("Hit Complain_Management");
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/namelay").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Side Panel Hit Complain_Management Tab");
+        } else {
+            System.out.println("Not show Side Panel Hit Complain_Management Tab");
+        }
 
         // Registration ID
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etreg");

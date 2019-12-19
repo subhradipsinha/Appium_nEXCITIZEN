@@ -12,11 +12,11 @@ public void Url_login() throws Exception {
     System.out.println("login");
     Thread.sleep(5000);
 }
-@Test(enabled = false)
+@Test(priority = 1)
 public void Without_Username() throws Exception {
     login_page.OnlyPassWordtest();
 }
-@Test(enabled = false)
+@Test(priority = 2)
 public void Without_Password() throws Exception {
     login_page.OnlyUserNametest();
 }

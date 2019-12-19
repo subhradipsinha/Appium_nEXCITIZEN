@@ -25,6 +25,15 @@ public class Side_Panel_Death_Certificate extends DriverManagerfile {
         el2.click();
         System.out.println("Update_Death_Registration_Details");
 
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/namelay").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Update_Death_Registration_Details Tab");
+        } else {
+            System.out.println("Not show Update_Death_Registration_Details Tab");
+        }
+
         // Registration ID
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etreg");
         el3.sendKeys("1574237462099");

@@ -4,8 +4,6 @@
     <test name="nEXCITIZEN_TestCase1">
         <classes>
             <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase"></class>
-            <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase"></class>
-
 
         </classes>
     </test>

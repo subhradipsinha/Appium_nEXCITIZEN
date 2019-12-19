@@ -21,7 +21,15 @@ public class Side_Panel_Trade_Licence extends DriverManagerfile {
         //Update_Trade_Licence_Registration_Details
         MobileElement el2 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.support.v7.widget.LinearLayoutCompat[5]/android.widget.CheckedTextView");
         el2.click();
-        System.out.println("Update_Trade_Licence_Registration_Details");
+
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/namelay").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Update_Trade_Licence_Registration_Details Tab");
+        } else {
+            System.out.println("Not show Update_Trade_Licence_Registration_Details Tab");
+        }
 
         // Registration ID
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/etreg");

@@ -39,7 +39,7 @@ public class Login_Page extends DriverManagerfile {
         el3.click();
 
         // Apply for condition
-        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/linlayval").size() > 0;
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/appstatuslay").size() > 0;
 
         if (isPresent == true) {
             System.out.println("Sucessfully Dashboard show List");
@@ -64,7 +64,7 @@ public class Login_Page extends DriverManagerfile {
         el3.click();
 
         // Apply for condition
-        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/linlayval").size() > 0;
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/appstatuslay").size() > 0;
 
         if (isPresent == true) {
             System.out.println("Sucessfully Dashboard show List");
@@ -89,7 +89,7 @@ public class Login_Page extends DriverManagerfile {
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/login");
         el3.click();
         // Apply for condition
-        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/linlayval").size() > 0;
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/appstatuslay").size() > 0;
 
         if (isPresent == true) {
             System.out.println("Sucessfully Dashboard show List");
