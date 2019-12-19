@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class BirthCirtificate_TestCase {
     Birth_Cirtificate birth_cirtificate = new Birth_Cirtificate();
 
-    @Test(priority = 5)
+    @Test(priority = 15)
     public void BithCirtificate_Tabhit() throws Exception {
         birth_cirtificate.Birth_Cirtificate_Text();
     }

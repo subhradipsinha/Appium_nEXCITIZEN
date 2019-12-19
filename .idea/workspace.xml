@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.EmailTestCase_Folder.SendEmail_TestCase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output/junitreports/TEST-com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Output/index.html" afterDir="false" />
@@ -26,11 +26,12 @@
       <change beforePath="$PROJECT_DIR$/Output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Birth_Cirtificate_Folder/Birth_Cirtificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Birth_Cirtificate_Folder/Birth_Cirtificate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/EmailDemo/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/EmailDemo/SendEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/Application_Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/Application_Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/Application_Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/New_Registration/Application_Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/BirthCirtificateTestCase_Folder/BirthCirtificate_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/BirthCirtificateTestCase_Folder/BirthCirtificate_TestCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/TestCase/RegistrationandLoginTestCase_Folder/Application_TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/TestCase/RegistrationandLoginTestCase_Folder/Application_TestCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageObject/Birth_Cirtificate_Folder/Birth_Cirtificate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/PageObject/Birth_Cirtificate_Folder/Birth_Cirtificate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageObject/Payment/Application_Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/PageObject/Payment/Application_Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/PageObject/Payment/Application_Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/TestCase/BirthCirtificateTestCase_Folder/BirthCirtificate_TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/TestCase/BirthCirtificateTestCase_Folder/BirthCirtificate_TestCase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/TestCase/RegistrationandLoginTestCase_Folder/Application_TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/TestCase/RegistrationandLoginTestCase_Folder/Application_TestCase.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,12 +126,12 @@
       <module name="com_nEXCITIZEN_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.PageObject.Payment.*" />
+          <option name="PATTERN" value="com.PageObject.New_Registration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.PageObject.Payment" />
-      <option name="MAIN_CLASS_NAME" value="com.PageObject.Payment.Application_Status" />
+      <option name="MAIN_CLASS_NAME" value="com.PageObject.New_Registration.Application_Status" />
       <option name="METHOD_NAME" value="Application_status_hit" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -274,14 +275,7 @@
       <workItem from="1576655548238" duration="3452000" />
       <workItem from="1576661795358" duration="7142000" />
       <workItem from="1576671003482" duration="6587000" />
-      <workItem from="1576733920114" duration="10012000" />
-    </task>
-    <task id="LOCAL-00036" summary="36th commit">
-      <created>1575373956142</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1575373956142</updated>
+      <workItem from="1576733920114" duration="16601000" />
     </task>
     <task id="LOCAL-00037" summary="37th commit">
       <created>1575374085101</created>
@@ -619,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576738459525</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="82th commit">
+      <created>1576744497669</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1576744497669</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +641,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="56th commit" />
     <MESSAGE value="57th commit" />
     <MESSAGE value="58th commit" />
     <MESSAGE value="59th commit" />
@@ -665,7 +665,8 @@
     <MESSAGE value="79th commit" />
     <MESSAGE value="80th commit" />
     <MESSAGE value="81th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="81th commit" />
+    <MESSAGE value="82th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="82th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

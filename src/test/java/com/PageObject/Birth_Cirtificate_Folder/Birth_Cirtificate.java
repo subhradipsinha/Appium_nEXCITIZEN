@@ -10,10 +10,9 @@ import org.testng.annotations.Test;
  * Date: 30/09/2018
  */
 
-@Test
 // Extend to Appium_ConfigarationManager Class
 public class Birth_Cirtificate extends DriverManagerfile {
-    @Test(priority = 4)
+    @Test
     public void Birth_Cirtificate_Text() throws Exception {
 
         // Hit to Birth Certificate
@@ -240,27 +239,23 @@ public class Birth_Cirtificate extends DriverManagerfile {
         System.out.println("Click Submit Button");
 
         //Hit to the Upload File
-        MobileElement el22 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
-        el22.click();
-        Thread.sleep(3000);
-        MobileElement el23 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]");
-        el23.click();
-        Thread.sleep(3000);
-        MobileElement el24 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
-        el24.click();
-        Thread.sleep(3000);
-        MobileElement el25 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.view.View/android.widget.FrameLayout[1]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.view.View/com.sec.samsung.gallery.glview.composeView.PositionControllerBase.ThumbObject");
-        el25.click();
-        System.out.println("Hit to the Upload File");
-        Thread.sleep(3000);
+        MobileElement el30 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/browse");
+        el30.click();
+        MobileElement el31 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.support.v7.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]");
+        el31.click();
+        Thread.sleep(5000);
+        MobileElement el32 = (MobileElement) driver.findElementByAccessibilityId("Shutter button");
+        el32.click();
+        MobileElement el33 = (MobileElement) driver.findElementById("com.android.camera:id/btn_done");
+        el33.click();
         // Click Submit Button
-        MobileElement el26 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
-        el26.click();
+        MobileElement el34 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
+        el34.click();
         System.out.println("Click Submit Button");
         Thread.sleep(10000);
         //Back to Dashboard
-        MobileElement el30 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
-        el30.click();
+        MobileElement el35 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el35.click();
         System.out.println("Back to Dashboard");
         Thread.sleep(3000);
 

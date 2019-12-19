@@ -5,7 +5,7 @@
     <classes>
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase">
         <methods>
-          <include name="Hit_Application"/>
+          <include name="Hording_and_Advertisement"/>
         </methods>
       </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase -->
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">

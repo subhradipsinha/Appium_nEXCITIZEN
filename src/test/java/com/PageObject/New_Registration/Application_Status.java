@@ -1,4 +1,4 @@
-package com.PageObject.Payment;
+package com.PageObject.New_Registration;
 
 import com.demo.DriverManagerfile;
 import io.appium.java_client.AppiumDriver;
@@ -48,7 +48,9 @@ public class Application_Status extends DriverManagerfile {
             System.out.println("Sucessfully show Application List");
         } else{
             System.out.println("Not show Application List");
-            Assert.assertTrue(isPresent,"Birth_Certificate_Tab not Hit");
+            SoftAssert softAssert = new SoftAssert();
+            softAssert.assertTrue(isPresent,"Application List.........");
+            softAssert.assertAll();
         }
 
             System.out.println("Birth_Certificate_Tab");
@@ -85,7 +87,9 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Death_Certificate_Tab List");
             } else{
                 System.out.println("Not show Death_Certificate_Tab List");
-                Assert.assertTrue(isPresent,"Death_Certificate_Tab not Hit");
+                SoftAssert softAssert = new SoftAssert();
+                softAssert.assertTrue(isPresent,"Death_Certificate_Tab Hit");
+                softAssert.assertAll();
             }
             // View Documents
             MobileElement el7 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
@@ -125,7 +129,9 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Trade_Licence_Tab List");
             } else{
                 System.out.println("Not show Trade_Licence_Tab List");
-                Assert.assertTrue(isPresent,"Trade_Licence_Tab not Hit");
+                SoftAssert softAssert = new SoftAssert();
+                softAssert.assertTrue(isPresent,"Trade_Licence_Tab Hit");
+                softAssert.assertAll();
             }
 
 
@@ -168,7 +174,9 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Property_Tax_Tab List");
             } else{
                 System.out.println("Not show Property_Tax_Tab List");
-                Assert.assertTrue(isPresent,"Property_Tax_Tab not Hit");
+                SoftAssert softAssert = new SoftAssert();
+                softAssert.assertTrue(isPresent,"Property_Tax_Tab Hit");
+                softAssert.assertAll();
             }
 
             // View Documents
@@ -208,7 +216,9 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Building_Plan_Tab List");
             } else{
                 System.out.println("Not show Building_Plan_Tab List");
-                Assert.assertTrue(isPresent,"Building_Plan_Tab not Hit");
+                SoftAssert softAssert = new SoftAssert();
+                softAssert.assertTrue(isPresent,"Building_Plan_Tab Hit");
+                softAssert.assertAll();
             }
 
             // View Documents
@@ -247,7 +257,9 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Building_Completion_Certificate_Tab List");
             } else{
                 System.out.println("Not show Building_Completion_Certificate_Tab List");
-                Assert.assertTrue(isPresent,"Building_Completion_Certificate_Tab Hit");
+                SoftAssert softAssert = new SoftAssert();
+                softAssert.assertTrue(isPresent,"Building_Completion_Certificate_Tab Hit");
+                softAssert.assertAll();
             }
 
             // View Documents
@@ -329,7 +341,11 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Complaint_Management_Tab List");
             } else{
                 System.out.println("Not show Complaint_Management_Tab List");
-                Assert.assertTrue(isPresent,"Complaint_Management_Tab Hit");
+
+                SoftAssert softAssert = new SoftAssert();
+                softAssert.assertTrue(isPresent,"Complaint_Management_Tab Hit");
+                softAssert.assertAll();
+
             }
 
             // View Documents
@@ -369,7 +385,9 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Mutation_Certificate_Tab List");
             } else{
                 System.out.println("Not show Mutation_Certificate_Tab List");
-                Assert.assertTrue(isPresent,"Mutation_Certificate_Tab Hit");
+                SoftAssert softAssert = new SoftAssert();
+                softAssert.assertTrue(isPresent,"Mutation_Certificate_Tab Hit");
+                softAssert.assertAll();
             }
 
             // View Documents
@@ -408,7 +426,9 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Water_Supply_Tab List");
             } else{
                 System.out.println("Not show Water_Supply_Tab List");
-                Assert.assertTrue(isPresent,"Water_Supply_Tab Hit");
+                SoftAssert softAssert = new SoftAssert();
+                softAssert.assertTrue(isPresent,"Water_Supply_Tab Hit");
+                softAssert.assertAll();
             }
             // View Documents
             MobileElement el31 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
@@ -423,14 +443,18 @@ public class Application_Status extends DriverManagerfile {
             System.out.println("Upload pic show");
             Thread.sleep(2000);}else {System.out.println("Upload pic not show");}
             driver.navigate().back();
-            Thread.sleep(2000);
+            Thread.sleep(4000);
             driver.navigate().back();
-
+            Thread.sleep(2000);
             //Back_Water_Supply_Tab
             MobileElement el32 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
-            if (el32.isDisplayed()){
-            el31.click();
-            System.out.println("Back_Water_Supply_Tab");}else {System.out.println("Back_Water_Supply_Tab not hit");}
+            el32.click();
+            System.out.println("Back_Water_Supply_Tab");
+            Thread.sleep(2000);
+            //Back to the dashboard
+            MobileElement el33 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+            el33.click();
+            Thread.sleep(4000);
 
         }
 
