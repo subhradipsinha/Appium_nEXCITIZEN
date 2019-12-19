@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-nEXCITIZEN" class="show-methods failed suite-nEXCITIZEN"> (show)</a> <!-- show-methods failed suite-nEXCITIZEN -->
                     </span>
                     <div class="method-list-content failed suite-nEXCITIZEN">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nEXCITIZEN" title="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase" hash-for-method="Hit_Application">Hit_Application</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-nEXCITIZEN" title="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase" hash-for-method="Without_Password">Without_Password</a> <!-- method navigator-link -->
@@ -119,6 +124,11 @@
                       <a href="#" panel-name="suite-nEXCITIZEN" class="show-methods passed suite-nEXCITIZEN"> (show)</a> <!-- show-methods passed suite-nEXCITIZEN -->
                     </span>
                     <div class="method-list-content passed suite-nEXCITIZEN">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nEXCITIZEN" title="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase" hash-for-method="Application_Details">Application_Details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-nEXCITIZEN" title="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase" hash-for-method="Orginal_user_pass">Orginal_user_pass</a> <!-- method navigator-link -->
@@ -168,6 +178,27 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-nEXCITIZEN-class-failed -->
+          <div class="suite-nEXCITIZEN-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Hit_Application">
+                  </a> <!-- Hit_Application -->
+                  <span class="method-name">Hit_Application</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Hording_and_Advertisement_Tab Hit expected [true] but found [false]
+	at com.PageObject.Payment.Application_Status.Hording_and_Advertisement_Tab_Click(Application_Status.java:295)
+	at com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase.Hit_Application(Application_TestCase.java:29)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nEXCITIZEN-class-failed -->
           <div class="suite-nEXCITIZEN-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -179,6 +210,21 @@
                   <a name="Orginal_user_pass">
                   </a> <!-- Orginal_user_pass -->
                   <span class="method-name">Orginal_user_pass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nEXCITIZEN-class-passed -->
+          <div class="suite-nEXCITIZEN-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Application_Details">
+                  </a> <!-- Application_Details -->
+                  <span class="method-name">Application_Details</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,6 +242,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;nEXCITIZEN_TestCase1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase&quot;/&gt;
+      &lt;class name=&quot;com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- nEXCITIZEN_TestCase1 --&gt;
 &lt;/suite&gt; &lt;!-- nEXCITIZEN --&gt;
@@ -209,7 +256,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">nEXCITIZEN_TestCase1 (1 class)</span>
+                <span class="test-name">nEXCITIZEN_TestCase1 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -235,24 +282,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Without_Username')
-data.setCell(0, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase')
-data.setCell(0, 3, 62077);
+data.setCell(0, 1, 'Hit_Application')
+data.setCell(0, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase')
+data.setCell(0, 3, 182620);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Without_Password')
+data.setCell(1, 1, 'Without_Username')
 data.setCell(1, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase')
-data.setCell(1, 3, 62037);
+data.setCell(1, 3, 62252);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Orginal_user_pass')
+data.setCell(2, 1, 'Without_Password')
 data.setCell(2, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase')
-data.setCell(2, 3, 4136);
+data.setCell(2, 3, 61718);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Application_Details')
+data.setCell(3, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase')
+data.setCell(3, 3, 32990);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Orginal_user_pass')
+data.setCell(4, 2, 'com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase')
+data.setCell(4, 3, 3446);
 window.suiteTableData['nEXCITIZEN']= { tableData: data, tableDiv: 'times-div-nEXCITIZEN'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-nEXCITIZEN">
               </div> <!-- times-div-nEXCITIZEN -->
             </div> <!-- times-div -->
@@ -287,17 +342,30 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Without_Username</span>
-                <span class="method-start">20216 ms</span>
+                <span class="method-start">25918 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Without_Password</span>
-                <span class="method-start">82380 ms</span>
+                <span class="method-start">88199 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Orginal_user_pass</span>
-                <span class="method-start">144420 ms</span>
+                <span class="method-start">149919 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Hit_Application</span>
+                <span class="method-start">153366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Application_Details</span>
+                <span class="method-start">335988 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

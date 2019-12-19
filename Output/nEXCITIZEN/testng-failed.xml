@@ -3,6 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [nEXCITIZEN]">
   <test thread-count="5" name="nEXCITIZEN_TestCase1(failed)">
     <classes>
+      <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase">
+        <methods>
+          <include name="Hit_Application"/>
+        </methods>
+      </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase -->
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
         <methods>
           <include name="Without_Username"/>

@@ -12,6 +12,8 @@ public class Application_TestCase {
         Thread.sleep(2000);
         application_status.Application_status_hit();
         Thread.sleep(2000);
+        application_status.Hording_and_Advertisement_Tab_Click();
+        Thread.sleep(2000);
         application_status.Birth_Certificate_Tab_Click();
         Thread.sleep(2000);
         application_status.Death_Certificate_Tab_Click();
@@ -25,7 +27,9 @@ public class Application_TestCase {
         application_status.Building_Completion_Certificate_Tab_Click();
         Thread.sleep(2000);
        application_status.Hording_and_Advertisement_Tab_Click();
-       Thread.sleep(2000);
+       Thread.sleep(2000);}
+       @Test(priority = 5)
+       public void Application_Details()throws Exception{
        application_status.Complaint_Management_Tab_Click();
        Thread.sleep(2000);
        application_status.Mutation_Certificate_Tab_Click();

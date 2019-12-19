@@ -2,6 +2,7 @@ package com.PageObject.Birth_Cirtificate_Folder;
 
 import com.demo.DriverManagerfile;
 import io.appium.java_client.MobileElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -27,6 +28,7 @@ public class Birth_Cirtificate extends DriverManagerfile {
             System.out.println("Sucessfully Hit to Birth Certificate List");
         } else{
             System.out.println("Not show Hit to Birth Certificate List");
+            Assert.assertTrue(isPresent,"Hit to Birth Certificate not Hit");
         }
 
 

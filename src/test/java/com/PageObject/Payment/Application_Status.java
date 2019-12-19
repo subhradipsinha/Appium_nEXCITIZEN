@@ -4,9 +4,11 @@ import com.demo.DriverManagerfile;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import org.apache.tools.ant.types.Assertions;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.Assertion;
 import org.testng.asserts.SoftAssert;
 
 import javax.xml.bind.SchemaOutputResolver;
@@ -46,6 +48,7 @@ public class Application_Status extends DriverManagerfile {
             System.out.println("Sucessfully show Application List");
         } else{
             System.out.println("Not show Application List");
+            Assert.assertTrue(isPresent,"Birth_Certificate_Tab not Hit");
         }
 
             System.out.println("Birth_Certificate_Tab");
@@ -82,6 +85,7 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Death_Certificate_Tab List");
             } else{
                 System.out.println("Not show Death_Certificate_Tab List");
+                Assert.assertTrue(isPresent,"Death_Certificate_Tab not Hit");
             }
             // View Documents
             MobileElement el7 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
@@ -121,6 +125,7 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Trade_Licence_Tab List");
             } else{
                 System.out.println("Not show Trade_Licence_Tab List");
+                Assert.assertTrue(isPresent,"Trade_Licence_Tab not Hit");
             }
 
 
@@ -163,6 +168,7 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Property_Tax_Tab List");
             } else{
                 System.out.println("Not show Property_Tax_Tab List");
+                Assert.assertTrue(isPresent,"Property_Tax_Tab not Hit");
             }
 
             // View Documents
@@ -202,6 +208,7 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Building_Plan_Tab List");
             } else{
                 System.out.println("Not show Building_Plan_Tab List");
+                Assert.assertTrue(isPresent,"Building_Plan_Tab not Hit");
             }
 
             // View Documents
@@ -240,6 +247,7 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Building_Completion_Certificate_Tab List");
             } else{
                 System.out.println("Not show Building_Completion_Certificate_Tab List");
+                Assert.assertTrue(isPresent,"Building_Completion_Certificate_Tab Hit");
             }
 
             // View Documents
@@ -282,8 +290,10 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Hording_and_Advertisement List");
             } else{
                 System.out.println("Not show Hording_and_Advertisement List");
+                SoftAssert softAssert = new SoftAssert();
+                softAssert.assertTrue(isPresent,"Hording_and_Advertisement_Tab Hit");
+                softAssert.assertAll();
             }
-
             // View Documents
             MobileElement el22 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
             if(el22.isDisplayed()){
@@ -319,6 +329,7 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Complaint_Management_Tab List");
             } else{
                 System.out.println("Not show Complaint_Management_Tab List");
+                Assert.assertTrue(isPresent,"Complaint_Management_Tab Hit");
             }
 
             // View Documents
@@ -358,6 +369,7 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Mutation_Certificate_Tab List");
             } else{
                 System.out.println("Not show Mutation_Certificate_Tab List");
+                Assert.assertTrue(isPresent,"Mutation_Certificate_Tab Hit");
             }
 
             // View Documents
@@ -396,6 +408,7 @@ public class Application_Status extends DriverManagerfile {
                 System.out.println("Sucessfully show Water_Supply_Tab List");
             } else{
                 System.out.println("Not show Water_Supply_Tab List");
+                Assert.assertTrue(isPresent,"Water_Supply_Tab Hit");
             }
             // View Documents
             MobileElement el31 = (MobileElement) driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.Button");
