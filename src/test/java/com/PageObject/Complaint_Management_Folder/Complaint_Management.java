@@ -19,6 +19,14 @@ public class Complaint_Management extends DriverManagerfile {
         Thread.sleep(2000);
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/cm");
         el1.click();
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hit_Complaint_Management_Tab");
+        } else {
+            System.out.println("Not show Hit_Complaint_Management_Tab");
+        }
     }
     @Test(priority = 17)
     public void Complain_Details_Link() throws InterruptedException {

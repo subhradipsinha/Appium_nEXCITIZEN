@@ -20,6 +20,16 @@ public class Birth_Cirtificate extends DriverManagerfile {
         el1.click();
         Thread.sleep(3000);
 
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hit to Birth Certificate List");
+        } else{
+            System.out.println("Not show Hit to Birth Certificate List");
+        }
+
+
         // Hit to Application Details DroupDown Box
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow");
         el2.click();

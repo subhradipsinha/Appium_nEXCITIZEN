@@ -24,6 +24,15 @@ public class Death_Certificate extends DriverManagerfile {
         el1.click();
         System.out.println("Hit to Death Certificated Tab");
 
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hit to Death Certificated Tab");
+        } else {
+            System.out.println("Not show Hit to Death Certificated Tab");
+        }
+
 
         // Hit Link Applicant Details
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow");

@@ -16,6 +16,14 @@ public class Building_Plan extends DriverManagerfile {
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/bplan");
         el1.click();
         Thread.sleep(3000);
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Building_Tab hit List");
+        } else {
+            System.out.println("Not show Building_Tab hit List");
+        }
     }
     @Test(priority = 8)
     public void Building_Plan_Details(){

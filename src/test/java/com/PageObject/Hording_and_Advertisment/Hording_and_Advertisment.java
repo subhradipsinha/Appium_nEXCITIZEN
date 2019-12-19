@@ -15,7 +15,14 @@ public class Hording_and_Advertisment extends DriverManagerfile {
         Thread.sleep(2000);
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/haa");
         el1.click();
-        System.out.println("Hording_and_Advertisment_Tab");
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hording_and_Advertisment_Tab");
+        } else {
+            System.out.println("Not show Hording_and_Advertisment_Tab");
+        }
     }
 
     @Test(priority = 14)

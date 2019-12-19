@@ -18,6 +18,15 @@ public class Property_Tax extends DriverManagerfile {
         el1.click();
         Thread.sleep(2000);
 
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hit To the property Tax Tab");
+        } else {
+            System.out.println("Not show Hit To the property Tax Tab");
+        }
+
         // Assement For Droupdown box click
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/t1");
         el2.click();

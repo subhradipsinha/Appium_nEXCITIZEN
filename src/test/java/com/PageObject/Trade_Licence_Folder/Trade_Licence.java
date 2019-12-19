@@ -17,8 +17,15 @@ public class Trade_Licence extends DriverManagerfile {
         // Hit Trade_Licence Tab Click
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/tpic");
         el1.click();
-        System.out.println("Hit Trade_Licence Tab Click");
         Thread.sleep(3000);
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hit Trade_Licence Tab");
+        } else {
+            System.out.println("Not show Hit Trade_Licence Tab");
+        }
 
         // Property Details Droupdown box Click
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/pr");

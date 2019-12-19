@@ -21,6 +21,17 @@ public class Water_Supply extends DriverManagerfile {
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/water");
         el1.click();
         Thread.sleep(3000);
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hit Water_Supply Tab");
+        } else {
+            System.out.println("Not show Hit Water_Supply Tab");
+        }
+
+
+
     }
     @Test(priority = 25)
     public void Application_Details_Link(){
@@ -28,6 +39,7 @@ public class Water_Supply extends DriverManagerfile {
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow");
         el2.click();
         System.out.println("Application_Details_Link");
+
     }
     @Test(priority = 26)
     public void Application_Details_From() throws InterruptedException {

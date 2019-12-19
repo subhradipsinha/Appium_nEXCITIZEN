@@ -8,8 +8,16 @@
   <component name="ChangeListManager">
     <list default="true" id="493eb36e-0176-4145-8a9a-34e5ba95bfa2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/New_Registration/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/New_Registration/Login_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/Application_Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Payment/Application_Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Birth_Cirtificate_Folder/Birth_Cirtificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Birth_Cirtificate_Folder/Birth_Cirtificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Completion_Certificate_Folder/Building_Completion_Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Completion_Certificate_Folder/Building_Completion_Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Plan_Folder/Building_Plan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Building_Plan_Folder/Building_Plan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Complaint_Management_Folder/Complaint_Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Complaint_Management_Folder/Complaint_Management.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Death_Certificate_Folder/Death_Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Death_Certificate_Folder/Death_Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Hording_and_Advertisment/Hording_and_Advertisment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Hording_and_Advertisment/Hording_and_Advertisment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Mutation_Certificate_Folder/Mutation_Certificate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Mutation_Certificate_Folder/Mutation_Certificate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Property_Tax_Folder/Property_Tax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Property_Tax_Folder/Property_Tax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Trade_Licence_Folder/Trade_Licence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Trade_Licence_Folder/Trade_Licence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/PageObject/Water_Supply_Folder/Water_Supply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/PageObject/Water_Supply_Folder/Water_Supply.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -252,14 +260,7 @@
       <workItem from="1576655548238" duration="3452000" />
       <workItem from="1576661795358" duration="7142000" />
       <workItem from="1576671003482" duration="6587000" />
-      <workItem from="1576733920114" duration="760000" />
-    </task>
-    <task id="LOCAL-00032" summary="33th commit">
-      <created>1575294234054</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1575294234054</updated>
+      <workItem from="1576733920114" duration="1870000" />
     </task>
     <task id="LOCAL-00033" summary="34th commit">
       <created>1575366899841</created>
@@ -597,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576677231056</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="78th commit">
+      <created>1576734876747</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1576734876748</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +626,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="52th commit" />
     <MESSAGE value="53th commit" />
     <MESSAGE value="54th commit" />
     <MESSAGE value="55th commit" />
@@ -643,7 +650,8 @@
     <MESSAGE value="75th commit" />
     <MESSAGE value="76th commit" />
     <MESSAGE value="77th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="77th commit" />
+    <MESSAGE value="78th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="78th commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/com_nEXCITIZEN_demo$E__com_nEXCITIZEN_demo_TestNG_xml.ic" NAME="E:/com_nEXCITIZEN_demo/TestNG.xml Coverage Results" MODIFIED="1573108100017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -12,9 +12,18 @@ import org.testng.annotations.Test;
 @Test
 public class Building_Completion_Certificate extends DriverManagerfile {
     @Test(priority = 10)
-    public void Hit_Building_Commpletion_Tab(){
+    public void Hit_Building_Commpletion_Tab() {
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/bcc");
         el1.click();
+
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hit_Building_Commpletion_Tab List");
+        } else {
+            System.out.println("Not show Hit_Building_Commpletion_Tab List");
+        }
     }
     @Test(priority = 11)
     public void Hit_Address_Details_Droupdown() throws Exception {

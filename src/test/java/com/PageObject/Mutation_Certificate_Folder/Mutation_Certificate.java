@@ -22,7 +22,14 @@ public class Mutation_Certificate extends DriverManagerfile
         //Hit_Mutation_Certificate_Tab
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/mc");
         el1.click();
-        System.out.println("Hit_Mutation_Certificate_Tab");
+        // Apply for condition
+        Boolean isPresent = driver.findElementsById("com.nex.nexcitizen:id/textView1").size() > 0;
+
+        if (isPresent == true) {
+            System.out.println("Sucessfully Hit_Mutation_Certificate_Tab");
+        } else {
+            System.out.println("Not show Hit_Mutation_Certificate_Tab");
+        }
     }
     @Test(priority = 19)
     public void Address_Seletion_Link() throws Exception {
