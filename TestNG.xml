@@ -5,28 +5,11 @@
         <classes>
             <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase"></class>
             <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase"></class>
-            <class name="com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase"></class>
+            <class name = "com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase"></class>
             <class name="com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase"></class>
-            <class name="com.TestCase.DeathTestCase_Folder.Death_TestCase"></class>
-            <class name="com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase"></class>
-            <class name="com.TestCase.TradeTestCase_Folder.Trade_TestCase"></class>
-            <class name="com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase"></class>
-            <class name="com.TestCase.PropertyTestCase_Folder.Property_TestCase"></class>
-            <class name="com.TestCase.PropertyTestCase_Folder.SidePanelPropertyTax_TestCase"></class>
-            <class name="com.TestCase.BuildingTestCase_Folder.Building_TestCase"></class>
-            <class name="com.TestCase.BuildingTestCase_Folder.SidePanelBuildingplan_TestCase"></class>
-            <class name="com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase"></class>
-            <class name="com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase"></class>
-            <class name="com.TestCase.HordingTestCase_Folder.Hording_Test_Case"></class>
-            <class name="com.TestCase.HordingTestCase_Folder.SidePanel_Hording_Test_Case"></class>
-            <class name="com.TestCase.ComplaintManagementTestCase_Folder.ComplaintManagement_TestCase"></class>
-            <class name="com.TestCase.ComplaintManagementTestCase_Folder.SidePanelComplaintManagement_TestCase"></class>
-            <class name="com.TestCase.MutationTestCase_Folder.Mutation_TestCase"></class>
-            <class name="com.TestCase.MutationTestCase_Folder.SidePanelMutation_TestCase"></class>
-            <class name="com.TestCase.WaterSupplyTestCase_Folder.WaterSupply_TestCase"></class>
-            <class name="com.TestCase.WaterSupplyTestCase_Folder.SidePanel_SidePanelWaterSupply_TestCase"></class>
-            <class name="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase"></class>
-            <class name="com.TestCase.EmailTestCase_Folder.SendEmail_TestCase"></class>
+
+
+            
         </classes>
     </test>
     </suite>

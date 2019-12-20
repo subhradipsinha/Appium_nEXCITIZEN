@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
  */
 @Test
 public class Building_Plan extends DriverManagerfile {
-    @Test(priority = 7)
+    @Test(priority = 29)
     public void Building_Tab() throws Exception {
         // Building_Tab hit
         MobileElement el1 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/bplan");
@@ -25,13 +25,13 @@ public class Building_Plan extends DriverManagerfile {
             System.out.println("Not show Building_Tab hit List");
         }
     }
-    @Test(priority = 8)
+    @Test(priority = 30)
     public void Building_Plan_Details(){
         //Building_Plan_Details(Droupdownbox_Hit)
         MobileElement el2 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/downarrow");
         el2.click();
     }
-    @Test(priority = 9)
+    @Test(priority = 31)
     public void building_From_Fill_up() throws InterruptedException {
         //House no
         MobileElement el3 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/ethouse");
