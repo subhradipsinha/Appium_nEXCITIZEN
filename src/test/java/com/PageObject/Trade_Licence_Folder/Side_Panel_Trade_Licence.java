@@ -155,16 +155,10 @@ public class Side_Panel_Trade_Licence extends DriverManagerfile {
         // Click Submit Button
         MobileElement el26 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
         el26.click();
-
-        // Submit Button Click
-        MobileElement el27 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/submit");
-        el27.click();
-        System.out.println("Submit Button Click");
-        Thread.sleep(5000);
-
+        Thread.sleep(3000);
         //Back to Dashboard
-        MobileElement el28 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
-        el28.click();
+        MobileElement el27 = (MobileElement) driver.findElementById("com.nex.nexcitizen:id/back");
+        el27.click();
         Thread.sleep(3000);
 
     }

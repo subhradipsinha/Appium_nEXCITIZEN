@@ -10,11 +10,11 @@
           <include name="Url_login"/>
         </methods>
       </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
-      <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase">
+      <class name="com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase">
         <methods>
-          <include name="Hording_and_Advertisement"/>
+          <include name="Hit_Owner_Details"/>
         </methods>
-      </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase -->
+      </class> <!-- com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase -->
     </classes>
   </test> <!-- nEXCITIZEN_TestCase1(failed) -->
 </suite> <!-- Failed suite [nEXCITIZEN] -->

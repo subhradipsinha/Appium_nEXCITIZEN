@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="17" passed="14">
+<testng-results skipped="0" failed="3" ignored="0" total="10" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="nEXCITIZEN" duration-ms="578447" started-at="2019-12-20T09:11:22Z" finished-at="2019-12-20T09:21:01Z">
+  <suite name="nEXCITIZEN" duration-ms="503803" started-at="2019-12-20T10:26:24Z" finished-at="2019-12-20T10:34:48Z">
     <groups>
     </groups>
-    <test name="nEXCITIZEN_TestCase1" duration-ms="578447" started-at="2019-12-20T09:11:22Z" finished-at="2019-12-20T09:21:01Z">
-      <class name="com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase">
-        <test-method status="PASS" signature="BithCirtificate_Tabhit()[pri:15, instance:com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase@cb644e]" name="BithCirtificate_Tabhit" duration-ms="144234" started-at="2019-12-20T09:17:51Z" finished-at="2019-12-20T09:20:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BithCirtificate_Tabhit -->
-      </class> <!-- com.TestCase.BirthCirtificateTestCase_Folder.BirthCirtificate_TestCase -->
+    <test name="nEXCITIZEN_TestCase1" duration-ms="503803" started-at="2019-12-20T10:26:24Z" finished-at="2019-12-20T10:34:48Z">
       <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase">
-        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@6e1567f1]" name="Url_login" is-config="true" duration-ms="86628" started-at="2019-12-20T09:11:22Z" finished-at="2019-12-20T09:12:49Z">
+        <test-method status="PASS" signature="Url_login()[pri:0, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Url_login" is-config="true" duration-ms="47578" started-at="2019-12-20T10:26:24Z" finished-at="2019-12-20T10:27:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Url_login -->
-        <test-method status="FAIL" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@6e1567f1]" name="Without_Username" duration-ms="61995" started-at="2019-12-20T09:12:49Z" finished-at="2019-12-20T09:13:51Z">
+        <test-method status="FAIL" signature="Without_Username()[pri:1, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Username" duration-ms="63317" started-at="2019-12-20T10:27:12Z" finished-at="2019-12-20T10:28:15Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[WithOut UserName Not Successfully login expected [true] but found [false]]]>
@@ -59,7 +53,7 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Username -->
-        <test-method status="FAIL" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@6e1567f1]" name="Without_Password" duration-ms="61943" started-at="2019-12-20T09:13:51Z" finished-at="2019-12-20T09:14:53Z">
+        <test-method status="FAIL" signature="Without_Password()[pri:2, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Without_Password" duration-ms="61764" started-at="2019-12-20T10:28:15Z" finished-at="2019-12-20T10:29:17Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[WithOut password Not Successfully login expected [true] but found [false]]]>
@@ -101,62 +95,74 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Without_Password -->
-        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@6e1567f1]" name="Orginal_user_pass" duration-ms="3500" started-at="2019-12-20T09:14:53Z" finished-at="2019-12-20T09:14:56Z">
+        <test-method status="PASS" signature="Orginal_user_pass()[pri:3, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase@cb644e]" name="Orginal_user_pass" duration-ms="3852" started-at="2019-12-20T10:29:17Z" finished-at="2019-12-20T10:29:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orginal_user_pass -->
       </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase -->
-      <class name="com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase">
-        <test-method status="PASS" signature="Hit_Side_Panel()[pri:16, instance:com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase@13805618]" name="Hit_Side_Panel" duration-ms="7621" started-at="2019-12-20T09:20:15Z" finished-at="2019-12-20T09:20:22Z">
+      <class name="com.TestCase.TradeTestCase_Folder.Trade_TestCase">
+        <test-method status="PASS" signature="Tread_Licence_TabHit()[pri:21, instance:com.TestCase.TradeTestCase_Folder.Trade_TestCase@56ef9176]" name="Tread_Licence_TabHit" duration-ms="149749" started-at="2019-12-20T10:30:19Z" finished-at="2019-12-20T10:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tread_Licence_TabHit -->
+      </class> <!-- com.TestCase.TradeTestCase_Folder.Trade_TestCase -->
+      <class name="com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase">
+        <test-method status="PASS" signature="Hit_Side_Panel()[pri:22, instance:com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase@4566e5bd]" name="Hit_Side_Panel" duration-ms="7685" started-at="2019-12-20T10:32:49Z" finished-at="2019-12-20T10:32:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Hit_Side_Panel -->
-        <test-method status="PASS" signature="Edit()[pri:17, instance:com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase@13805618]" name="Edit" duration-ms="38340" started-at="2019-12-20T09:20:22Z" finished-at="2019-12-20T09:21:01Z">
+        <test-method status="PASS" signature="Hit_Edit_Button()[pri:23, instance:com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase@4566e5bd]" name="Hit_Edit_Button" duration-ms="8567" started-at="2019-12-20T10:32:56Z" finished-at="2019-12-20T10:33:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Edit -->
-      </class> <!-- com.TestCase.BirthCirtificateTestCase_Folder.SidePanelBirthCirtificate_TestCase -->
-      <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase">
-        <test-method status="PASS" signature="Hit_Application()[pri:4, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Hit_Application" duration-ms="5169" started-at="2019-12-20T09:14:56Z" finished-at="2019-12-20T09:15:02Z">
+        </test-method> <!-- Hit_Edit_Button -->
+        <test-method status="PASS" signature="Hit_Property()[pri:24, instance:com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase@4566e5bd]" name="Hit_Property" duration-ms="8880" started-at="2019-12-20T10:33:05Z" finished-at="2019-12-20T10:33:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Hit_Application -->
-        <test-method status="PASS" signature="Birth_Certificate()[pri:5, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Birth_Certificate" duration-ms="13110" started-at="2019-12-20T09:15:02Z" finished-at="2019-12-20T09:15:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Birth_Certificate -->
-        <test-method status="PASS" signature="Death_Certificate_Tab()[pri:6, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Death_Certificate_Tab" duration-ms="10574" started-at="2019-12-20T09:15:15Z" finished-at="2019-12-20T09:15:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Death_Certificate_Tab -->
-        <test-method status="PASS" signature="Trade_Licence()[pri:7, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Trade_Licence" duration-ms="10352" started-at="2019-12-20T09:15:25Z" finished-at="2019-12-20T09:15:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Trade_Licence -->
-        <test-method status="PASS" signature="Property_Tax()[pri:8, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Property_Tax" duration-ms="10425" started-at="2019-12-20T09:15:36Z" finished-at="2019-12-20T09:15:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Property_Tax -->
-        <test-method status="PASS" signature="Building_Plan()[pri:9, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Building_Plan" duration-ms="10589" started-at="2019-12-20T09:15:46Z" finished-at="2019-12-20T09:15:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Building_Plan -->
-        <test-method status="PASS" signature="Building_Completion_Certificate()[pri:10, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Building_Completion_Certificate" duration-ms="10970" started-at="2019-12-20T09:15:57Z" finished-at="2019-12-20T09:16:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Building_Completion_Certificate -->
-        <test-method status="FAIL" signature="Hording_and_Advertisement()[pri:11, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Hording_and_Advertisement" duration-ms="60136" started-at="2019-12-20T09:16:08Z" finished-at="2019-12-20T09:17:08Z">
-          <exception class="java.lang.AssertionError">
+        </test-method> <!-- Hit_Property -->
+        <test-method status="FAIL" signature="Hit_Owner_Details()[pri:25, instance:com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase@4566e5bd]" name="Hit_Owner_Details" duration-ms="93899" started-at="2019-12-20T10:33:14Z" finished-at="2019-12-20T10:34:48Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[The following asserts failed:
-Hording_and_Advertisement_Tab Hit expected [true] but found [false]]]>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: emulator-5554}, deviceApiLevel: 22, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 160, deviceScreenSize: 480x800, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 25, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 775, left: 0, top: 25, width: 480}, warnings: {}, webStorageEnabled: false}
+Session ID: 59e0f165-6512-44c5-ab8f-80634f120754
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/submit}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Hording_and_Advertisement_Tab Hit expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.PageObject.New_Registration.Application_Status.Hording_and_Advertisement_Tab_Click(Application_Status.java:307)
-at com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase.Hording_and_Advertisement(Application_TestCase.java:40)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E7S6MJ8', ip: '192.168.11.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: E:\Appium_project\com_nEXCI..., appPackage: com.nex.nexcitizen, appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, databaseEnabled: false, desired: {app: E:\Appium_project\com_nEXCI..., appWaitActivity: com.nex.nexcitizen.Login, appWaitPackage: com.nex.nexcitizen, deviceName: SM-G531F, no: true, noReset: true, platformName: android, platformVersion: 5.1.1, udid: emulator-5554}, deviceApiLevel: 22, deviceManufacturer: unknown, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 160, deviceScreenSize: 480x800, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, no: true, noReset: true, pixelRatio: 1, platform: LINUX, platformName: android, platformVersion: 5.1.1, statBarHeight: 25, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 775, left: 0, top: 25, width: 480}, warnings: {}, webStorageEnabled: false}
+Session ID: 59e0f165-6512-44c5-ab8f-80634f120754
+*** Element info: {Using=id, value=com.nex.nexcitizen:id/submit}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69)
+at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+at com.PageObject.Trade_Licence_Folder.Side_Panel_Trade_Licence.Licence_Owner_Details(Side_Panel_Trade_Licence.java:160)
+at com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase.Hit_Owner_Details(SidePanelTreadLicence_TestCase.java:22)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -183,23 +189,21 @@ at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
 at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Hording_and_Advertisement -->
-        <test-method status="PASS" signature="Application_Details()[pri:12, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Application_Details" duration-ms="10637" started-at="2019-12-20T09:17:08Z" finished-at="2019-12-20T09:17:18Z">
+        </test-method> <!-- Hit_Owner_Details -->
+      </class> <!-- com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase -->
+      <class name="com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase">
+        <test-method status="PASS" signature="Hit_Side_Panel()[pri:19, instance:com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase@13805618]" name="Hit_Side_Panel" duration-ms="8254" started-at="2019-12-20T10:29:21Z" finished-at="2019-12-20T10:29:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Application_Details -->
-        <test-method status="PASS" signature="Mutation_Certificate()[pri:13, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Mutation_Certificate" duration-ms="10654" started-at="2019-12-20T09:17:18Z" finished-at="2019-12-20T09:17:29Z">
+        </test-method> <!-- Hit_Side_Panel -->
+        <test-method status="PASS" signature="Hit_Edit_Button()[pri:20, instance:com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase@13805618]" name="Hit_Edit_Button" duration-ms="50173" started-at="2019-12-20T10:29:29Z" finished-at="2019-12-20T10:30:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Mutation_Certificate -->
-        <test-method status="PASS" signature="Water_Supply()[pri:14, instance:com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase@5cb9f472]" name="Water_Supply" duration-ms="21513" started-at="2019-12-20T09:17:29Z" finished-at="2019-12-20T09:17:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Water_Supply -->
-      </class> <!-- com.TestCase.RegistrationandLoginTestCase_Folder.Application_TestCase -->
+        </test-method> <!-- Hit_Edit_Button -->
+      </class> <!-- com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase -->
     </test> <!-- nEXCITIZEN_TestCase1 -->
   </suite> <!-- nEXCITIZEN -->
 </testng-results>
