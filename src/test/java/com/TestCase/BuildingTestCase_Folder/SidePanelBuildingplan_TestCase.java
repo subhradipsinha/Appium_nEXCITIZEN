@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class SidePanelBuildingplan_TestCase {
     Side_Panel_Building_Plan side_panel_building_plan = new Side_Panel_Building_Plan();
 
-    @Test(priority = 27)
+    @Test(priority = 32)
     public void Hit_SidePanel_Building_plan() throws Exception {
         side_panel_building_plan.Hit_Side_Panel_Building_Plan();
         side_panel_building_plan.Hit_Edit_Button();

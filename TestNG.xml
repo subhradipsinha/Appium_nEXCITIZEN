@@ -4,9 +4,9 @@
     <test name="nEXCITIZEN_TestCase1">
         <classes>
             <class name="com.TestCase.RegistrationandLoginTestCase_Folder.Login_TestCase"></class>
-            <class name="com.TestCase.DeathTestCase_Folder.SidePanelDeathCirtificate_TestCase"></class>
-            <class name="com.TestCase.TradeTestCase_Folder.Trade_TestCase"></class>
-            <class name="com.TestCase.TradeTestCase_Folder.SidePanelTreadLicence_TestCase"></class>
+            <class name="com.TestCase.BuildingTestCase_Folder.SidePanelBuildingplan_TestCase"></class>
+            <class name ="com.TestCase.BuildingComplainTestCase_Folder.BuildingComplain_TestCase"></class>
+            <class name="com.TestCase.BuildingComplainTestCase_Folder.SidePanelBuildingComplain_TestCase"></class>
             
         </classes>
     </test>
